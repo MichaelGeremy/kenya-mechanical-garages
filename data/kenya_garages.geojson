@@ -1,0 +1,3365 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8027833,
+          -1.2632812
+        ]
+      },
+      "properties": {
+        "osm_id": "node/586647848",
+        "name": "Concorde",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ring Road Parklands, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/586647848"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8786316,
+          -1.2549784
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1123209275",
+        "name": "Garage",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/1123209275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7889638,
+          -1.3000068
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1635576833",
+        "name": "Total",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/1635576833"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7836543,
+          -1.3065203
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1775820942",
+        "name": "Witts Motor Clinic",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/1775820942"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.724464,
+          -1.2625672
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2091525610",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/2091525610"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8270321,
+          -1.2995092
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2145436227",
+        "name": "Amazon Motors",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Shimo La Tewa Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/2145436227"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8201737,
+          -1.2696827
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4278586344",
+        "name": "AutoXpress Ltd - Head Office",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Limuru Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/4278586344"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.818683,
+          -1.2737735
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4782862221",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/4782862221"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8832802,
+          -1.2450036
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5147190722",
+        "name": "Ganatra Plant and Equipment",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "brand": "",
+        "address": "babadogo road",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5147190722"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8255003,
+          -1.2791108
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5217408323",
+        "name": "New wa Kariuki used parts shop",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5217408323"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8428298,
+          -1.2285039
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5327942761",
+        "name": "Range Rover Centre",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ridgeways Springs, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5327942761"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8034828,
+          -1.2624701
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5328482149",
+        "name": "Kwik-Fit Tyres",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ring Road Parklands, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5328482149"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7753821,
+          -1.29978
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5328536504",
+        "name": "AutoXpress Ltd Ngong Road",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ngong Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5328536504"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7889146,
+          -1.2604275
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5333117864",
+        "name": "Toyota -Westlands",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "Toyota",
+        "address": "Waiyaki Way, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5333117864"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.783189,
+          -1.2797633
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5339224754",
+        "name": "Popo's Workshop",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5339224754"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8086369,
+          -1.267004
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5339421969",
+        "name": "Maxxis Kenya",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Muthithi Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5339421969"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.793579,
+          -1.2064723
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5352811658",
+        "name": "The Auto Clinic Runda",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5352811658"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7033827,
+          -1.3208232
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5353042853",
+        "name": "Yana Tyre Centre, The Hub",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5353042853"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7178029,
+          -1.3218841
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5356773892",
+        "name": "Umar Auto Garage (UAG)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5356773892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7069008,
+          -1.3374662
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5356847340",
+        "name": "Mud Rovers",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5356847340"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8403356,
+          -1.2261778
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5360180077",
+        "name": "AutoXpress Ridgeways Mall Branch",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5360180077"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7258647,
+          -1.3382752
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5360938776",
+        "name": "Schumacher's 4X4",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5360938776"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7642575,
+          -1.3435607
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5371741524",
+        "name": "Yana Tyre Centre- Galleria",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Langata Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5371741524"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.816254,
+          -1.3044138
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5380534533",
+        "name": "Automated LTD",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Oldeani Crescent, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5380534533"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8114076,
+          -1.2992319
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5380534550",
+        "name": "Valuation Yard - Safety Surveyors",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mara Road, Nairobi City",
+        "city": "Nairobi City",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5380534550"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7652108,
+          -1.2992697
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5411903686",
+        "name": "Greenlight Auto (Ngong Road Branch)",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ngong Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5411903686"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7774788,
+          -1.2994312
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5412286138",
+        "name": "Seamus Auto Garage",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ndemi Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5412286138"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7866493,
+          -1.2992096
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5414008555",
+        "name": "Eagles Motor World & Garage",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ngong Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5414008555"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7899537,
+          -1.3004235
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5414200445",
+        "name": "Oriel Kenya",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ngong Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5414200445"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7699304,
+          -1.2810698
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5491248368",
+        "name": "St. Austin's",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Margaret Wambui Kenyatta Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5491248368"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8114748,
+          -1.2668545
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5539484573",
+        "name": "Oriel",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ojijo Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5539484573"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8568564,
+          -1.3032961
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5539579827",
+        "name": "Vas Auto Centre",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Londiani Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5539579827"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8556527,
+          -1.3080905
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5539579831",
+        "name": "Roverland Autocare Services",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "254 20 2496965",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Likoni Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5539579831"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8061139,
+          -1.263975
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5552269194",
+        "name": "Impala Downtown, Westlands",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Muthithi Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5552269194"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8254343,
+          -1.2836421
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5552396301",
+        "name": "Impala Downtown Ltd",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Tom Mboya Street, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5552396301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8284645,
+          -1.2965538
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5562593357",
+        "name": "Collo Garage",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "brand": "",
+        "address": "Workshop Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5562593357"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.790424,
+          -1.2971944
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5580965013",
+        "name": "Parts Direct Limited",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Kindaruma Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/5580965013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7388464,
+          -1.3063525
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6135414724",
+        "name": "Extreme Auto Centre Ltd",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ngong Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6135414724"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8363544,
+          -1.1986031
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6161845859",
+        "name": "Express Garage",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Kiambu Road, kiambu",
+        "city": "kiambu",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6161845859"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8281388,
+          -1.257744
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6164306166",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6164306166"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8279653,
+          -1.2966714
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6172772270",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Workshop Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6172772270"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8563761,
+          -1.3095317
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6172775452",
+        "name": "Evercare Rover Centre Limited",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Likoni Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6172775452"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8159802,
+          -1.3045638
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6172780952",
+        "name": "Ken-Rovers Garage Limited",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "+254 720 409 311",
+        "website": "",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "brand": "",
+        "address": "Oldeani Crescent, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6172780952"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8521812,
+          -1.313402
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6197948725",
+        "name": "AutoXpress - Enterprise Road",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Enterprise Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6197948725"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8414335,
+          -1.3229922
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6207546821",
+        "name": "Maxxis Kenya Sairaj branch",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6207546821"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8512205,
+          -1.328063
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6207581200",
+        "name": "AutoXpress Ltd - Mombasa Road",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6207581200"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8528575,
+          -1.3288237
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6207581209",
+        "name": "MPPS ACCESSORIES",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6207581209"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8532349,
+          -1.3289779
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6207581210",
+        "name": "Kingsway Tyres-Mombasa Road",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6207581210"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8563907,
+          -1.3307425
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6207599845",
+        "name": "Oriel Limited Mombasa Rd",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6207599845"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8604258,
+          -1.3319005
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6207691404",
+        "name": "Express Spares Ltd.",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6207691404"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8734107,
+          -1.3305057
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6207692303",
+        "name": "Nissan Kenya Service Centre",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "Nissan",
+        "address": "Mombasa Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6207692303"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8740051,
+          -1.3377689
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6208217353",
+        "name": "Crystal Motors (K) Ltd",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Old Mombasa Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6208217353"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.900747,
+          -1.3461402
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6208217644",
+        "name": "AutoXpress X-tread Retreading Factory and TMS Division",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6208217644"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.9268416,
+          -1.3770143
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6210101312",
+        "name": "Highway Tire Centre & Accessories",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa Road, Syokimau",
+        "city": "Syokimau",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6210101312"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7535546,
+          -1.3412498
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6224883284",
+        "name": "AutoXpress - Langata Road",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Langata Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6224883284"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8758573,
+          -1.2318562
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6224915319",
+        "name": "AMAZON TYRES AND SERVICE CENTRE",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Thika Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6224915319"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8819446,
+          -1.2269325
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6224915365",
+        "name": "Top Quality Motors Ltd",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Thika Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6224915365"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.9014729,
+          -1.2904207
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6259798969",
+        "name": "AutoXpress Ltd - Greenspan Mall",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Savannah Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6259798969"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8130142,
+          -1.3003824
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6260025836",
+        "name": "Auto Xpress Britam Tower",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Hospital Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6260025836"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8288534,
+          -1.3004735
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6559614243",
+        "name": "CMC Bodyshop",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Hola Road",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6559614243"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7450071,
+          -1.3023811
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6840641666",
+        "name": "Chogi's Garage",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Chogis Garage Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6840641666"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.804644,
+          -1.2624417
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6969796686",
+        "name": "Kingsway Tyres",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/6969796686"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7531071,
+          -1.3377863
+        ]
+      },
+      "properties": {
+        "osm_id": "node/7501513233",
+        "name": "Automec Limited",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Academy Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/7501513233"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8775972,
+          -1.2408485
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10117886026",
+        "name": "Sajj Automobiles Kenya Limited",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "Mo-Sa 08:00-20:00",
+        "brand": "",
+        "address": "Baba Dogo Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/10117886026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8013933,
+          -1.3229624
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10121775091",
+        "name": "Auto Village",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "+254722710310",
+        "website": "",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "brand": "",
+        "address": "Langata Road Auto Village Complex Karen, Nairobi, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/10121775091"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.9589798,
+          -1.2831473
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11960010235",
+        "name": "Dice Sounds Ent",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/11960010235"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6804211,
+          -1.2459518
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12663397601",
+        "name": "Capital Hill Auto Garage & Carwash",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/12663397601"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7974341,
+          -1.3209968
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12886299310",
+        "name": "Boosted Auto Perfomance",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "+254 792276332",
+        "website": "",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "brand": "",
+        "address": "Langata, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/12886299310"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8378192,
+          -1.3054706
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12886379617",
+        "name": "Automach Diessel Ltd",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Nairobi",
+        "city": "",
+        "county": "Nairobi",
+        "osm_url": "https://www.openstreetmap.org/node/12886379617"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8329269,
+          -1.2947447
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12886379626",
+        "name": "Jalesh Auto Commercial",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Nakuru",
+        "city": "",
+        "county": "Nakuru",
+        "osm_url": "https://www.openstreetmap.org/node/12886379626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.9250017,
+          -1.2566883
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12886546520",
+        "name": "Junction Kahhorse Tyre",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Nairobi",
+        "city": "",
+        "county": "Nairobi",
+        "osm_url": "https://www.openstreetmap.org/node/12886546520"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8667718,
+          -1.2863054
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12886664062",
+        "name": "Muhindi Mweusi Motorbikes Spares",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Nairobi",
+        "city": "",
+        "county": "Nairobi",
+        "osm_url": "https://www.openstreetmap.org/node/12886664062"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8889891,
+          -1.2779432
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12886664097",
+        "name": "Mbaaria Autospares",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Nairobi",
+        "city": "",
+        "county": "Nairobi",
+        "osm_url": "https://www.openstreetmap.org/node/12886664097"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7245487,
+          -1.22445
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13246210307",
+        "name": "Quality Tyre Sales and Repair Shop",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "+254707797188",
+        "website": "",
+        "opening_hours": "08:00-19:00",
+        "brand": "",
+        "address": "Getathuru Road",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/13246210307"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8230964,
+          -1.2954717
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13396668301",
+        "name": "Tahmeed",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Nairobi Expressway",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/13396668301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7640573,
+          -1.3427447
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13543112003",
+        "name": "AutoXpress Ltd Galleria Mall",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Langata Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/13543112003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7683747,
+          -1.279806
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13543166117",
+        "name": "AutoXpress ltd Lavington Branch",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Isaac Gathanju Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/13543166117"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7850799,
+          -1.2919019
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13543187666",
+        "name": "AutoXpress ltd Kilimani Branch",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Argwings Kodhek Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/13543187666"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8055555,
+          -1.2558607
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13543202002",
+        "name": "AutoXpress ltd General Mathenge",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "General Mathenge Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/13543202002"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.93941,
+          -1.1778818
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13543220380",
+        "name": "AutoXpress ltd Kenyatta University",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Thika Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/13543220380"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8639435,
+          -1.318635
+        ]
+      },
+      "properties": {
+        "osm_id": "node/14004125377",
+        "name": "Metro Motor Spares Ltd",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "+254714786111",
+        "website": "https://www.mms.co.ke/",
+        "opening_hours": "Mo-Fr 08:30-05:00; Sa 08:00-13:00",
+        "brand": "",
+        "address": "Enterprise Road",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/14004125377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.797664,
+          -1.2267169
+        ]
+      },
+      "properties": {
+        "osm_id": "node/14066521148",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/14066521148"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8046692,
+          -1.333187
+        ]
+      },
+      "properties": {
+        "osm_id": "node/14100900217",
+        "name": "Team Mazda Kenya",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "Mazda",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/14100900217"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.865534,
+          -1.3291041
+        ]
+      },
+      "properties": {
+        "osm_id": "node/14103856524",
+        "name": "Nissan Kenya Service Center",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "Nissan",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/14103856524"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7855331,
+          -1.2497705
+        ]
+      },
+      "properties": {
+        "osm_id": "node/14135720404",
+        "name": "Bike Tyres kenya",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/14135720404"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8062169,
+          -1.2634071
+        ]
+      },
+      "properties": {
+        "osm_id": "node/14159530680",
+        "name": "Tyrex Westlands",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/14159530680"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8180917,
+          -1.2804839
+        ]
+      },
+      "properties": {
+        "osm_id": "node/14175211571",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "https://www.kingswaytyres.com/",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/14175211571"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8199854,
+          -1.2818254
+        ]
+      },
+      "properties": {
+        "osm_id": "node/14200767075",
+        "name": "Auto Express",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "https://auto-xpress.co.ke/",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/node/14200767075"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8640571,
+          -1.2619135
+        ]
+      },
+      "properties": {
+        "osm_id": "way/97804276",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/97804276"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8187506,
+          -1.2807197
+        ]
+      },
+      "properties": {
+        "osm_id": "way/125141100",
+        "name": "Kingsway Tyres-Head Office",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Muindi Mbingu Street, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/125141100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8191228,
+          -1.2735371
+        ]
+      },
+      "properties": {
+        "osm_id": "way/130252007",
+        "name": "Engine Planet",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ngara Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/130252007"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8375999,
+          -1.2980163
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146038",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Lusaka Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146038"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8372631,
+          -1.29729
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146040",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Lusaka Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146040"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8369122,
+          -1.2963472
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146044",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Enterprise Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146044"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8374127,
+          -1.2975969
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146045",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Lusaka Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146045"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8375126,
+          -1.297796
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146047",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Lusaka Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146047"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8362216,
+          -1.2967936
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146049",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146049"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8370824,
+          -1.2969316
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146050",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146050"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.83637,
+          -1.2963217
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146052",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Enterprise Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146052"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8372066,
+          -1.2971813
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146054",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Lusaka Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8371506,
+          -1.2970639
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146058",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146058"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8370214,
+          -1.2965903
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146059",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Enterprise Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146059"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8373231,
+          -1.2974096
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133146060",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Lusaka Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133146060"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8356869,
+          -1.2968206
+        ]
+      },
+      "properties": {
+        "osm_id": "way/133147262",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/133147262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.709062,
+          -1.321168
+        ]
+      },
+      "properties": {
+        "osm_id": "way/226714117",
+        "name": "Stuttgart auto Karen Nairobi Kenya",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ngong Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/226714117"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7570524,
+          -1.2515824
+        ]
+      },
+      "properties": {
+        "osm_id": "way/232010701",
+        "name": "Loresho Car Repair & Car Wash",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "Mo-Sa 07:00-20:00",
+        "brand": "Kenol",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/232010701"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7397117,
+          -1.3627087
+        ]
+      },
+      "properties": {
+        "osm_id": "way/332160558",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/332160558"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.851668,
+          -1.3053059
+        ]
+      },
+      "properties": {
+        "osm_id": "way/332241169",
+        "name": "Toyota",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "Toyota",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/332241169"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.804715,
+          -1.2623646
+        ]
+      },
+      "properties": {
+        "osm_id": "way/361587522",
+        "name": "Kingsway Tyres",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Parklands Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/361587522"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8282042,
+          -1.3032684
+        ]
+      },
+      "properties": {
+        "osm_id": "way/364979632",
+        "name": "AutoXpress Ltd - Lusaka Road",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Lusaka Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/364979632"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8294445,
+          -1.3019786
+        ]
+      },
+      "properties": {
+        "osm_id": "way/364994448",
+        "name": "CMC Land Rover Workshop",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Chepkorio Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/364994448"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.82921,
+          -1.3021634
+        ]
+      },
+      "properties": {
+        "osm_id": "way/364996847",
+        "name": "CMC Ford Workshop",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Lusaka Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/364996847"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.827021,
+          -1.3022373
+        ]
+      },
+      "properties": {
+        "osm_id": "way/365200895",
+        "name": "Shamas Motor Parts Ltd",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Hombe Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/365200895"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8284093,
+          -1.3031805
+        ]
+      },
+      "properties": {
+        "osm_id": "way/366568546",
+        "name": "AutoXpress Ltd - Lusaka Road",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Lusaka Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/366568546"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8280519,
+          -1.3034076
+        ]
+      },
+      "properties": {
+        "osm_id": "way/366569919",
+        "name": "AutoXpress Ltd - Lusaka Road",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Lusaka Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/366569919"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8263431,
+          -1.303026
+        ]
+      },
+      "properties": {
+        "osm_id": "way/366570729",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/366570729"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8265367,
+          -1.3029614
+        ]
+      },
+      "properties": {
+        "osm_id": "way/366570730",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/366570730"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8262235,
+          -1.3025639
+        ]
+      },
+      "properties": {
+        "osm_id": "way/366570731",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/366570731"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8261439,
+          -1.302404
+        ]
+      },
+      "properties": {
+        "osm_id": "way/366575692",
+        "name": "Shamas Auto Spares",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Baricho Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/366575692"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8341843,
+          -1.3064829
+        ]
+      },
+      "properties": {
+        "osm_id": "way/382256363",
+        "name": "Supa's Garage",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mukenia Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/382256363"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8002439,
+          -1.2989062
+        ]
+      },
+      "properties": {
+        "osm_id": "way/454736988",
+        "name": "Jamii Auto Care",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ngong Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/454736988"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8589381,
+          -1.3295859
+        ]
+      },
+      "properties": {
+        "osm_id": "way/488898587",
+        "name": "Logistech Limited Kenya",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/488898587"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7890228,
+          -1.2523138
+        ]
+      },
+      "properties": {
+        "osm_id": "way/552369235",
+        "name": "Megnet Limited",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "brand": "",
+        "address": "Shanzu Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/552369235"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7913672,
+          -1.2622691
+        ]
+      },
+      "properties": {
+        "osm_id": "way/552375791",
+        "name": "Auto Bavaria",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/552375791"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8223955,
+          -1.263624
+        ]
+      },
+      "properties": {
+        "osm_id": "way/553282256",
+        "name": "Range Rover Owners Club Kenya",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "0700 700474",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ita Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/553282256"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8336158,
+          -1.2109063
+        ]
+      },
+      "properties": {
+        "osm_id": "way/554633160",
+        "name": "Motorhub Service Centre",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Kiambu Road, Kiambu",
+        "city": "Kiambu",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/554633160"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7196264,
+          -1.317336
+        ]
+      },
+      "properties": {
+        "osm_id": "way/555169177",
+        "name": "Insignia Motors Limited",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "Land Rover",
+        "address": "Karen Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/555169177"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7192704,
+          -1.3162053
+        ]
+      },
+      "properties": {
+        "osm_id": "way/555170330",
+        "name": "Motor Scope Auto Garage",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/555170330"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7610823,
+          -1.2974373
+        ]
+      },
+      "properties": {
+        "osm_id": "way/562375926",
+        "name": "Generation Tyres Ltd",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Riara Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/562375926"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7867175,
+          -1.2910241
+        ]
+      },
+      "properties": {
+        "osm_id": "way/566656369",
+        "name": "AutoFit Kenya",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ring Road Kilimani, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/566656369"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8097923,
+          -1.2632316
+        ]
+      },
+      "properties": {
+        "osm_id": "way/576016849",
+        "name": "Dunhill Automobiles",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Parklands Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/576016849"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8080037,
+          -1.2706503
+        ]
+      },
+      "properties": {
+        "osm_id": "way/576018087",
+        "name": "Mash Auto",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Chiromo Lane, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/576018087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8541027,
+          -1.2976829
+        ]
+      },
+      "properties": {
+        "osm_id": "way/577991148",
+        "name": "Gadano Garage",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Likoni Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/577991148"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7959608,
+          -1.2977531
+        ]
+      },
+      "properties": {
+        "osm_id": "way/648677224",
+        "name": "BMW Centre LIMITED",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "BMW",
+        "address": "Rose Avenue, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/648677224"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8338462,
+          -1.2112497
+        ]
+      },
+      "properties": {
+        "osm_id": "way/657943810",
+        "name": "Runda Car Care Centre",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Kiambu Road, Kiambu",
+        "city": "Kiambu",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/657943810"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7495274,
+          -1.3027209
+        ]
+      },
+      "properties": {
+        "osm_id": "way/658651305",
+        "name": "Roverlane Motors Limited",
+        "category": "auto_repair",
+        "search_area": "Nairobi",
+        "phone": "+254 721 810014",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Ngong Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/658651305"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.838279,
+          -1.2251477
+        ]
+      },
+      "properties": {
+        "osm_id": "way/661357409",
+        "name": "Yana Tires",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Kiambu Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/661357409"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8913797,
+          -1.328586
+        ]
+      },
+      "properties": {
+        "osm_id": "way/663223939",
+        "name": "Yana Tyre Centre, Embakasi",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Airport North Road, Nairobi",
+        "city": "Nairobi",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/663223939"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8695025,
+          -1.3295802
+        ]
+      },
+      "properties": {
+        "osm_id": "way/895824922",
+        "name": "YANA Tyre Center (SAMEER Business Park)",
+        "category": "tyres",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/895824922"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.822485,
+          -1.3081119
+        ]
+      },
+      "properties": {
+        "osm_id": "way/1448569938",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_spares",
+        "search_area": "Nairobi",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "",
+        "osm_url": "https://www.openstreetmap.org/way/1448569938"
+      }
+    }
+  ]
+}
