@@ -19,11 +19,12 @@ import plotly.graph_objects as go
 import streamlit as st
 from streamlit_folium import st_folium
 
-from brand_data import BRANDS_DATA, get_recommendation
+from brand_data import BRANDS_DATA
+from car_models_data import CAR_MODELS, match_exact_car_models
 
 # Page setup
 st.set_page_config(
-    page_title="Kenya Garages & Car Brand Explorer",
+    page_title="Kenya Garages & Car Model Finder",
     page_icon="🚗",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -196,10 +197,10 @@ df = load_data(DATA_PATH)
 # -------------------------------------------------------------
 # APPLICATION HEADER
 # -------------------------------------------------------------
-st.title("🇰🇪 Kenya Mechanical Garages & Car Brand Intelligence")
+st.title("🇰🇪 Kenya Mechanical Garages & Car Finder Intelligence")
 st.markdown(
-    "**The Ultimate Guide for Kenya Car Buyers:** Discover how car brands perform in Kenyan garages, "
-    "benchmark spare parts availability, avoid costly maintenance traps, and explore real repair facilities nationwide."
+    "**The Definitive Vehicle Buying & Maintenance Guide for Kenya:** Match the exact car model for your budget, "
+    "benchmark spare parts availability across 50+ models (2015 - 2026), and locate verified repair garages nationwide."
 )
 
 # -------------------------------------------------------------
@@ -210,7 +211,7 @@ with st.sidebar:
         "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=400&q=80",
         caption="Kenya Auto Market & Garage Intelligence",
     )
-    st.header("🔍 Global Search & Filters")
+    st.header("🔍 Global Garage Search")
 
     search_query = st.text_input("Search Garage, Street, or Brand", placeholder="e.g. Toyota, Kirinyaga, Ngong...")
 
@@ -268,7 +269,7 @@ with st.sidebar:
 
 
 # -------------------------------------------------------------
-# FILTERING PIPELINE
+# FILTERING PIPELINE FOR GARAGES
 # -------------------------------------------------------------
 filtered_df = df.copy()
 
@@ -293,16 +294,224 @@ if not filtered_df.empty:
 # -------------------------------------------------------------
 # MAIN APPLICATION TABS
 # -------------------------------------------------------------
-tab_story, tab_matchmaker, tab_map, tab_analytics, tab_directory = st.tabs([
+tab_matchmaker, tab_models_catalog, tab_story, tab_map, tab_analytics, tab_directory = st.tabs([
+    "🎯 Exact Car Model Matchmaker",
+    "🚘 50+ Top Car Models in Kenya (2015-2026)",
     "📖 The Kenyan Car Buyer's Data Story",
-    "🎯 New Car Finder Matchmaker",
     "🗺️ Interactive Garages & Spares Map",
     "📊 Market & County Analytics",
     "📋 Directory & Data Export",
 ])
 
 # =============================================================
-# TAB 1: THE DATA STORY
+# TAB 1: EXACT CAR MODEL MATCHMAKER
+# =============================================================
+with tab_matchmaker:
+    st.subheader("🎯 Discover the Exact Car Model You Need in Kenya")
+    st.markdown(
+        "Finding a car in Kenya isn't just about brand preference — it's about matching **ground clearance** for high speed humps, "
+        "**fuel efficiency**, **spare parts availability**, and **purchase price (KES)**. "
+        "Tell us your profile below to get exact model recommendations from our database of 50+ top vehicles (2015 - 2026)."
+    )
+
+    col_q1, col_q2, col_q3 = st.columns(3)
+    with col_q1:
+        user_budget_kes = st.slider(
+            "1. Maximum Purchase Budget (KES):",
+            min_value=800000,
+            max_value=12000000,
+            value=2500000,
+            step=100000,
+            format="KES %d",
+            help="Typical market price for a clean registered or 8-year import unit in Kenya."
+        )
+
+        user_usage = st.selectbox(
+            "2. Primary Driving Purpose:",
+            options=[
+                "Daily Nairobi City Commute",
+                "Family Upcountry & Weekend Trips",
+                "Rough Rural Roads, Farm & Offroad",
+                "Executive Business & Highway Status",
+                "Business Logistics / Heavy Load Carry",
+            ],
+            index=1,
+            help="Determines suspension type, luggage capacity, and 4WD requirements."
+        )
+
+    with col_q2:
+        user_clearance = st.selectbox(
+            "3. Ground Clearance Requirement:",
+            options=[
+                "Standard (150 - 185 mm is fine for city & highway)",
+                "Must be High (190 mm+ for bumps & rough roads)",
+            ],
+            index=1,
+            help="Crucial for Kenyan estate roads, non-standard speed bumps, and murram terrain."
+        )
+
+        user_body = st.selectbox(
+            "4. Preferred Body Style:",
+            options=[
+                "Any Body Style",
+                "Crossover / SUV",
+                "Sedan",
+                "Hatchback",
+                "Station Wagon",
+                "Pickup",
+                "Van / MPV",
+                "Full-size 4x4",
+            ],
+            index=1,
+        )
+
+    with col_q3:
+        user_fuel = st.selectbox(
+            "5. Preferred Fuel Type:",
+            options=["Any Fuel Type", "Petrol", "Diesel", "Hybrid"],
+            index=0,
+        )
+
+        user_spares = st.selectbox(
+            "6. Spare Parts Availability Priority:",
+            options=[
+                "Balanced (Nairobi/Mombasa stock is fine, 1-2 days wait ok)",
+                "Maximum (Must find parts in every Kenyan town same day)",
+            ],
+            index=0,
+            help="Higher priority favors Toyota, Isuzu, and Suzuki."
+        )
+
+    st.markdown("---")
+
+    matched_results = match_exact_car_models(
+        budget_kes=user_budget_kes,
+        primary_usage=user_usage,
+        ground_clearance_pref=user_clearance,
+        body_style_pref=user_body,
+        fuel_pref=user_fuel,
+        spares_priority=user_spares,
+    )
+
+    st.subheader(f"🏆 Top Recommended Car Models for Your Profile (Budget: KES {user_budget_kes:,.0f})")
+
+    top_3_cars = matched_results[:3]
+    top_c1, top_c2, top_c3 = st.columns(3)
+
+    medals = ["🥇 1st Choice", "🥈 2nd Choice", "🥉 3rd Choice"]
+    for i, (car, score) in enumerate(top_3_cars):
+        col_target = [top_c1, top_c2, top_c3][i]
+        with col_target:
+            st.success(f"### {medals[i]}: {car['model']}")
+            st.metric("Compatibility Match", f"{score}%")
+            st.caption(f"**Generation:** {car['generation']}")
+            st.markdown(f"💰 **Estimated Price:** KES {car['price_min_kes']/1e6:.1f}M – {car['price_max_kes']/1e6:.1f}M")
+            st.markdown(f"⛽ **Fuel Economy:** ~{car['fuel_economy_kml']} km/L ({car['fuel_type']})")
+            st.markdown(f"📏 **Ground Clearance:** {car['ground_clearance_mm']} mm")
+            st.markdown(f"🔩 **Parts Availability:** {car['parts_score']} / 100")
+            st.markdown(f"👨‍🔧 **Mechanic Score:** {car['mechanic_score']} / 100")
+            st.markdown(f"⚙️ **Best Engine:** `{car['best_engine']}`")
+
+            with st.expander("🔍 Pros & Watch-outs"):
+                st.write(f"**Pros in Kenya:** {car['pros']}")
+                st.warning(f"**Mechanic Watch-out:** {car['cons_and_watchouts']}")
+                st.info(f"**Target Persona:** {car['ideal_persona']}")
+
+    # Alternative runners up
+    st.markdown("---")
+    st.subheader("🥈 Honorable Mentions / Alternative Contenders")
+    runner_ups = matched_results[3:7]
+    r_cols = st.columns(len(runner_ups))
+    for j, (r_car, r_score) in enumerate(runner_ups):
+        with r_cols[j]:
+            st.info(f"**{r_car['model']}** ({r_score}%)")
+            st.caption(f"{r_car['generation']} | {r_car['body_type']}")
+            st.write(f"KES {r_car['price_min_kes']/1e6:.1f}M – {r_car['price_max_kes']/1e6:.1f}M")
+            st.write(f"Ground: {r_car['ground_clearance_mm']} mm | {r_car['fuel_economy_kml']} km/L")
+            st.caption(f"Spares Score: {r_car['parts_score']}/100")
+
+
+# =============================================================
+# TAB 2: 50+ CAR MODELS CATALOG
+# =============================================================
+with tab_models_catalog:
+    st.subheader("🚘 Kenya's Top 50+ Car Models Database (2015 – 2026)")
+    st.markdown(
+        "Explore and compare all 54 mainstream car models sold and driven across Kenya. "
+        "Filter by brand, body style, price bracket, or ground clearance."
+    )
+
+    models_df = pd.DataFrame(CAR_MODELS)
+
+    fcol1, fcol2, fcol3 = st.columns(3)
+    with fcol1:
+        cat_brands = sorted(list(models_df["brand"].unique()))
+        sel_cat_brand = st.multiselect("Filter by Brand:", options=cat_brands, default=cat_brands)
+    with fcol2:
+        cat_body = sorted(list(models_df["body_type"].unique()))
+        sel_cat_body = st.multiselect("Filter by Body Type:", options=cat_body, default=cat_body)
+    with fcol3:
+        max_catalog_budget = st.slider(
+            "Filter Price Ceiling (KES):",
+            min_value=1000000,
+            max_value=25000000,
+            value=25000000,
+            step=500000,
+            format="KES %d",
+        )
+
+    filtered_models = models_df[
+        (models_df["brand"].isin(sel_cat_brand))
+        & (models_df["body_type"].isin(sel_cat_body))
+        & (models_df["price_min_kes"] <= max_catalog_budget)
+    ]
+
+    # Visual Scatter: Ground Clearance vs Price vs Fuel Economy
+    st.markdown("#### Market Positioning: Ground Clearance vs. Fuel Economy vs. Price")
+    fig_models = px.scatter(
+        filtered_models,
+        x="ground_clearance_mm",
+        y="fuel_economy_kml",
+        size=[p / 1e5 for p in filtered_models["price_min_kes"]],
+        color="brand",
+        text="model",
+        hover_data=["generation", "price_min_kes", "price_max_kes", "parts_score", "best_engine"],
+        labels={
+            "ground_clearance_mm": "Ground Clearance (mm) — Higher is better for Kenya",
+            "fuel_economy_kml": "Fuel Economy (km/L) — Higher is more frugal",
+        },
+        title="Models Comparison (Bubble Size = Minimum Price KES)",
+    )
+    fig_models.update_traces(textposition="top center")
+    fig_models.add_vline(x=190, line_dash="dash", line_color="orange", annotation_text="190mm SUV Threshold")
+    fig_models.update_layout(height=520)
+    st.plotly_chart(fig_models, width="stretch")
+
+    st.markdown(f"**Showing {len(filtered_models)} Models Matching Filters:**")
+
+    catalog_display_cols = [
+        "model", "brand", "generation", "body_type", "price_min_kes", "price_max_kes",
+        "ground_clearance_mm", "fuel_economy_kml", "fuel_type", "engine_cc",
+        "parts_score", "mechanic_score", "maintenance_tier", "best_engine",
+    ]
+
+    st.dataframe(
+        filtered_models[catalog_display_cols],
+        width="stretch",
+        column_config={
+            "price_min_kes": st.column_config.NumberColumn("Min Price (KES)", format="KES %d"),
+            "price_max_kes": st.column_config.NumberColumn("Max Price (KES)", format="KES %d"),
+            "ground_clearance_mm": st.column_config.NumberColumn("Clearance (mm)"),
+            "fuel_economy_kml": st.column_config.NumberColumn("Fuel (km/L)"),
+            "parts_score": st.column_config.ProgressColumn("Spares Ease", min_value=0, max_value=100),
+            "mechanic_score": st.column_config.ProgressColumn("Mechanic Score", min_value=0, max_value=100),
+        },
+        height=450,
+    )
+
+
+# =============================================================
+# TAB 3: THE DATA STORY
 # =============================================================
 with tab_story:
     st.subheader("Buying a Car in Kenya: The Reality of Garages and Spare Parts")
@@ -310,7 +519,6 @@ with tab_story:
     > *"In Kenya, you don't just buy a car because of its brochure; you buy the car that can survive Kenyan roads and be fixed by your local mechanic without stranding you for weeks."*
     """)
 
-    # Story chapter 1
     col_s1, col_s2, col_s3 = st.columns(3)
     with col_s1:
         st.info("### 🥇 Tier 1: The Ubiquitous\n**Toyota, Isuzu, Suzuki**\n\n- **Parts:** In every duka from Mombasa to Lodwar.\n- **Mechanics:** 98% familiarity.\n- **Turnaround:** Same-day repairs.\n- **Downside:** High purchase premium & street theft.")
@@ -350,7 +558,6 @@ with tab_story:
         title="Kenyan Market Positioning (Bubble size = Relative Maintenance Cost)",
     )
     fig_quad.update_traces(textposition="top center", marker=dict(line=dict(width=1, color="DarkSlateGrey")))
-    # Add quadrant reference lines
     fig_quad.add_hline(y=75, line_dash="dot", line_color="gray", annotation_text="High Familiarity Threshold")
     fig_quad.add_vline(x=75, line_dash="dot", line_color="gray", annotation_text="High Spares Availability Threshold")
     fig_quad.update_layout(height=520)
@@ -434,98 +641,9 @@ with tab_story:
 
 
 # =============================================================
-# TAB 2: NEW CAR FINDER MATCHMAKER
-# =============================================================
-with tab_matchmaker:
-    st.subheader("🎯 The New Car Finder Matchmaker")
-    st.markdown(
-        "Answer 4 simple lifestyle questions to discover which car brand best matches "
-        "your driving zone, maintenance budget, and spare parts availability in Kenya."
-    )
-
-    col_q1, col_q2 = st.columns(2)
-    with col_q1:
-        q_zone = st.selectbox(
-            "1. Where will you primarily drive and live?",
-            options=[
-                "Nairobi / Mombasa Urban Only",
-                "Frequent Upcountry / Mixed County Roads",
-                "Remote / Rough Terrain / Safari",
-            ],
-            help="Determines upcountry parts availability and suspension durability."
-        )
-
-        q_budget = st.selectbox(
-            "2. What is your monthly maintenance budget comfort?",
-            options=[
-                "Frugal (Under KES 10,000/month)",
-                "Moderate (KES 10,000 - 25,000/month)",
-                "Flexible (KES 25,000 - 50,000/month)",
-                "High End (KES 50,000+/month)",
-            ],
-            help="Routine maintenance, oil, wear-and-tear reserve."
-        )
-
-    with col_q2:
-        q_priority = st.selectbox(
-            "3. What is your #1 priority for this vehicle?",
-            options=[
-                "Peace of Mind & Easy Resale",
-                "Fuel Economy & Daily Commuting",
-                "Highway Stability, Driving Joy & Speed",
-                "Executive Status & Luxury Presence",
-            ],
-            help="What matters most to you on a day-to-day basis?"
-        )
-
-        q_tolerance = st.selectbox(
-            "4. What is your tolerance if a rare spare part needs sourcing?",
-            options=[
-                "Zero (Must be fixed same day)",
-                "1-3 Days is fine",
-                "Don't mind waiting 1-2 weeks for order",
-            ],
-            help="How critical is vehicle downtime for your daily livelihood?"
-        )
-
-    st.markdown("---")
-
-    recommendations = get_recommendation(q_zone, q_budget, q_priority, q_tolerance)
-
-    st.subheader("🏆 Your Tailored Brand Compatibility Ranking")
-
-    top_3 = recommendations[:3]
-    top_cols = st.columns(3)
-
-    medals = ["🥇 1st Choice", "🥈 2nd Choice", "🥉 3rd Choice"]
-    for i, (brand_key, score) in enumerate(top_3):
-        with top_cols[i]:
-            b_info = BRANDS_DATA[brand_key]
-            st.success(f"### {medals[i]}: {brand_key}")
-            st.metric("Compatibility Match", f"{score}%")
-            st.caption(f"*{b_info['tagline']}*")
-            st.markdown(f"**Spares Index:** {b_info['parts_availability_index']}/100")
-            st.markdown(f"**Cost Tier:** {b_info['cost_tier']}")
-            st.markdown(f"**Verdict:** {b_info['recommended_verdict']}")
-            st.markdown(f"**Top Engine:** `{b_info['recommended_engines']}`")
-
-    # Detailed summary advice
-    best_brand = top_3[0][0]
-    best_info = BRANDS_DATA[best_brand]
-
-    st.markdown("### 💡 Expert Advice for Your Profile:")
-    st.info(
-        f"Based on your driving zone in **{q_zone}** and your priority of **{q_priority}**, "
-        f"**{best_brand}** offers the ideal sweet spot. {best_info['mechanic_secrets']} "
-        f"Be mindful of street theft: *{best_info['theft_risk_note']}*"
-    )
-
-
-# =============================================================
-# TAB 3: INTERACTIVE MAP
+# TAB 4: INTERACTIVE MAP
 # =============================================================
 with tab_map:
-    # Summary chips
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.metric("Total Garages & Spares", len(filtered_df))
@@ -600,7 +718,7 @@ with tab_map:
 
 
 # =============================================================
-# TAB 4: MARKET & COUNTY ANALYTICS
+# TAB 5: MARKET & COUNTY ANALYTICS
 # =============================================================
 with tab_analytics:
     st.subheader("Geographical Distribution & Automotive Infrastructure")
@@ -661,7 +779,7 @@ with tab_analytics:
 
 
 # =============================================================
-# TAB 5: DIRECTORY & EXPORT
+# TAB 6: DIRECTORY & EXPORT
 # =============================================================
 with tab_directory:
     st.subheader("Browse Garage Directory")
