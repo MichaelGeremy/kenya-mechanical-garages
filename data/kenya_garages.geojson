@@ -6,6 +6,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          36.6574337,
+          -3.3757244
+        ]
+      },
+      "properties": {
+        "osm_id": "node/487094404",
+        "name": "TFSC",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/487094404"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6720262,
+          -3.3651406
+        ]
+      },
+      "properties": {
+        "osm_id": "node/566549299",
+        "name": "Norbert's Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/566549299"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           36.8027833,
           -1.2632812
         ]
@@ -14,6 +64,7 @@
         "osm_id": "node/586647848",
         "name": "Concorde",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -21,7 +72,7 @@
         "brand": "",
         "address": "Ring Road Parklands, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/586647848"
       }
     },
@@ -38,6 +89,7 @@
         "osm_id": "node/1123209275",
         "name": "Garage",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -45,8 +97,183 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/1123209275"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5901085,
+          -4.2005571
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1320763100",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/1320763100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2974495,
+          0.1787284
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1423007168",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/1423007168"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2947752,
+          0.182874
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1427005155",
+        "name": "Ugunja Town Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/1427005155"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5660555,
+          -4.2841037
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1456853168",
+        "name": "Monseurs engineers motor garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/1456853168"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5702301,
+          -4.2650526
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1456884242",
+        "name": "High way bridge motor garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/1456884242"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5691886,
+          -4.2709323
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1456884258",
+        "name": "Quick Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/1456884258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5700476,
+          -4.2669755
+        ]
+      },
+      "properties": {
+        "osm_id": "node/1458463475",
+        "name": "South coast out wokers",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/1458463475"
       }
     },
     {
@@ -62,6 +289,7 @@
         "osm_id": "node/1635576833",
         "name": "Total",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -69,7 +297,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/1635576833"
       }
     },
@@ -86,6 +314,7 @@
         "osm_id": "node/1775820942",
         "name": "Witts Motor Clinic",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -93,8 +322,33 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/1775820942"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.97916,
+          0.4697578
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2014865786",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/2014865786"
       }
     },
     {
@@ -110,6 +364,7 @@
         "osm_id": "node/2091525610",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -117,7 +372,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/2091525610"
       }
     },
@@ -134,6 +389,7 @@
         "osm_id": "node/2145436227",
         "name": "Amazon Motors",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -141,8 +397,383 @@
         "brand": "",
         "address": "Shimo La Tewa Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/2145436227"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7220674,
+          -4.01742
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2306122330",
+        "name": "Auto Marine",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/2306122330"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.1166852,
+          -3.2109265
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2836333896",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/2836333896"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.3456657,
+          -3.3482081
+        ]
+      },
+      "properties": {
+        "osm_id": "node/2989706636",
+        "name": "Mussa Engineering",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/2989706636"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6856455,
+          -4.0502148
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3103662087",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/3103662087"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6893959,
+          -3.3739932
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3175269800",
+        "name": "Tire repair",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/3175269800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7046776,
+          -3.3975858
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3239296868",
+        "name": "Tire repair",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/3239296868"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7070068,
+          -3.3661591
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3248288858",
+        "name": "Tire repair",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/3248288858"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7074789,
+          -3.3984113
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3251228962",
+        "name": "Tire Shop",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Arusha",
+        "city": "Arusha",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/3251228962"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6817777,
+          -3.3753788
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3253710364",
+        "name": "Ali's Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/3253710364"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3900215,
+          -1.6160521
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3908447127",
+        "name": "Magdala Auto Spares",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/3908447127"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3900416,
+          -1.6163637
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3908447128",
+        "name": "Mara Expert Auto Garage 2",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "+254718102211",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/3908447128"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3892761,
+          -1.614792
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3908447483",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/3908447483"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.9661981,
+          -1.4579037
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3926513162",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Machakos",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Machakos",
+        "osm_url": "https://www.openstreetmap.org/node/3926513162"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.1756852,
+          1.0736927
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3948089631",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "brand": "",
+        "address": "Mbale",
+        "city": "Mbale",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/3948089631"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.172536,
+          0.7937335
+        ]
+      },
+      "properties": {
+        "osm_id": "node/3990240792",
+        "name": "Jally General Stores",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "0783484822",
+        "website": "",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "brand": "",
+        "address": "Tororo Mbale Road, Molo",
+        "city": "Molo",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/3990240792"
       }
     },
     {
@@ -158,6 +789,7 @@
         "osm_id": "node/4278586344",
         "name": "AutoXpress Ltd - Head Office",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -165,8 +797,183 @@
         "brand": "",
         "address": "Limuru Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/4278586344"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6649035,
+          -3.3396439
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4332683290",
+        "name": "karatu quality",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/4332683290"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6858126,
+          -3.3764788
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4356222706",
+        "name": "Millenium tyres",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/4356222706"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8194176,
+          -2.4369154
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4403872939",
+        "name": "Tyre Repair",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/4403872939"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.664683,
+          -4.0568294
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4435063789",
+        "name": "M&M trading",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "0717561560",
+        "website": "",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "brand": "",
+        "address": "Lumumba Road",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/4435063789"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.3664817,
+          -3.4050113
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4475141346",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/4475141346"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6735196,
+          -1.8388524
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4492664591",
+        "name": "Muzabibu filling station",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/4492664591"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7400976,
+          -3.9512281
+        ]
+      },
+      "properties": {
+        "osm_id": "node/4698771704",
+        "name": "Heino's Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/4698771704"
       }
     },
     {
@@ -182,6 +989,7 @@
         "osm_id": "node/4782862221",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -189,8 +997,108 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/4782862221"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7294166,
+          -4.7724725
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5026369521",
+        "name": "Lake oil filling station Singida",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5026369521"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6608401,
+          -1.8464848
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5119724027",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5119724027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.4273608,
+          3.1359094
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5127991025",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5127991025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7165906,
+          2.7571701
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5128787123",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5128787123"
       }
     },
     {
@@ -206,14 +1114,15 @@
         "osm_id": "node/5147190722",
         "name": "Ganatra Plant and Equipment",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
         "phone": "",
         "website": "",
         "opening_hours": "Mo-Sa 08:00-18:00",
         "brand": "",
         "address": "babadogo road",
         "city": "",
-        "county": "",
+        "county": "Kiambu",
         "osm_url": "https://www.openstreetmap.org/node/5147190722"
       }
     },
@@ -230,6 +1139,7 @@
         "osm_id": "node/5217408323",
         "name": "New wa Kariuki used parts shop",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -237,8 +1147,283 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5217408323"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7494747,
+          -4.2085634
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5246751226",
+        "name": "Uronu lubricant",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5246751226"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7489884,
+          -4.2088956
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5246753323",
+        "name": "Davis Motor Spares & Service",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "+255782382261",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5246753323"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7492444,
+          -4.2122926
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5246824821",
+        "name": "Car parts",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5246824821"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7494157,
+          -4.2112618
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5246834823",
+        "name": "Ndosy Spare Parts& Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "+255784395882",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5246834823"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7471087,
+          -4.21171
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5246859732",
+        "name": "Monjes Car Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5246859732"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7477273,
+          -4.2484411
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5249819323",
+        "name": "Galapo road",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5249819323"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7040584,
+          -3.3764698
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5287257531",
+        "name": "Chloride Exide car batteries",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Arusha",
+        "city": "Arusha",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5287257531"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7445104,
+          -4.281279
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5291182426",
+        "name": "Samre road",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5291182426"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7383158,
+          -4.31724
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5291198921",
+        "name": "Himiti _ haraa road",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5291198921"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7492233,
+          -4.21795
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5291199321",
+        "name": "Car parts",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5291199321"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6627357,
+          -4.0521265
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5308432175",
+        "name": "Zedco",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/5308432175"
       }
     },
     {
@@ -254,6 +1439,7 @@
         "osm_id": "node/5327942761",
         "name": "Range Rover Centre",
         "category": "auto_repair",
+        "brand_specialization": "Land Rover / Range Rover",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -261,7 +1447,7 @@
         "brand": "",
         "address": "Ridgeways Springs, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5327942761"
       }
     },
@@ -278,6 +1464,7 @@
         "osm_id": "node/5328482149",
         "name": "Kwik-Fit Tyres",
         "category": "auto_repair",
+        "brand_specialization": "Honda",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -285,7 +1472,7 @@
         "brand": "",
         "address": "Ring Road Parklands, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5328482149"
       }
     },
@@ -302,6 +1489,7 @@
         "osm_id": "node/5328536504",
         "name": "AutoXpress Ltd Ngong Road",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -309,7 +1497,7 @@
         "brand": "",
         "address": "Ngong Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5328536504"
       }
     },
@@ -326,6 +1514,7 @@
         "osm_id": "node/5333117864",
         "name": "Toyota -Westlands",
         "category": "auto_repair",
+        "brand_specialization": "Toyota",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -333,7 +1522,7 @@
         "brand": "Toyota",
         "address": "Waiyaki Way, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5333117864"
       }
     },
@@ -350,6 +1539,7 @@
         "osm_id": "node/5339224754",
         "name": "Popo's Workshop",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -357,7 +1547,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5339224754"
       }
     },
@@ -374,6 +1564,7 @@
         "osm_id": "node/5339421969",
         "name": "Maxxis Kenya",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -381,7 +1572,7 @@
         "brand": "",
         "address": "Muthithi Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5339421969"
       }
     },
@@ -398,6 +1589,7 @@
         "osm_id": "node/5352811658",
         "name": "The Auto Clinic Runda",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -405,7 +1597,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5352811658"
       }
     },
@@ -422,6 +1614,7 @@
         "osm_id": "node/5353042853",
         "name": "Yana Tyre Centre, The Hub",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -429,7 +1622,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5353042853"
       }
     },
@@ -446,6 +1639,7 @@
         "osm_id": "node/5356773892",
         "name": "Umar Auto Garage (UAG)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -453,7 +1647,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5356773892"
       }
     },
@@ -470,6 +1664,7 @@
         "osm_id": "node/5356847340",
         "name": "Mud Rovers",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -477,7 +1672,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5356847340"
       }
     },
@@ -494,6 +1689,7 @@
         "osm_id": "node/5360180077",
         "name": "AutoXpress Ridgeways Mall Branch",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -501,7 +1697,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5360180077"
       }
     },
@@ -518,6 +1714,7 @@
         "osm_id": "node/5360938776",
         "name": "Schumacher's 4X4",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -525,7 +1722,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5360938776"
       }
     },
@@ -542,6 +1739,7 @@
         "osm_id": "node/5371741524",
         "name": "Yana Tyre Centre- Galleria",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -549,7 +1747,7 @@
         "brand": "",
         "address": "Langata Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5371741524"
       }
     },
@@ -566,6 +1764,7 @@
         "osm_id": "node/5380534533",
         "name": "Automated LTD",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -573,7 +1772,7 @@
         "brand": "",
         "address": "Oldeani Crescent, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5380534533"
       }
     },
@@ -590,6 +1789,7 @@
         "osm_id": "node/5380534550",
         "name": "Valuation Yard - Safety Surveyors",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -597,8 +1797,58 @@
         "brand": "",
         "address": "Mara Road, Nairobi City",
         "city": "Nairobi City",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5380534550"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2900898,
+          0.5140043
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5392758324",
+        "name": "Auto Express",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Uasin Gishu (Eldoret)",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Uasin Gishu (Eldoret)",
+        "osm_url": "https://www.openstreetmap.org/node/5392758324"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.1249997,
+          0.2690819
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5411746955",
+        "name": "KWS Meru Workshop",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Meru",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Meru",
+        "osm_url": "https://www.openstreetmap.org/node/5411746955"
       }
     },
     {
@@ -614,6 +1864,7 @@
         "osm_id": "node/5411903686",
         "name": "Greenlight Auto (Ngong Road Branch)",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -621,7 +1872,7 @@
         "brand": "",
         "address": "Ngong Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5411903686"
       }
     },
@@ -638,6 +1889,7 @@
         "osm_id": "node/5412286138",
         "name": "Seamus Auto Garage",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -645,7 +1897,7 @@
         "brand": "",
         "address": "Ndemi Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5412286138"
       }
     },
@@ -662,6 +1914,7 @@
         "osm_id": "node/5414008555",
         "name": "Eagles Motor World & Garage",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -669,7 +1922,7 @@
         "brand": "",
         "address": "Ngong Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5414008555"
       }
     },
@@ -686,6 +1939,7 @@
         "osm_id": "node/5414200445",
         "name": "Oriel Kenya",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -693,8 +1947,33 @@
         "brand": "",
         "address": "Ngong Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5414200445"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5771005,
+          -1.3963678
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5437360221",
+        "name": "Karia kitu garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5437360221"
       }
     },
     {
@@ -710,6 +1989,7 @@
         "osm_id": "node/5491248368",
         "name": "St. Austin's",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -717,8 +1997,33 @@
         "brand": "",
         "address": "Margaret Wambui Kenyatta Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5491248368"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5919855,
+          -3.7862423
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5503252433",
+        "name": "Kasulu",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5503252433"
       }
     },
     {
@@ -734,6 +2039,7 @@
         "osm_id": "node/5539484573",
         "name": "Oriel",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -741,7 +2047,7 @@
         "brand": "",
         "address": "Ojijo Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5539484573"
       }
     },
@@ -758,6 +2064,7 @@
         "osm_id": "node/5539579827",
         "name": "Vas Auto Centre",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -765,7 +2072,7 @@
         "brand": "",
         "address": "Londiani Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5539579827"
       }
     },
@@ -782,6 +2089,7 @@
         "osm_id": "node/5539579831",
         "name": "Roverland Autocare Services",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "254 20 2496965",
         "website": "",
@@ -789,7 +2097,7 @@
         "brand": "",
         "address": "Likoni Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5539579831"
       }
     },
@@ -806,6 +2114,7 @@
         "osm_id": "node/5552269194",
         "name": "Impala Downtown, Westlands",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -813,7 +2122,7 @@
         "brand": "",
         "address": "Muthithi Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5552269194"
       }
     },
@@ -830,6 +2139,7 @@
         "osm_id": "node/5552396301",
         "name": "Impala Downtown Ltd",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -837,7 +2147,7 @@
         "brand": "",
         "address": "Tom Mboya Street, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5552396301"
       }
     },
@@ -854,6 +2164,7 @@
         "osm_id": "node/5562593357",
         "name": "Collo Garage",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -861,7 +2172,7 @@
         "brand": "",
         "address": "Workshop Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5562593357"
       }
     },
@@ -878,6 +2189,7 @@
         "osm_id": "node/5580965013",
         "name": "Parts Direct Limited",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -885,8 +2197,583 @@
         "brand": "",
         "address": "Kindaruma Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/5580965013"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0564201,
+          -0.2912964
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5618096421",
+        "name": "Shabab",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Nakuru",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Nakuru",
+        "osm_url": "https://www.openstreetmap.org/node/5618096421"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6754124,
+          -3.3693962
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5636731322",
+        "name": "Hildis East Africa Co. Ltd.",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Nairobi",
+        "phone": "+255 755 434 222",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Nairobi Road",
+        "city": "",
+        "county": "Nairobi",
+        "osm_url": "https://www.openstreetmap.org/node/5636731322"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6988195,
+          1.0997987
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5692562521",
+        "name": "Kagahiga Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5692562521"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.054,
+          -0.9344378
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5769851906",
+        "name": "Open garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5769851906"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7255978,
+          0.0495612
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5800785529",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5800785529"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7398452,
+          0.4944314
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5817722209",
+        "name": "Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5817722209"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7417138,
+          0.4948992
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5817722216",
+        "name": "Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5817722216"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6688236,
+          -4.0599926
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5826749285",
+        "name": "Micron Exhaust East African Industry",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/5826749285"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7521061,
+          -0.0968728
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5829801685",
+        "name": "Amex",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/5829801685"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9854157,
+          -2.8036659
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5846470685",
+        "name": "CAR REPAIR SHOP",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5846470685"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9882965,
+          -2.7990798
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5858957186",
+        "name": "CAR SERVICES",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "24/7",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5858957186"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9882192,
+          -2.798976
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5861577693",
+        "name": "Obedi's garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5861577693"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9625874,
+          -1.7671398
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5903431885",
+        "name": "Mkombozi Aluminium & Welding Workshop",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/5903431885"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5836847,
+          0.3512927
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5983121086",
+        "name": "Racma Enterprises",
+        "category": "auto_spares",
+        "brand_specialization": "Toyota",
+        "search_area": "Meru",
+        "phone": "+254723528650",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Meru",
+        "osm_url": "https://www.openstreetmap.org/node/5983121086"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6591506,
+          -4.0434794
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5985324581",
+        "name": "Spaki Auto Spares",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa road, Mombasa",
+        "city": "Mombasa",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/5985324581"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6586658,
+          -4.0428629
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5985326935",
+        "name": "Ismaco For Truck Parts",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa road, Mombasa",
+        "city": "Mombasa",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/5985326935"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6657506,
+          -4.0421243
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5989443345",
+        "name": "Garage Renault",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "Renault",
+        "address": "Tom Mboya road, Mombasa",
+        "city": "Mombasa",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/5989443345"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6610855,
+          -4.0451365
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5993040339",
+        "name": "Associated Motors Limited",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa road, Mombasa",
+        "city": "Mombasa",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/5993040339"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6623022,
+          -4.0467584
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5993065008",
+        "name": "Tudor Tyres & Batteries Limited",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mombasa road, Mombasa",
+        "city": "Mombasa",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/5993065008"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6281354,
+          -4.0277903
+        ]
+      },
+      "properties": {
+        "osm_id": "node/5997734241",
+        "name": "Bin Abdulmana Automobile",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Magongo road, Mombasa",
+        "city": "Mombasa",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/5997734241"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.8228974,
+          -4.3605672
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6054493805",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/6054493805"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.8228743,
+          -4.3604418
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6054493806",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/6054493806"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7505583,
+          -0.0975982
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6130562035",
+        "name": "KingswayTyres-Kisumu",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Obote Road, Kisumu",
+        "city": "Kisumu",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/6130562035"
       }
     },
     {
@@ -902,6 +2789,7 @@
         "osm_id": "node/6135414724",
         "name": "Extreme Auto Centre Ltd",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -909,8 +2797,83 @@
         "brand": "",
         "address": "Ngong Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6135414724"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2902232,
+          0.5137699
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6149572973",
+        "name": "AutoXpress Ltd - Rupa Mall, Eldoret",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Uasin Gishu (Eldoret)",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Malaba Road, Eldoret",
+        "city": "Eldoret",
+        "county": "Uasin Gishu (Eldoret)",
+        "osm_url": "https://www.openstreetmap.org/node/6149572973"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0545518,
+          -0.2898634
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6151466836",
+        "name": "AutoXpress - Nakuru",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Nakuru Kisumu Road, Nakuru",
+        "city": "Nakuru",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/6151466836"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0551447,
+          -0.2897148
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6151466837",
+        "name": "KingswayTyres-Nakuru",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Nakuru Kisumu Road, Nakuru",
+        "city": "Nakuru",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/6151466837"
       }
     },
     {
@@ -926,14 +2889,15 @@
         "osm_id": "node/6161845859",
         "name": "Express Garage",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Kiambu Road, kiambu",
         "city": "kiambu",
-        "county": "",
+        "county": "Kiambu",
         "osm_url": "https://www.openstreetmap.org/node/6161845859"
       }
     },
@@ -950,6 +2914,7 @@
         "osm_id": "node/6164306166",
         "name": "(Unnamed Garage/Workshop)",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -957,7 +2922,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6164306166"
       }
     },
@@ -974,6 +2939,7 @@
         "osm_id": "node/6172772270",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -981,7 +2947,7 @@
         "brand": "",
         "address": "Workshop Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6172772270"
       }
     },
@@ -998,6 +2964,7 @@
         "osm_id": "node/6172775452",
         "name": "Evercare Rover Centre Limited",
         "category": "auto_repair",
+        "brand_specialization": "Land Rover / Range Rover",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1005,7 +2972,7 @@
         "brand": "",
         "address": "Likoni Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6172775452"
       }
     },
@@ -1022,6 +2989,7 @@
         "osm_id": "node/6172780952",
         "name": "Ken-Rovers Garage Limited",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "+254 720 409 311",
         "website": "",
@@ -1029,7 +2997,7 @@
         "brand": "",
         "address": "Oldeani Crescent, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6172780952"
       }
     },
@@ -1046,6 +3014,7 @@
         "osm_id": "node/6197948725",
         "name": "AutoXpress - Enterprise Road",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1053,8 +3022,58 @@
         "brand": "",
         "address": "Enterprise Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6197948725"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.9654763,
+          -1.143088
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6199038537",
+        "name": "ASTROL",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Thika Road, Ruiru",
+        "city": "Ruiru",
+        "county": "Kiambu",
+        "osm_url": "https://www.openstreetmap.org/node/6199038537"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.9553671,
+          -1.1527562
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6207341899",
+        "name": "Overland 4x4 Ltd.",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "P.G. Dodhia Road, Ruiru",
+        "city": "Ruiru",
+        "county": "Kiambu",
+        "osm_url": "https://www.openstreetmap.org/node/6207341899"
       }
     },
     {
@@ -1070,14 +3089,15 @@
         "osm_id": "node/6207546821",
         "name": "Maxxis Kenya Sairaj branch",
         "category": "tyres",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Mombasa Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Mombasa",
         "osm_url": "https://www.openstreetmap.org/node/6207546821"
       }
     },
@@ -1094,14 +3114,15 @@
         "osm_id": "node/6207581200",
         "name": "AutoXpress Ltd - Mombasa Road",
         "category": "tyres",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Mombasa Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Mombasa",
         "osm_url": "https://www.openstreetmap.org/node/6207581200"
       }
     },
@@ -1118,14 +3139,15 @@
         "osm_id": "node/6207581209",
         "name": "MPPS ACCESSORIES",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Mombasa Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Mombasa",
         "osm_url": "https://www.openstreetmap.org/node/6207581209"
       }
     },
@@ -1142,14 +3164,15 @@
         "osm_id": "node/6207581210",
         "name": "Kingsway Tyres-Mombasa Road",
         "category": "tyres",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Mombasa Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Mombasa",
         "osm_url": "https://www.openstreetmap.org/node/6207581210"
       }
     },
@@ -1166,14 +3189,15 @@
         "osm_id": "node/6207599845",
         "name": "Oriel Limited Mombasa Rd",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Mombasa Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Mombasa",
         "osm_url": "https://www.openstreetmap.org/node/6207599845"
       }
     },
@@ -1190,14 +3214,15 @@
         "osm_id": "node/6207691404",
         "name": "Express Spares Ltd.",
         "category": "auto_spares",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Mombasa Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Mombasa",
         "osm_url": "https://www.openstreetmap.org/node/6207691404"
       }
     },
@@ -1214,14 +3239,15 @@
         "osm_id": "node/6207692303",
         "name": "Nissan Kenya Service Centre",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Nissan",
+        "search_area": "Mombasa",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "Nissan",
         "address": "Mombasa Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Mombasa",
         "osm_url": "https://www.openstreetmap.org/node/6207692303"
       }
     },
@@ -1238,14 +3264,15 @@
         "osm_id": "node/6208217353",
         "name": "Crystal Motors (K) Ltd",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Old Mombasa Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Mombasa",
         "osm_url": "https://www.openstreetmap.org/node/6208217353"
       }
     },
@@ -1262,15 +3289,41 @@
         "osm_id": "node/6208217644",
         "name": "AutoXpress X-tread Retreading Factory and TMS Division",
         "category": "tyres",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Mombasa Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Mombasa",
         "osm_url": "https://www.openstreetmap.org/node/6208217644"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.0993732,
+          -1.0516381
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6210053467",
+        "name": "AutoXpress Ltd - Thika",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Garissa Road, Thika",
+        "city": "Thika",
+        "county": "Kiambu",
+        "osm_url": "https://www.openstreetmap.org/node/6210053467"
       }
     },
     {
@@ -1286,15 +3339,41 @@
         "osm_id": "node/6210101312",
         "name": "Highway Tire Centre & Accessories",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Mombasa Road, Syokimau",
         "city": "Syokimau",
-        "county": "",
+        "county": "Mombasa",
         "osm_url": "https://www.openstreetmap.org/node/6210101312"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.9689452,
+          -1.4482879
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6210275901",
+        "name": "Yana Tyre Centre - Athi River",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Machakos",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Namanga Road, Athi River",
+        "city": "Athi River",
+        "county": "Machakos",
+        "osm_url": "https://www.openstreetmap.org/node/6210275901"
       }
     },
     {
@@ -1310,6 +3389,7 @@
         "osm_id": "node/6224883284",
         "name": "AutoXpress - Langata Road",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1317,7 +3397,7 @@
         "brand": "",
         "address": "Langata Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6224883284"
       }
     },
@@ -1334,14 +3414,15 @@
         "osm_id": "node/6224915319",
         "name": "AMAZON TYRES AND SERVICE CENTRE",
         "category": "tyres",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Thika Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Kiambu",
         "osm_url": "https://www.openstreetmap.org/node/6224915319"
       }
     },
@@ -1358,15 +3439,141 @@
         "osm_id": "node/6224915365",
         "name": "Top Quality Motors Ltd",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Thika Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Kiambu",
         "osm_url": "https://www.openstreetmap.org/node/6224915365"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.2598742,
+          -1.8529416
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6229624518",
+        "name": "Kenol Nunguni",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Salama Nunguni Road, Salama",
+        "city": "Salama",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/6229624518"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5480905,
+          0.5135395
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6241480147",
+        "name": "Precision Performance Centre Limited",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mumias-Bungoma Road, Bungoma",
+        "city": "Bungoma",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/6241480147"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7550801,
+          0.283062
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6244082526",
+        "name": "AutoXpress Ltd - Kakamega",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Kisumu-Kakamega Road, Kakamega",
+        "city": "Kakamega",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/6244082526"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7571788,
+          0.2899937
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6244083525",
+        "name": "KingswayTyres-Kakamega",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Kakamega-Webuye Road, Kakamega",
+        "city": "Kakamega",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/6244083525"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.722686,
+          -4.2197719
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6251480486",
+        "name": "Temesa Babati",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Miomboni",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/6251480486"
       }
     },
     {
@@ -1382,6 +3589,7 @@
         "osm_id": "node/6259798969",
         "name": "AutoXpress Ltd - Greenspan Mall",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1389,7 +3597,7 @@
         "brand": "",
         "address": "Savannah Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6259798969"
       }
     },
@@ -1406,6 +3614,7 @@
         "osm_id": "node/6260025836",
         "name": "Auto Xpress Britam Tower",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1413,8 +3622,58 @@
         "brand": "",
         "address": "Hospital Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6260025836"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.684693,
+          -2.1511223
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6395673688",
+        "name": "Omary puncher",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/6395673688"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6949985,
+          -3.3723276
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6481084632",
+        "name": "Car Repair Shop",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/6481084632"
       }
     },
     {
@@ -1430,6 +3689,7 @@
         "osm_id": "node/6559614243",
         "name": "CMC Bodyshop",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1437,8 +3697,33 @@
         "brand": "",
         "address": "Hola Road",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6559614243"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.680126,
+          -2.1496324
+        ]
+      },
+      "properties": {
+        "osm_id": "node/6791141585",
+        "name": "Kenzan",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/6791141585"
       }
     },
     {
@@ -1454,6 +3739,7 @@
         "osm_id": "node/6840641666",
         "name": "Chogi's Garage",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1461,7 +3747,7 @@
         "brand": "",
         "address": "Chogis Garage Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6840641666"
       }
     },
@@ -1478,6 +3764,7 @@
         "osm_id": "node/6969796686",
         "name": "Kingsway Tyres",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1485,7 +3772,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/6969796686"
       }
     },
@@ -1502,6 +3789,7 @@
         "osm_id": "node/7501513233",
         "name": "Automec Limited",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1509,8 +3797,458 @@
         "brand": "",
         "address": "Academy Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/7501513233"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2959267,
+          -0.3610528
+        ]
+      },
+      "properties": {
+        "osm_id": "node/7976569619",
+        "name": "AutoXpress",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Kericho-Kisumu Highway, Kericho",
+        "city": "Kericho",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/7976569619"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9777741,
+          -0.4523889
+        ]
+      },
+      "properties": {
+        "osm_id": "node/8420821370",
+        "name": "Road",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "Roady",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/8420821370"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4253392,
+          -0.7037128
+        ]
+      },
+      "properties": {
+        "osm_id": "node/8483709319",
+        "name": "Isuzu",
+        "category": "auto_spares",
+        "brand_specialization": "Isuzu",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/8483709319"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7059248,
+          -3.4367771
+        ]
+      },
+      "properties": {
+        "osm_id": "node/8537970718",
+        "name": "Baraka car repairs (Gereji)",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/8537970718"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7052653,
+          -3.402533
+        ]
+      },
+      "properties": {
+        "osm_id": "node/8544938223",
+        "name": "Safari shop",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/8544938223"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7131625,
+          -3.4030521
+        ]
+      },
+      "properties": {
+        "osm_id": "node/8550559317",
+        "name": "Spanish Tiles define your lifestyle",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/8550559317"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.685283,
+          -3.3615773
+        ]
+      },
+      "properties": {
+        "osm_id": "node/8561008217",
+        "name": "Car repairs shop",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/8561008217"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9831191,
+          -2.8093522
+        ]
+      },
+      "properties": {
+        "osm_id": "node/9306983217",
+        "name": "Salunda Car Service",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "Mo-Su 07:00-18:00",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/9306983217"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.4568166,
+          -0.5446405
+        ]
+      },
+      "properties": {
+        "osm_id": "node/9447327393",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/9447327393"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.3759181,
+          -1.34044
+        ]
+      },
+      "properties": {
+        "osm_id": "node/9891105718",
+        "name": "AYUBU GEREJI TARIME",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/9891105718"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0002736,
+          -2.9954041
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10006558817",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10006558817"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.0496013,
+          1.7520204
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10008216017",
+        "name": "Mama Oscar spare parts",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Wajir-Moyale Road",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10008216017"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.054904,
+          1.7386952
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10008216622",
+        "name": "New Kampala auto spares",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "0720621757",
+        "website": "",
+        "opening_hours": "24/7",
+        "brand": "",
+        "address": "Wajir-Dif Road",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10008216622"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.0549214,
+          1.7387725
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10008236617",
+        "name": "NEW KAMPALA AUTO SPARES AND GARAGE",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Isiolo-Mandera Road",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10008236617"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.0617907,
+          1.7511487
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10008315619",
+        "name": "Farhan Motor vehicle garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10008315619"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.052625,
+          1.7394214
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10008320317",
+        "name": "Abdi Barawa carab garage and wiring",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Mayalo Road",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10008320317"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.0520009,
+          1.7428728
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10008332117",
+        "name": "St Joseph parish",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "24/7",
+        "brand": "",
+        "address": "Airport road",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10008332117"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6934004,
+          -3.3719214
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10047407157",
+        "name": "Toyota Service",
+        "category": "auto_repair",
+        "brand_specialization": "Toyota",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "Toyota",
+        "address": "Goliondoi Avenue, Arusha",
+        "city": "Arusha",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10047407157"
       }
     },
     {
@@ -1526,14 +4264,15 @@
         "osm_id": "node/10117886026",
         "name": "Sajj Automobiles Kenya Limited",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
         "phone": "",
         "website": "",
         "opening_hours": "Mo-Sa 08:00-20:00",
         "brand": "",
         "address": "Baba Dogo Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Kiambu",
         "osm_url": "https://www.openstreetmap.org/node/10117886026"
       }
     },
@@ -1550,6 +4289,7 @@
         "osm_id": "node/10121775091",
         "name": "Auto Village",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "+254722710310",
         "website": "",
@@ -1557,8 +4297,1058 @@
         "brand": "",
         "address": "Langata Road Auto Village Complex Karen, Nairobi, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/10121775091"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7532631,
+          -4.8347639
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10536604119",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10536604119"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.7257274,
+          -4.0635323
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10567586696",
+        "name": "Car Repairing.",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10567586696"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7889988,
+          -0.119395
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10758265053",
+        "name": "Elyco Motors Limited",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/10758265053"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7554929,
+          -0.0792897
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10796828642",
+        "name": "Toyota",
+        "category": "auto_repair",
+        "brand_specialization": "Toyota",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "https://toyotakenya.com/",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/10796828642"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7536518,
+          -0.0982816
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10904818383",
+        "name": "Kisumu City Auto Tyres",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/10904818383"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7517957,
+          -0.0963775
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10921245483",
+        "name": "Reliance Auto Centre",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/10921245483"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7526323,
+          -0.0955963
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10921245491",
+        "name": "MAXXIS",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "https://www.maxxis.com/int/tires/",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/10921245491"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7545516,
+          -0.0939413
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10921350910",
+        "name": "Chloride Exide",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "https://chlorideexide.com/contact-us/",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/10921350910"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7547065,
+          -0.0976639
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10928935697",
+        "name": "Tyretec",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/10928935697"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7731092,
+          -0.084662
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10936324382",
+        "name": "Kinyila auto tyres",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/10936324382"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7535167,
+          -0.0968336
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10941845311",
+        "name": "Tegno autoparts",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/10941845311"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7534653,
+          -0.0965835
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10941845312",
+        "name": "Western highway tyres",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/10941845312"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.753149,
+          -0.0971231
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10941845323",
+        "name": "Musyoki Tyre Centre",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/10941845323"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.729969,
+          3.7683499
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10989664955",
+        "name": "Piere Baravuga",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10989664955"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8712337,
+          3.7040939
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10991771258",
+        "name": "Kakuma Motors",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10991771258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8615544,
+          3.7098799
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10994632353",
+        "name": "Kings Line",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10994632353"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8610223,
+          3.7101396
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10994632355",
+        "name": "Motors Services",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10994632355"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8107018,
+          3.7463634
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10996774107",
+        "name": "Fundi Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10996774107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8236672,
+          3.7641055
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10996985393",
+        "name": "Panadol Auto Spares Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10996985393"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8060924,
+          3.7424607
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10996985399",
+        "name": "Josemose Auto Spare",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10996985399"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8246565,
+          3.7494419
+        ]
+      },
+      "properties": {
+        "osm_id": "node/10997028031",
+        "name": "Shalom Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/10997028031"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8778291,
+          3.701344
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11001378174",
+        "name": "Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11001378174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7293138,
+          3.769642
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11001418539",
+        "name": "New Generation Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11001418539"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8650904,
+          3.7091544
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11001502508",
+        "name": "Afri Cote",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11001502508"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8652208,
+          3.7076995
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11001511147",
+        "name": "Puncture Repair",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11001511147"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.810427,
+          3.7505876
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11001858045",
+        "name": "Stop Wasting Time",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11001858045"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8119694,
+          3.7512394
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11007242311",
+        "name": "Solomon's",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11007242311"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8116389,
+          3.7389181
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11008119604",
+        "name": "Fundi Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11008119604"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8177895,
+          3.7606434
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11012167212",
+        "name": "Motorol Mechanics",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11012167212"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8179743,
+          3.7609067
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11012167222",
+        "name": "Hassan Wariri",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11012167222"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8174008,
+          3.7360924
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11013576570",
+        "name": "Japan Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11013576570"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7655379,
+          -0.0883213
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11013777517",
+        "name": "Auto Xpress",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "https://auto-xpress.co.ke/",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/11013777517"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7653881,
+          -0.0884581
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11013777518",
+        "name": "Jamboleo Body shop",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/11013777518"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8182079,
+          3.7612644
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11015903342",
+        "name": "Faktar",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11015903342"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7697528,
+          -0.1078899
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11020090781",
+        "name": "Continental Tyres",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "https://silverstone.co.ke/continental/",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/11020090781"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7677042,
+          -0.0887765
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11036196418",
+        "name": "Toreno Motors",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/11036196418"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7685394,
+          -0.0871959
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11044670410",
+        "name": "sparco motors garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/11044670410"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.0676999,
+          1.7479245
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11099232168",
+        "name": "Gaza Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Moyale Road",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11099232168"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.0541902,
+          1.739984
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11099232192",
+        "name": "Barwaqo Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Manyalo Ganyure Highway",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11099232192"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.0676918,
+          1.7479346
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11099233331",
+        "name": "Gaza Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Moyale Road",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11099233331"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.0541821,
+          1.7399941
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11099233355",
+        "name": "Barwaqo Garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Manyalo Ganyure Highway",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11099233355"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8389992,
+          3.7479713
+        ]
+      },
+      "properties": {
+        "osm_id": "node/11276900658",
+        "name": "Steve Auto Spare",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/11276900658"
       }
     },
     {
@@ -1574,6 +5364,7 @@
         "osm_id": "node/11960010235",
         "name": "Dice Sounds Ent",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1581,8 +5372,158 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/11960010235"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.65762,
+          -4.0488807
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12508936026",
+        "name": "malik motor spares",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/12508936026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.624634,
+          -4.0244069
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12553010543",
+        "name": "SMAAF Tyres ltd",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/12553010543"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6747527,
+          -0.9410451
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12598443258",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "KAEWA-MASINGA ROAD, Kivaa ward",
+        "city": "Kivaa ward",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/12598443258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6195551,
+          -4.0315685
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12622211492",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/12622211492"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6998086,
+          -4.0443572
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12630821059",
+        "name": "MAXXIS",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/12630821059"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6109995,
+          -4.0387777
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12662256946",
+        "name": "HOWO service center",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/12662256946"
       }
     },
     {
@@ -1598,6 +5539,7 @@
         "osm_id": "node/12663397601",
         "name": "Capital Hill Auto Garage & Carwash",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1605,8 +5547,58 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/12663397601"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6250943,
+          -4.0254441
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12687068518",
+        "name": "jeffers auto spares",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/12687068518"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6163799,
+          -4.0243329
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12828480253",
+        "name": "safari auto tyres",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/12828480253"
       }
     },
     {
@@ -1622,6 +5614,7 @@
         "osm_id": "node/12886299310",
         "name": "Boosted Auto Perfomance",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "+254 792276332",
         "website": "",
@@ -1629,7 +5622,7 @@
         "brand": "",
         "address": "Langata, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/12886299310"
       }
     },
@@ -1646,6 +5639,7 @@
         "osm_id": "node/12886379617",
         "name": "Automach Diessel Ltd",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1670,7 +5664,8 @@
         "osm_id": "node/12886379626",
         "name": "Jalesh Auto Commercial",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Nakuru",
         "phone": "",
         "website": "",
         "opening_hours": "",
@@ -1694,6 +5689,7 @@
         "osm_id": "node/12886546520",
         "name": "Junction Kahhorse Tyre",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1718,6 +5714,7 @@
         "osm_id": "node/12886664062",
         "name": "Muhindi Mweusi Motorbikes Spares",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1742,6 +5739,7 @@
         "osm_id": "node/12886664097",
         "name": "Mbaaria Autospares",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1758,6 +5756,156 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          38.564284,
+          -3.3824067
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12886726966",
+        "name": "homeboys auto gaurage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Taita Taveta",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Taita Taveta",
+        "city": "",
+        "county": "Taita Taveta",
+        "osm_url": "https://www.openstreetmap.org/node/12886726966"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.5697193,
+          -3.3889817
+        ]
+      },
+      "properties": {
+        "osm_id": "node/12886726967",
+        "name": "Home boys Auto-garage",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Taita Taveta",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Taita Taveta",
+        "city": "",
+        "county": "Taita Taveta",
+        "osm_url": "https://www.openstreetmap.org/node/12886726967"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8821421,
+          -1.0894513
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13064968003",
+        "name": "TyreCentre",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/13064968003"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6240308,
+          -4.0247969
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13157743703",
+        "name": "Yassin spare parts",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/13157743703"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6241831,
+          -4.0248702
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13157750803",
+        "name": "Truck parts direct",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/13157750803"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.659977,
+          -4.0545774
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13159781801",
+        "name": "Car doctor",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/13159781801"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           36.7245487,
           -1.22445
         ]
@@ -1766,6 +5914,7 @@
         "osm_id": "node/13246210307",
         "name": "Quality Tyre Sales and Repair Shop",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "+254707797188",
         "website": "",
@@ -1773,7 +5922,7 @@
         "brand": "",
         "address": "Getathuru Road",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/13246210307"
       }
     },
@@ -1790,6 +5939,7 @@
         "osm_id": "node/13396668301",
         "name": "Tahmeed",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1797,7 +5947,7 @@
         "brand": "",
         "address": "Nairobi Expressway",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/13396668301"
       }
     },
@@ -1814,6 +5964,7 @@
         "osm_id": "node/13543112003",
         "name": "AutoXpress Ltd Galleria Mall",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1821,7 +5972,7 @@
         "brand": "",
         "address": "Langata Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/13543112003"
       }
     },
@@ -1838,6 +5989,7 @@
         "osm_id": "node/13543166117",
         "name": "AutoXpress ltd Lavington Branch",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1845,7 +5997,7 @@
         "brand": "",
         "address": "Isaac Gathanju Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/13543166117"
       }
     },
@@ -1862,6 +6014,7 @@
         "osm_id": "node/13543187666",
         "name": "AutoXpress ltd Kilimani Branch",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1869,7 +6022,7 @@
         "brand": "",
         "address": "Argwings Kodhek Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/13543187666"
       }
     },
@@ -1886,6 +6039,7 @@
         "osm_id": "node/13543202002",
         "name": "AutoXpress ltd General Mathenge",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1893,7 +6047,7 @@
         "brand": "",
         "address": "General Mathenge Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/13543202002"
       }
     },
@@ -1910,15 +6064,66 @@
         "osm_id": "node/13543220380",
         "name": "AutoXpress ltd Kenyatta University",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Thika Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Kiambu",
         "osm_url": "https://www.openstreetmap.org/node/13543220380"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6183678,
+          -4.0211003
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13620378001",
+        "name": "Stereo tyres",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/13620378001"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7949545,
+          -0.1331397
+        ]
+      },
+      "properties": {
+        "osm_id": "node/13714210035",
+        "name": "Isuzu service center",
+        "category": "auto_repair",
+        "brand_specialization": "Isuzu",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/node/13714210035"
       }
     },
     {
@@ -1934,6 +6139,7 @@
         "osm_id": "node/14004125377",
         "name": "Metro Motor Spares Ltd",
         "category": "auto_spares",
+        "brand_specialization": "Mercedes-Benz",
         "search_area": "Nairobi",
         "phone": "+254714786111",
         "website": "https://www.mms.co.ke/",
@@ -1941,8 +6147,83 @@
         "brand": "",
         "address": "Enterprise Road",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/14004125377"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.7204068,
+          -4.0204486
+        ]
+      },
+      "properties": {
+        "osm_id": "node/14053567760",
+        "name": "Auto Express Mombasa",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Mombasa",
+        "osm_url": "https://www.openstreetmap.org/node/14053567760"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5353837,
+          -0.9071824
+        ]
+      },
+      "properties": {
+        "osm_id": "node/14060903219",
+        "name": "Toyota Kenya garage",
+        "category": "auto_repair",
+        "brand_specialization": "Toyota",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/14060903219"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5310293,
+          -0.9048977
+        ]
+      },
+      "properties": {
+        "osm_id": "node/14060908105",
+        "name": "Kibo spares shop awendo",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/node/14060908105"
       }
     },
     {
@@ -1958,6 +6239,7 @@
         "osm_id": "node/14066521148",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1965,7 +6247,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/14066521148"
       }
     },
@@ -1982,6 +6264,7 @@
         "osm_id": "node/14100900217",
         "name": "Team Mazda Kenya",
         "category": "auto_repair",
+        "brand_specialization": "Mazda",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -1989,7 +6272,7 @@
         "brand": "Mazda",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/14100900217"
       }
     },
@@ -2006,6 +6289,7 @@
         "osm_id": "node/14103856524",
         "name": "Nissan Kenya Service Center",
         "category": "auto_repair",
+        "brand_specialization": "Nissan",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2013,7 +6297,7 @@
         "brand": "Nissan",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/14103856524"
       }
     },
@@ -2030,6 +6314,7 @@
         "osm_id": "node/14135720404",
         "name": "Bike Tyres kenya",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2037,7 +6322,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/14135720404"
       }
     },
@@ -2054,6 +6339,7 @@
         "osm_id": "node/14159530680",
         "name": "Tyrex Westlands",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2061,7 +6347,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/14159530680"
       }
     },
@@ -2078,6 +6364,7 @@
         "osm_id": "node/14175211571",
         "name": "(Unnamed Garage/Workshop)",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "https://www.kingswaytyres.com/",
@@ -2085,7 +6372,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/14175211571"
       }
     },
@@ -2102,6 +6389,7 @@
         "osm_id": "node/14200767075",
         "name": "Auto Express",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "https://auto-xpress.co.ke/",
@@ -2109,7 +6397,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/node/14200767075"
       }
     },
@@ -2126,6 +6414,7 @@
         "osm_id": "way/97804276",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2133,7 +6422,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/97804276"
       }
     },
@@ -2150,6 +6439,7 @@
         "osm_id": "way/125141100",
         "name": "Kingsway Tyres-Head Office",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2157,7 +6447,7 @@
         "brand": "",
         "address": "Muindi Mbingu Street, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/125141100"
       }
     },
@@ -2174,6 +6464,7 @@
         "osm_id": "way/130252007",
         "name": "Engine Planet",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2181,7 +6472,7 @@
         "brand": "",
         "address": "Ngara Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/130252007"
       }
     },
@@ -2198,6 +6489,7 @@
         "osm_id": "way/133146038",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2205,7 +6497,7 @@
         "brand": "",
         "address": "Lusaka Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146038"
       }
     },
@@ -2222,6 +6514,7 @@
         "osm_id": "way/133146040",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2229,7 +6522,7 @@
         "brand": "",
         "address": "Lusaka Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146040"
       }
     },
@@ -2246,6 +6539,7 @@
         "osm_id": "way/133146044",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2253,7 +6547,7 @@
         "brand": "",
         "address": "Enterprise Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146044"
       }
     },
@@ -2270,6 +6564,7 @@
         "osm_id": "way/133146045",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2277,7 +6572,7 @@
         "brand": "",
         "address": "Lusaka Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146045"
       }
     },
@@ -2294,6 +6589,7 @@
         "osm_id": "way/133146047",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2301,7 +6597,7 @@
         "brand": "",
         "address": "Lusaka Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146047"
       }
     },
@@ -2318,6 +6614,7 @@
         "osm_id": "way/133146049",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2325,7 +6622,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146049"
       }
     },
@@ -2342,6 +6639,7 @@
         "osm_id": "way/133146050",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2349,7 +6647,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146050"
       }
     },
@@ -2366,6 +6664,7 @@
         "osm_id": "way/133146052",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2373,7 +6672,7 @@
         "brand": "",
         "address": "Enterprise Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146052"
       }
     },
@@ -2390,6 +6689,7 @@
         "osm_id": "way/133146054",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2397,7 +6697,7 @@
         "brand": "",
         "address": "Lusaka Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146054"
       }
     },
@@ -2414,6 +6714,7 @@
         "osm_id": "way/133146058",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2421,7 +6722,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146058"
       }
     },
@@ -2438,6 +6739,7 @@
         "osm_id": "way/133146059",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2445,7 +6747,7 @@
         "brand": "",
         "address": "Enterprise Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146059"
       }
     },
@@ -2462,6 +6764,7 @@
         "osm_id": "way/133146060",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2469,7 +6772,7 @@
         "brand": "",
         "address": "Lusaka Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133146060"
       }
     },
@@ -2486,6 +6789,7 @@
         "osm_id": "way/133147262",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2493,8 +6797,33 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/133147262"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.175509,
+          1.0742928
+        ]
+      },
+      "properties": {
+        "osm_id": "way/180564374",
+        "name": "Motocar Garages",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/180564374"
       }
     },
     {
@@ -2510,6 +6839,7 @@
         "osm_id": "way/226714117",
         "name": "Stuttgart auto Karen Nairobi Kenya",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2517,7 +6847,7 @@
         "brand": "",
         "address": "Ngong Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/226714117"
       }
     },
@@ -2534,6 +6864,7 @@
         "osm_id": "way/232010701",
         "name": "Loresho Car Repair & Car Wash",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2541,8 +6872,133 @@
         "brand": "Kenol",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/232010701"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7068445,
+          -3.3875934
+        ]
+      },
+      "properties": {
+        "osm_id": "way/309425190",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/309425190"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6949999,
+          -3.3724609
+        ]
+      },
+      "properties": {
+        "osm_id": "way/311754231",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/311754231"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.689634,
+          -3.3740173
+        ]
+      },
+      "properties": {
+        "osm_id": "way/311803578",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/311803578"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6830408,
+          -3.3747762
+        ]
+      },
+      "properties": {
+        "osm_id": "way/318960194",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/318960194"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6600715,
+          -3.3893521
+        ]
+      },
+      "properties": {
+        "osm_id": "way/321123881",
+        "name": "China Car Repair",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Arusha",
+        "city": "Arusha",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/321123881"
       }
     },
     {
@@ -2558,6 +7014,7 @@
         "osm_id": "way/332160558",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2565,7 +7022,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/332160558"
       }
     },
@@ -2582,6 +7039,7 @@
         "osm_id": "way/332241169",
         "name": "Toyota",
         "category": "auto_repair",
+        "brand_specialization": "Toyota",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2589,7 +7047,7 @@
         "brand": "Toyota",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/332241169"
       }
     },
@@ -2606,6 +7064,7 @@
         "osm_id": "way/361587522",
         "name": "Kingsway Tyres",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2613,7 +7072,7 @@
         "brand": "",
         "address": "Parklands Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/361587522"
       }
     },
@@ -2630,6 +7089,7 @@
         "osm_id": "way/364979632",
         "name": "AutoXpress Ltd - Lusaka Road",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2637,7 +7097,7 @@
         "brand": "",
         "address": "Lusaka Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/364979632"
       }
     },
@@ -2654,6 +7114,7 @@
         "osm_id": "way/364994448",
         "name": "CMC Land Rover Workshop",
         "category": "auto_repair",
+        "brand_specialization": "Land Rover / Range Rover",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2661,7 +7122,7 @@
         "brand": "",
         "address": "Chepkorio Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/364994448"
       }
     },
@@ -2678,6 +7139,7 @@
         "osm_id": "way/364996847",
         "name": "CMC Ford Workshop",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2685,7 +7147,7 @@
         "brand": "",
         "address": "Lusaka Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/364996847"
       }
     },
@@ -2702,6 +7164,7 @@
         "osm_id": "way/365200895",
         "name": "Shamas Motor Parts Ltd",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2709,7 +7172,7 @@
         "brand": "",
         "address": "Hombe Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/365200895"
       }
     },
@@ -2726,6 +7189,7 @@
         "osm_id": "way/366568546",
         "name": "AutoXpress Ltd - Lusaka Road",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2733,7 +7197,7 @@
         "brand": "",
         "address": "Lusaka Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/366568546"
       }
     },
@@ -2750,6 +7214,7 @@
         "osm_id": "way/366569919",
         "name": "AutoXpress Ltd - Lusaka Road",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2757,7 +7222,7 @@
         "brand": "",
         "address": "Lusaka Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/366569919"
       }
     },
@@ -2774,6 +7239,7 @@
         "osm_id": "way/366570729",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2781,7 +7247,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/366570729"
       }
     },
@@ -2798,6 +7264,7 @@
         "osm_id": "way/366570730",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2805,7 +7272,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/366570730"
       }
     },
@@ -2822,6 +7289,7 @@
         "osm_id": "way/366570731",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2829,7 +7297,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/366570731"
       }
     },
@@ -2846,6 +7314,7 @@
         "osm_id": "way/366575692",
         "name": "Shamas Auto Spares",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2853,8 +7322,33 @@
         "brand": "",
         "address": "Baricho Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/366575692"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6873727,
+          -3.3742807
+        ]
+      },
+      "properties": {
+        "osm_id": "way/373267793",
+        "name": "Total Car Care",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "Sokoine Road, Arusha",
+        "city": "Arusha",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/373267793"
       }
     },
     {
@@ -2870,6 +7364,7 @@
         "osm_id": "way/382256363",
         "name": "Supa's Garage",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2877,7 +7372,7 @@
         "brand": "",
         "address": "Mukenia Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/382256363"
       }
     },
@@ -2894,6 +7389,7 @@
         "osm_id": "way/454736988",
         "name": "Jamii Auto Care",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2901,7 +7397,7 @@
         "brand": "",
         "address": "Ngong Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/454736988"
       }
     },
@@ -2918,14 +7414,15 @@
         "osm_id": "way/488898587",
         "name": "Logistech Limited Kenya",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Mombasa",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Mombasa Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Mombasa",
         "osm_url": "https://www.openstreetmap.org/way/488898587"
       }
     },
@@ -2942,6 +7439,7 @@
         "osm_id": "way/552369235",
         "name": "Megnet Limited",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2949,7 +7447,7 @@
         "brand": "",
         "address": "Shanzu Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/552369235"
       }
     },
@@ -2966,6 +7464,7 @@
         "osm_id": "way/552375791",
         "name": "Auto Bavaria",
         "category": "auto_repair",
+        "brand_specialization": "BMW",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -2973,7 +7472,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/552375791"
       }
     },
@@ -2990,6 +7489,7 @@
         "osm_id": "way/553282256",
         "name": "Range Rover Owners Club Kenya",
         "category": "auto_repair",
+        "brand_specialization": "Land Rover / Range Rover",
         "search_area": "Nairobi",
         "phone": "0700 700474",
         "website": "",
@@ -2997,7 +7497,7 @@
         "brand": "",
         "address": "Ita Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/553282256"
       }
     },
@@ -3014,14 +7514,15 @@
         "osm_id": "way/554633160",
         "name": "Motorhub Service Centre",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Kiambu Road, Kiambu",
         "city": "Kiambu",
-        "county": "",
+        "county": "Kiambu",
         "osm_url": "https://www.openstreetmap.org/way/554633160"
       }
     },
@@ -3038,6 +7539,7 @@
         "osm_id": "way/555169177",
         "name": "Insignia Motors Limited",
         "category": "auto_repair",
+        "brand_specialization": "Land Rover / Range Rover",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -3045,7 +7547,7 @@
         "brand": "Land Rover",
         "address": "Karen Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/555169177"
       }
     },
@@ -3062,6 +7564,7 @@
         "osm_id": "way/555170330",
         "name": "Motor Scope Auto Garage",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -3069,7 +7572,7 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/555170330"
       }
     },
@@ -3086,6 +7589,7 @@
         "osm_id": "way/562375926",
         "name": "Generation Tyres Ltd",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -3093,7 +7597,7 @@
         "brand": "",
         "address": "Riara Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/562375926"
       }
     },
@@ -3110,6 +7614,7 @@
         "osm_id": "way/566656369",
         "name": "AutoFit Kenya",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -3117,7 +7622,7 @@
         "brand": "",
         "address": "Ring Road Kilimani, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/566656369"
       }
     },
@@ -3134,6 +7639,7 @@
         "osm_id": "way/576016849",
         "name": "Dunhill Automobiles",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -3141,7 +7647,7 @@
         "brand": "",
         "address": "Parklands Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/576016849"
       }
     },
@@ -3158,6 +7664,7 @@
         "osm_id": "way/576018087",
         "name": "Mash Auto",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -3165,7 +7672,7 @@
         "brand": "",
         "address": "Chiromo Lane, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/576018087"
       }
     },
@@ -3182,6 +7689,7 @@
         "osm_id": "way/577991148",
         "name": "Gadano Garage",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -3189,7 +7697,7 @@
         "brand": "",
         "address": "Likoni Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/577991148"
       }
     },
@@ -3206,6 +7714,7 @@
         "osm_id": "way/648677224",
         "name": "BMW Centre LIMITED",
         "category": "auto_repair",
+        "brand_specialization": "BMW",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -3213,7 +7722,7 @@
         "brand": "BMW",
         "address": "Rose Avenue, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/648677224"
       }
     },
@@ -3230,14 +7739,15 @@
         "osm_id": "way/657943810",
         "name": "Runda Car Care Centre",
         "category": "auto_repair",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Kiambu Road, Kiambu",
         "city": "Kiambu",
-        "county": "",
+        "county": "Kiambu",
         "osm_url": "https://www.openstreetmap.org/way/657943810"
       }
     },
@@ -3254,6 +7764,7 @@
         "osm_id": "way/658651305",
         "name": "Roverlane Motors Limited",
         "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "+254 721 810014",
         "website": "",
@@ -3261,7 +7772,7 @@
         "brand": "",
         "address": "Ngong Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/658651305"
       }
     },
@@ -3278,14 +7789,15 @@
         "osm_id": "way/661357409",
         "name": "Yana Tires",
         "category": "tyres",
-        "search_area": "Nairobi",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kiambu",
         "phone": "",
         "website": "",
         "opening_hours": "",
         "brand": "",
         "address": "Kiambu Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Kiambu",
         "osm_url": "https://www.openstreetmap.org/way/661357409"
       }
     },
@@ -3302,6 +7814,7 @@
         "osm_id": "way/663223939",
         "name": "Yana Tyre Centre, Embakasi",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -3309,8 +7822,83 @@
         "brand": "",
         "address": "Airport North Road, Nairobi",
         "city": "Nairobi",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/663223939"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8206417,
+          3.7491514
+        ]
+      },
+      "properties": {
+        "osm_id": "way/698360364",
+        "name": "Leo Dealers",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/698360364"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8689938,
+          3.7055631
+        ]
+      },
+      "properties": {
+        "osm_id": "way/701402690",
+        "name": "Diamond Auto Spares",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/701402690"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8613579,
+          3.7100899
+        ]
+      },
+      "properties": {
+        "osm_id": "way/701404762",
+        "name": "Prime Five Auto Spares",
+        "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/701404762"
       }
     },
     {
@@ -3326,6 +7914,7 @@
         "osm_id": "way/895824922",
         "name": "YANA Tyre Center (SAMEER Business Park)",
         "category": "tyres",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -3333,8 +7922,83 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/895824922"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7687562,
+          -0.0868569
+        ]
+      },
+      "properties": {
+        "osm_id": "way/1121899956",
+        "name": "Rabs Auto",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/way/1121899956"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7530364,
+          -0.0953744
+        ]
+      },
+      "properties": {
+        "osm_id": "way/1175021022",
+        "name": "AutoXpress-Kisumu",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Kisumu",
+        "phone": "",
+        "website": "https://auto-xpress.co.ke",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Kisumu",
+        "osm_url": "https://www.openstreetmap.org/way/1175021022"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.1069538,
+          -0.4816979
+        ]
+      },
+      "properties": {
+        "osm_id": "way/1357098912",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/1357098912"
       }
     },
     {
@@ -3350,6 +8014,7 @@
         "osm_id": "way/1448569938",
         "name": "(Unnamed Garage/Workshop)",
         "category": "auto_spares",
+        "brand_specialization": "Multi-Brand / General",
         "search_area": "Nairobi",
         "phone": "",
         "website": "",
@@ -3357,8 +8022,133 @@
         "brand": "",
         "address": "",
         "city": "",
-        "county": "",
+        "county": "Nairobi",
         "osm_url": "https://www.openstreetmap.org/way/1448569938"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8193488,
+          -2.4368644
+        ]
+      },
+      "properties": {
+        "osm_id": "way/1458224368",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/1458224368"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9204199,
+          -2.2331216
+        ]
+      },
+      "properties": {
+        "osm_id": "way/1459471745",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/1459471745"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9204646,
+          -2.2334227
+        ]
+      },
+      "properties": {
+        "osm_id": "way/1459471761",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/1459471761"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9202992,
+          -2.233148
+        ]
+      },
+      "properties": {
+        "osm_id": "way/1459471762",
+        "name": "(Unnamed Garage/Workshop)",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/1459471762"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8589867,
+          0.9902187
+        ]
+      },
+      "properties": {
+        "osm_id": "way/1531352847",
+        "name": "Workshop",
+        "category": "auto_repair",
+        "brand_specialization": "Multi-Brand / General",
+        "search_area": "Other Counties",
+        "phone": "",
+        "website": "",
+        "opening_hours": "",
+        "brand": "",
+        "address": "",
+        "city": "",
+        "county": "Other Counties",
+        "osm_url": "https://www.openstreetmap.org/way/1531352847"
       }
     }
   ]

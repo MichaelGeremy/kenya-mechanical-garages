@@ -1,141 +1,327 @@
-﻿osm_id,name,category,search_area,lat,lng,phone,website,opening_hours,brand,address,city,county,osm_url
-node/586647848,Concorde,auto_repair,Nairobi,-1.2632812,36.8027833,,,,,"Ring Road Parklands, Nairobi",Nairobi,,https://www.openstreetmap.org/node/586647848
-node/1123209275,Garage,auto_repair,Nairobi,-1.2549784,36.8786316,,,,,,,,https://www.openstreetmap.org/node/1123209275
-node/1635576833,Total,auto_repair,Nairobi,-1.3000068,36.7889638,,,,,,,,https://www.openstreetmap.org/node/1635576833
-node/1775820942,Witts Motor Clinic,auto_repair,Nairobi,-1.3065203,36.7836543,,,,,,,,https://www.openstreetmap.org/node/1775820942
-node/2091525610,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2625672,36.724464,,,,,,,,https://www.openstreetmap.org/node/2091525610
-node/2145436227,Amazon Motors,auto_repair,Nairobi,-1.2995092,36.8270321,,,,,"Shimo La Tewa Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/2145436227
-node/4278586344,AutoXpress Ltd - Head Office,auto_repair,Nairobi,-1.2696827,36.8201737,,,,,"Limuru Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/4278586344
-node/4782862221,(Unnamed Garage/Workshop),auto_spares,Nairobi,-1.2737735,36.818683,,,,,,,,https://www.openstreetmap.org/node/4782862221
-node/5147190722,Ganatra Plant and Equipment,auto_repair,Nairobi,-1.2450036,36.8832802,,,Mo-Sa 08:00-18:00,,babadogo road,,,https://www.openstreetmap.org/node/5147190722
-node/5217408323,New wa Kariuki used parts shop,auto_spares,Nairobi,-1.2791108,36.8255003,,,,,,,,https://www.openstreetmap.org/node/5217408323
-node/5327942761,Range Rover Centre,auto_repair,Nairobi,-1.2285039,36.8428298,,,,,"Ridgeways Springs, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5327942761
-node/5328482149,Kwik-Fit Tyres,auto_repair,Nairobi,-1.2624701,36.8034828,,,,,"Ring Road Parklands, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5328482149
-node/5328536504,AutoXpress Ltd Ngong Road,tyres,Nairobi,-1.29978,36.7753821,,,,,"Ngong Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5328536504
-node/5333117864,Toyota -Westlands,auto_repair,Nairobi,-1.2604275,36.7889146,,,,Toyota,"Waiyaki Way, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5333117864
-node/5339224754,Popo's Workshop,auto_repair,Nairobi,-1.2797633,36.783189,,,,,,,,https://www.openstreetmap.org/node/5339224754
-node/5339421969,Maxxis Kenya,tyres,Nairobi,-1.267004,36.8086369,,,,,"Muthithi Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5339421969
-node/5352811658,The Auto Clinic Runda,auto_repair,Nairobi,-1.2064723,36.793579,,,,,,,,https://www.openstreetmap.org/node/5352811658
-node/5353042853,"Yana Tyre Centre, The Hub",tyres,Nairobi,-1.3208232,36.7033827,,,,,,,,https://www.openstreetmap.org/node/5353042853
-node/5356773892,Umar Auto Garage (UAG),auto_repair,Nairobi,-1.3218841,36.7178029,,,,,,,,https://www.openstreetmap.org/node/5356773892
-node/5356847340,Mud Rovers,auto_repair,Nairobi,-1.3374662,36.7069008,,,,,,,,https://www.openstreetmap.org/node/5356847340
-node/5360180077,AutoXpress Ridgeways Mall Branch,tyres,Nairobi,-1.2261778,36.8403356,,,,,,,,https://www.openstreetmap.org/node/5360180077
-node/5360938776,Schumacher's 4X4,auto_repair,Nairobi,-1.3382752,36.7258647,,,,,,,,https://www.openstreetmap.org/node/5360938776
-node/5371741524,Yana Tyre Centre- Galleria,tyres,Nairobi,-1.3435607,36.7642575,,,,,"Langata Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5371741524
-node/5380534533,Automated LTD,auto_repair,Nairobi,-1.3044138,36.816254,,,,,"Oldeani Crescent, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5380534533
-node/5380534550,Valuation Yard - Safety Surveyors,auto_repair,Nairobi,-1.2992319,36.8114076,,,,,"Mara Road, Nairobi City",Nairobi City,,https://www.openstreetmap.org/node/5380534550
-node/5411903686,Greenlight Auto (Ngong Road Branch),auto_spares,Nairobi,-1.2992697,36.7652108,,,,,"Ngong Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5411903686
-node/5412286138,Seamus Auto Garage,auto_spares,Nairobi,-1.2994312,36.7774788,,,,,"Ndemi Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5412286138
-node/5414008555,Eagles Motor World & Garage,auto_repair,Nairobi,-1.2992096,36.7866493,,,,,"Ngong Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5414008555
-node/5414200445,Oriel Kenya,auto_repair,Nairobi,-1.3004235,36.7899537,,,,,"Ngong Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5414200445
-node/5491248368,St. Austin's,auto_repair,Nairobi,-1.2810698,36.7699304,,,,,"Margaret Wambui Kenyatta Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5491248368
-node/5539484573,Oriel,auto_repair,Nairobi,-1.2668545,36.8114748,,,,,"Ojijo Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5539484573
-node/5539579827,Vas Auto Centre,auto_repair,Nairobi,-1.3032961,36.8568564,,,,,"Londiani Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5539579827
-node/5539579831,Roverland Autocare Services,auto_repair,Nairobi,-1.3080905,36.8556527,254 20 2496965,,,,"Likoni Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5539579831
-node/5552269194,"Impala Downtown, Westlands",auto_spares,Nairobi,-1.263975,36.8061139,,,,,"Muthithi Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5552269194
-node/5552396301,Impala Downtown Ltd,auto_spares,Nairobi,-1.2836421,36.8254343,,,,,"Tom Mboya Street, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5552396301
-node/5562593357,Collo Garage,auto_repair,Nairobi,-1.2965538,36.8284645,,,Mo-Sa 08:00-18:00,,"Workshop Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5562593357
-node/5580965013,Parts Direct Limited,auto_repair,Nairobi,-1.2971944,36.790424,,,,,"Kindaruma Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/5580965013
-node/6135414724,Extreme Auto Centre Ltd,auto_repair,Nairobi,-1.3063525,36.7388464,,,,,"Ngong Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6135414724
-node/6161845859,Express Garage,auto_repair,Nairobi,-1.1986031,36.8363544,,,,,"Kiambu Road, kiambu",kiambu,,https://www.openstreetmap.org/node/6161845859
-node/6164306166,(Unnamed Garage/Workshop),tyres,Nairobi,-1.257744,36.8281388,,,,,,,,https://www.openstreetmap.org/node/6164306166
-node/6172772270,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2966714,36.8279653,,,,,"Workshop Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6172772270
-node/6172775452,Evercare Rover Centre Limited,auto_repair,Nairobi,-1.3095317,36.8563761,,,,,"Likoni Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6172775452
-node/6172780952,Ken-Rovers Garage Limited,auto_repair,Nairobi,-1.3045638,36.8159802,+254 720 409 311,,Mo-Fr 09:00-17:00,,"Oldeani Crescent, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6172780952
-node/6197948725,AutoXpress - Enterprise Road,tyres,Nairobi,-1.313402,36.8521812,,,,,"Enterprise Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6197948725
-node/6207546821,Maxxis Kenya Sairaj branch,tyres,Nairobi,-1.3229922,36.8414335,,,,,"Mombasa Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6207546821
-node/6207581200,AutoXpress Ltd - Mombasa Road,tyres,Nairobi,-1.328063,36.8512205,,,,,"Mombasa Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6207581200
-node/6207581209,MPPS ACCESSORIES,auto_repair,Nairobi,-1.3288237,36.8528575,,,,,"Mombasa Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6207581209
-node/6207581210,Kingsway Tyres-Mombasa Road,tyres,Nairobi,-1.3289779,36.8532349,,,,,"Mombasa Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6207581210
-node/6207599845,Oriel Limited Mombasa Rd,auto_repair,Nairobi,-1.3307425,36.8563907,,,,,"Mombasa Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6207599845
-node/6207691404,Express Spares Ltd.,auto_spares,Nairobi,-1.3319005,36.8604258,,,,,"Mombasa Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6207691404
-node/6207692303,Nissan Kenya Service Centre,auto_repair,Nairobi,-1.3305057,36.8734107,,,,Nissan,"Mombasa Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6207692303
-node/6208217353,Crystal Motors (K) Ltd,auto_repair,Nairobi,-1.3377689,36.8740051,,,,,"Old Mombasa Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6208217353
-node/6208217644,AutoXpress X-tread Retreading Factory and TMS Division,tyres,Nairobi,-1.3461402,36.900747,,,,,"Mombasa Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6208217644
-node/6210101312,Highway Tire Centre & Accessories,auto_repair,Nairobi,-1.3770143,36.9268416,,,,,"Mombasa Road, Syokimau",Syokimau,,https://www.openstreetmap.org/node/6210101312
-node/6224883284,AutoXpress - Langata Road,auto_spares,Nairobi,-1.3412498,36.7535546,,,,,"Langata Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6224883284
-node/6224915319,AMAZON TYRES AND SERVICE CENTRE,tyres,Nairobi,-1.2318562,36.8758573,,,,,"Thika Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6224915319
-node/6224915365,Top Quality Motors Ltd,auto_repair,Nairobi,-1.2269325,36.8819446,,,,,"Thika Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6224915365
-node/6259798969,AutoXpress Ltd - Greenspan Mall,auto_spares,Nairobi,-1.2904207,36.9014729,,,,,"Savannah Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6259798969
-node/6260025836,Auto Xpress Britam Tower,tyres,Nairobi,-1.3003824,36.8130142,,,,,"Hospital Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6260025836
-node/6559614243,CMC Bodyshop,auto_repair,Nairobi,-1.3004735,36.8288534,,,,,Hola Road,,,https://www.openstreetmap.org/node/6559614243
-node/6840641666,Chogi's Garage,auto_repair,Nairobi,-1.3023811,36.7450071,,,,,"Chogis Garage Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/6840641666
-node/6969796686,Kingsway Tyres,auto_spares,Nairobi,-1.2624417,36.804644,,,,,,,,https://www.openstreetmap.org/node/6969796686
-node/7501513233,Automec Limited,auto_repair,Nairobi,-1.3377863,36.7531071,,,,,"Academy Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/7501513233
-node/10117886026,Sajj Automobiles Kenya Limited,auto_repair,Nairobi,-1.2408485,36.8775972,,,Mo-Sa 08:00-20:00,,"Baba Dogo Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/10117886026
-node/10121775091,Auto Village,auto_repair,Nairobi,-1.3229624,36.8013933,+254722710310,,Mo-Sa 08:00-18:00,,"Langata Road Auto Village Complex Karen, Nairobi, Nairobi",Nairobi,,https://www.openstreetmap.org/node/10121775091
-node/11960010235,Dice Sounds Ent,auto_spares,Nairobi,-1.2831473,36.9589798,,,,,,,,https://www.openstreetmap.org/node/11960010235
-node/12663397601,Capital Hill Auto Garage & Carwash,auto_repair,Nairobi,-1.2459518,36.6804211,,,,,,,,https://www.openstreetmap.org/node/12663397601
-node/12886299310,Boosted Auto Perfomance,auto_repair,Nairobi,-1.3209968,36.7974341,+254 792276332,,Mo-Sa 08:00-18:00,,"Langata, Nairobi",Nairobi,,https://www.openstreetmap.org/node/12886299310
-node/12886379617,Automach Diessel Ltd,auto_spares,Nairobi,-1.3054706,36.8378192,,,,,Nairobi,,Nairobi,https://www.openstreetmap.org/node/12886379617
-node/12886379626,Jalesh Auto Commercial,auto_repair,Nairobi,-1.2947447,36.8329269,,,,,Nakuru,,Nakuru,https://www.openstreetmap.org/node/12886379626
-node/12886546520,Junction Kahhorse Tyre,tyres,Nairobi,-1.2566883,36.9250017,,,,,Nairobi,,Nairobi,https://www.openstreetmap.org/node/12886546520
-node/12886664062,Muhindi Mweusi Motorbikes Spares,auto_spares,Nairobi,-1.2863054,36.8667718,,,,,Nairobi,,Nairobi,https://www.openstreetmap.org/node/12886664062
-node/12886664097,Mbaaria Autospares,auto_spares,Nairobi,-1.2779432,36.8889891,,,,,Nairobi,,Nairobi,https://www.openstreetmap.org/node/12886664097
-node/13246210307,Quality Tyre Sales and Repair Shop,tyres,Nairobi,-1.22445,36.7245487,+254707797188,,08:00-19:00,,Getathuru Road,,,https://www.openstreetmap.org/node/13246210307
-node/13396668301,Tahmeed,auto_repair,Nairobi,-1.2954717,36.8230964,,,,,Nairobi Expressway,,,https://www.openstreetmap.org/node/13396668301
-node/13543112003,AutoXpress Ltd Galleria Mall,auto_repair,Nairobi,-1.3427447,36.7640573,,,,,"Langata Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/13543112003
-node/13543166117,AutoXpress ltd Lavington Branch,auto_repair,Nairobi,-1.279806,36.7683747,,,,,"Isaac Gathanju Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/13543166117
-node/13543187666,AutoXpress ltd Kilimani Branch,auto_repair,Nairobi,-1.2919019,36.7850799,,,,,"Argwings Kodhek Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/13543187666
-node/13543202002,AutoXpress ltd General Mathenge,auto_repair,Nairobi,-1.2558607,36.8055555,,,,,"General Mathenge Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/13543202002
-node/13543220380,AutoXpress ltd Kenyatta University,auto_repair,Nairobi,-1.1778818,36.93941,,,,,"Thika Road, Nairobi",Nairobi,,https://www.openstreetmap.org/node/13543220380
-node/14004125377,Metro Motor Spares Ltd,auto_spares,Nairobi,-1.318635,36.8639435,+254714786111,https://www.mms.co.ke/,Mo-Fr 08:30-05:00; Sa 08:00-13:00,,Enterprise Road,,,https://www.openstreetmap.org/node/14004125377
-node/14066521148,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2267169,36.797664,,,,,,,,https://www.openstreetmap.org/node/14066521148
-node/14100900217,Team Mazda Kenya,auto_repair,Nairobi,-1.333187,36.8046692,,,,Mazda,,,,https://www.openstreetmap.org/node/14100900217
-node/14103856524,Nissan Kenya Service Center,auto_repair,Nairobi,-1.3291041,36.865534,,,,Nissan,,,,https://www.openstreetmap.org/node/14103856524
-node/14135720404,Bike Tyres kenya,tyres,Nairobi,-1.2497705,36.7855331,,,,,,,,https://www.openstreetmap.org/node/14135720404
-node/14159530680,Tyrex Westlands,auto_spares,Nairobi,-1.2634071,36.8062169,,,,,,,,https://www.openstreetmap.org/node/14159530680
-node/14175211571,(Unnamed Garage/Workshop),tyres,Nairobi,-1.2804839,36.8180917,,https://www.kingswaytyres.com/,,,,,,https://www.openstreetmap.org/node/14175211571
-node/14200767075,Auto Express,auto_repair,Nairobi,-1.2818254,36.8199854,,https://auto-xpress.co.ke/,,,,,,https://www.openstreetmap.org/node/14200767075
-way/97804276,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2619135,36.8640571,,,,,,,,https://www.openstreetmap.org/way/97804276
-way/125141100,Kingsway Tyres-Head Office,tyres,Nairobi,-1.2807197,36.8187506,,,,,"Muindi Mbingu Street, Nairobi",Nairobi,,https://www.openstreetmap.org/way/125141100
-way/130252007,Engine Planet,auto_repair,Nairobi,-1.2735371,36.8191228,,,,,"Ngara Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/130252007
-way/133146038,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2980163,36.8375999,,,,,"Lusaka Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/133146038
-way/133146040,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.29729,36.8372631,,,,,"Lusaka Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/133146040
-way/133146044,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2963472,36.8369122,,,,,"Enterprise Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/133146044
-way/133146045,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2975969,36.8374127,,,,,"Lusaka Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/133146045
-way/133146047,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.297796,36.8375126,,,,,"Lusaka Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/133146047
-way/133146049,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2967936,36.8362216,,,,,,,,https://www.openstreetmap.org/way/133146049
-way/133146050,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2969316,36.8370824,,,,,,,,https://www.openstreetmap.org/way/133146050
-way/133146052,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2963217,36.83637,,,,,"Enterprise Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/133146052
-way/133146054,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2971813,36.8372066,,,,,"Lusaka Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/133146054
-way/133146058,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2970639,36.8371506,,,,,,,,https://www.openstreetmap.org/way/133146058
-way/133146059,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2965903,36.8370214,,,,,"Enterprise Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/133146059
-way/133146060,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2974096,36.8373231,,,,,"Lusaka Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/133146060
-way/133147262,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.2968206,36.8356869,,,,,,,,https://www.openstreetmap.org/way/133147262
-way/226714117,Stuttgart auto Karen Nairobi Kenya,auto_repair,Nairobi,-1.321168,36.709062,,,,,"Ngong Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/226714117
-way/232010701,Loresho Car Repair & Car Wash,auto_repair,Nairobi,-1.2515824,36.7570524,,,Mo-Sa 07:00-20:00,Kenol,,,,https://www.openstreetmap.org/way/232010701
-way/332160558,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.3627087,36.7397117,,,,,,,,https://www.openstreetmap.org/way/332160558
-way/332241169,Toyota,auto_repair,Nairobi,-1.3053059,36.851668,,,,Toyota,,,,https://www.openstreetmap.org/way/332241169
-way/361587522,Kingsway Tyres,tyres,Nairobi,-1.2623646,36.804715,,,,,"Parklands Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/361587522
-way/364979632,AutoXpress Ltd - Lusaka Road,tyres,Nairobi,-1.3032684,36.8282042,,,,,"Lusaka Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/364979632
-way/364994448,CMC Land Rover Workshop,auto_repair,Nairobi,-1.3019786,36.8294445,,,,,"Chepkorio Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/364994448
-way/364996847,CMC Ford Workshop,auto_repair,Nairobi,-1.3021634,36.82921,,,,,"Lusaka Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/364996847
-way/365200895,Shamas Motor Parts Ltd,auto_spares,Nairobi,-1.3022373,36.827021,,,,,"Hombe Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/365200895
-way/366568546,AutoXpress Ltd - Lusaka Road,tyres,Nairobi,-1.3031805,36.8284093,,,,,"Lusaka Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/366568546
-way/366569919,AutoXpress Ltd - Lusaka Road,tyres,Nairobi,-1.3034076,36.8280519,,,,,"Lusaka Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/366569919
-way/366570729,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.303026,36.8263431,,,,,,,,https://www.openstreetmap.org/way/366570729
-way/366570730,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.3029614,36.8265367,,,,,,,,https://www.openstreetmap.org/way/366570730
-way/366570731,(Unnamed Garage/Workshop),auto_repair,Nairobi,-1.3025639,36.8262235,,,,,,,,https://www.openstreetmap.org/way/366570731
-way/366575692,Shamas Auto Spares,auto_spares,Nairobi,-1.302404,36.8261439,,,,,"Baricho Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/366575692
-way/382256363,Supa's Garage,auto_repair,Nairobi,-1.3064829,36.8341843,,,,,"Mukenia Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/382256363
-way/454736988,Jamii Auto Care,auto_repair,Nairobi,-1.2989062,36.8002439,,,,,"Ngong Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/454736988
-way/488898587,Logistech Limited Kenya,auto_repair,Nairobi,-1.3295859,36.8589381,,,,,"Mombasa Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/488898587
-way/552369235,Megnet Limited,auto_repair,Nairobi,-1.2523138,36.7890228,,,Mo-Fr 08:00-17:00,,"Shanzu Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/552369235
-way/552375791,Auto Bavaria,auto_repair,Nairobi,-1.2622691,36.7913672,,,,,,,,https://www.openstreetmap.org/way/552375791
-way/553282256,Range Rover Owners Club Kenya,auto_repair,Nairobi,-1.263624,36.8223955,0700 700474,,,,"Ita Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/553282256
-way/554633160,Motorhub Service Centre,auto_repair,Nairobi,-1.2109063,36.8336158,,,,,"Kiambu Road, Kiambu",Kiambu,,https://www.openstreetmap.org/way/554633160
-way/555169177,Insignia Motors Limited,auto_repair,Nairobi,-1.317336,36.7196264,,,,Land Rover,"Karen Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/555169177
-way/555170330,Motor Scope Auto Garage,auto_repair,Nairobi,-1.3162053,36.7192704,,,,,,,,https://www.openstreetmap.org/way/555170330
-way/562375926,Generation Tyres Ltd,tyres,Nairobi,-1.2974373,36.7610823,,,,,"Riara Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/562375926
-way/566656369,AutoFit Kenya,auto_repair,Nairobi,-1.2910241,36.7867175,,,,,"Ring Road Kilimani, Nairobi",Nairobi,,https://www.openstreetmap.org/way/566656369
-way/576016849,Dunhill Automobiles,auto_repair,Nairobi,-1.2632316,36.8097923,,,,,"Parklands Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/576016849
-way/576018087,Mash Auto,auto_repair,Nairobi,-1.2706503,36.8080037,,,,,"Chiromo Lane, Nairobi",Nairobi,,https://www.openstreetmap.org/way/576018087
-way/577991148,Gadano Garage,auto_repair,Nairobi,-1.2976829,36.8541027,,,,,"Likoni Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/577991148
-way/648677224,BMW Centre LIMITED,auto_repair,Nairobi,-1.2977531,36.7959608,,,,BMW,"Rose Avenue, Nairobi",Nairobi,,https://www.openstreetmap.org/way/648677224
-way/657943810,Runda Car Care Centre,auto_repair,Nairobi,-1.2112497,36.8338462,,,,,"Kiambu Road, Kiambu",Kiambu,,https://www.openstreetmap.org/way/657943810
-way/658651305,Roverlane Motors Limited,auto_repair,Nairobi,-1.3027209,36.7495274,+254 721 810014,,,,"Ngong Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/658651305
-way/661357409,Yana Tires,tyres,Nairobi,-1.2251477,36.838279,,,,,"Kiambu Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/661357409
-way/663223939,"Yana Tyre Centre, Embakasi",tyres,Nairobi,-1.328586,36.8913797,,,,,"Airport North Road, Nairobi",Nairobi,,https://www.openstreetmap.org/way/663223939
-way/895824922,YANA Tyre Center (SAMEER Business Park),tyres,Nairobi,-1.3295802,36.8695025,,,,,,,,https://www.openstreetmap.org/way/895824922
-way/1448569938,(Unnamed Garage/Workshop),auto_spares,Nairobi,-1.3081119,36.822485,,,,,,,,https://www.openstreetmap.org/way/1448569938
+﻿osm_id,name,category,brand_specialization,search_area,lat,lng,phone,website,opening_hours,brand,address,city,county,osm_url
+node/487094404,TFSC,auto_repair,Multi-Brand / General,Other Counties,-3.3757244,36.6574337,,,,,,,Other Counties,https://www.openstreetmap.org/node/487094404
+node/566549299,Norbert's Garage,auto_repair,Multi-Brand / General,Other Counties,-3.3651406,36.6720262,,,,,,,Other Counties,https://www.openstreetmap.org/node/566549299
+node/586647848,Concorde,auto_repair,Multi-Brand / General,Nairobi,-1.2632812,36.8027833,,,,,"Ring Road Parklands, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/586647848
+node/1123209275,Garage,auto_repair,Multi-Brand / General,Nairobi,-1.2549784,36.8786316,,,,,,,Nairobi,https://www.openstreetmap.org/node/1123209275
+node/1320763100,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Mombasa,-4.2005571,39.5901085,,,,,,,Mombasa,https://www.openstreetmap.org/node/1320763100
+node/1423007168,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,0.1787284,34.2974495,,,,,,,Other Counties,https://www.openstreetmap.org/node/1423007168
+node/1427005155,Ugunja Town Garage,auto_repair,Multi-Brand / General,Other Counties,0.182874,34.2947752,,,,,,,Other Counties,https://www.openstreetmap.org/node/1427005155
+node/1456853168,Monseurs engineers motor garage,auto_repair,Multi-Brand / General,Mombasa,-4.2841037,39.5660555,,,,,,,Mombasa,https://www.openstreetmap.org/node/1456853168
+node/1456884242,High way bridge motor garage,auto_repair,Multi-Brand / General,Mombasa,-4.2650526,39.5702301,,,,,,,Mombasa,https://www.openstreetmap.org/node/1456884242
+node/1456884258,Quick Garage,auto_repair,Multi-Brand / General,Mombasa,-4.2709323,39.5691886,,,,,,,Mombasa,https://www.openstreetmap.org/node/1456884258
+node/1458463475,South coast out wokers,auto_repair,Multi-Brand / General,Mombasa,-4.2669755,39.5700476,,,,,,,Mombasa,https://www.openstreetmap.org/node/1458463475
+node/1635576833,Total,auto_repair,Multi-Brand / General,Nairobi,-1.3000068,36.7889638,,,,,,,Nairobi,https://www.openstreetmap.org/node/1635576833
+node/1775820942,Witts Motor Clinic,auto_repair,Multi-Brand / General,Nairobi,-1.3065203,36.7836543,,,,,,,Nairobi,https://www.openstreetmap.org/node/1775820942
+node/2014865786,(Unnamed Garage/Workshop),tyres,Multi-Brand / General,Other Counties,0.4697578,35.97916,,,,,,,Other Counties,https://www.openstreetmap.org/node/2014865786
+node/2091525610,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2625672,36.724464,,,,,,,Nairobi,https://www.openstreetmap.org/node/2091525610
+node/2145436227,Amazon Motors,auto_repair,Multi-Brand / General,Nairobi,-1.2995092,36.8270321,,,,,"Shimo La Tewa Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/2145436227
+node/2306122330,Auto Marine,auto_repair,Multi-Brand / General,Mombasa,-4.01742,39.7220674,,,,,,,Mombasa,https://www.openstreetmap.org/node/2306122330
+node/2836333896,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-3.2109265,40.1166852,,,,,,,Other Counties,https://www.openstreetmap.org/node/2836333896
+node/2989706636,Mussa Engineering,auto_repair,Multi-Brand / General,Other Counties,-3.3482081,37.3456657,,,,,,,Other Counties,https://www.openstreetmap.org/node/2989706636
+node/3103662087,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Mombasa,-4.0502148,39.6856455,,,,,,,Mombasa,https://www.openstreetmap.org/node/3103662087
+node/3175269800,Tire repair,tyres,Multi-Brand / General,Other Counties,-3.3739932,36.6893959,,,,,,,Other Counties,https://www.openstreetmap.org/node/3175269800
+node/3239296868,Tire repair,tyres,Multi-Brand / General,Other Counties,-3.3975858,36.7046776,,,,,,,Other Counties,https://www.openstreetmap.org/node/3239296868
+node/3248288858,Tire repair,tyres,Multi-Brand / General,Other Counties,-3.3661591,36.7070068,,,,,,,Other Counties,https://www.openstreetmap.org/node/3248288858
+node/3251228962,Tire Shop,tyres,Multi-Brand / General,Other Counties,-3.3984113,36.7074789,,,,,Arusha,Arusha,Other Counties,https://www.openstreetmap.org/node/3251228962
+node/3253710364,Ali's Garage,auto_repair,Multi-Brand / General,Other Counties,-3.3753788,36.6817777,,,,,,,Other Counties,https://www.openstreetmap.org/node/3253710364
+node/3908447127,Magdala Auto Spares,auto_spares,Multi-Brand / General,Other Counties,-1.6160521,35.3900215,,,,,,,Other Counties,https://www.openstreetmap.org/node/3908447127
+node/3908447128,Mara Expert Auto Garage 2,auto_repair,Multi-Brand / General,Other Counties,-1.6163637,35.3900416,+254718102211,,,,,,Other Counties,https://www.openstreetmap.org/node/3908447128
+node/3908447483,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-1.614792,35.3892761,,,,,,,Other Counties,https://www.openstreetmap.org/node/3908447483
+node/3926513162,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Machakos,-1.4579037,36.9661981,,,,,,,Machakos,https://www.openstreetmap.org/node/3926513162
+node/3948089631,(Unnamed Garage/Workshop),auto_spares,Multi-Brand / General,Other Counties,1.0736927,34.1756852,,,Mo-Su 09:00-21:00,,Mbale,Mbale,Other Counties,https://www.openstreetmap.org/node/3948089631
+node/3990240792,Jally General Stores,auto_spares,Multi-Brand / General,Other Counties,0.7937335,34.172536,0783484822,,Mo-Su 09:00-21:00,,"Tororo Mbale Road, Molo",Molo,Other Counties,https://www.openstreetmap.org/node/3990240792
+node/4278586344,AutoXpress Ltd - Head Office,auto_repair,Multi-Brand / General,Nairobi,-1.2696827,36.8201737,,,,,"Limuru Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/4278586344
+node/4332683290,karatu quality,auto_repair,Multi-Brand / General,Other Counties,-3.3396439,35.6649035,,,,,,,Other Counties,https://www.openstreetmap.org/node/4332683290
+node/4356222706,Millenium tyres,tyres,Multi-Brand / General,Other Counties,-3.3764788,36.6858126,,,,,,,Other Counties,https://www.openstreetmap.org/node/4356222706
+node/4403872939,Tyre Repair,tyres,Multi-Brand / General,Other Counties,-2.4369154,34.8194176,,,,,,,Other Counties,https://www.openstreetmap.org/node/4403872939
+node/4435063789,M&M trading,auto_spares,Multi-Brand / General,Mombasa,-4.0568294,39.664683,0717561560,,Mo-Sa 08:00-18:00,,Lumumba Road,,Mombasa,https://www.openstreetmap.org/node/4435063789
+node/4475141346,(Unnamed Garage/Workshop),auto_spares,Multi-Brand / General,Other Counties,-3.4050113,38.3664817,,,,,,,Other Counties,https://www.openstreetmap.org/node/4475141346
+node/4492664591,Muzabibu filling station,auto_repair,Multi-Brand / General,Other Counties,-1.8388524,34.6735196,,,,,,,Other Counties,https://www.openstreetmap.org/node/4492664591
+node/4698771704,Heino's Garage,auto_repair,Multi-Brand / General,Mombasa,-3.9512281,39.7400976,,,,,,,Mombasa,https://www.openstreetmap.org/node/4698771704
+node/4782862221,(Unnamed Garage/Workshop),auto_spares,Multi-Brand / General,Nairobi,-1.2737735,36.818683,,,,,,,Nairobi,https://www.openstreetmap.org/node/4782862221
+node/5026369521,Lake oil filling station Singida,auto_spares,Multi-Brand / General,Other Counties,-4.7724725,34.7294166,,,,,,,Other Counties,https://www.openstreetmap.org/node/5026369521
+node/5119724027,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-1.8464848,34.6608401,,,,,,,Other Counties,https://www.openstreetmap.org/node/5119724027
+node/5127991025,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,3.1359094,37.4273608,,,,,,,Other Counties,https://www.openstreetmap.org/node/5127991025
+node/5128787123,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,2.7571701,36.7165906,,,,,,,Other Counties,https://www.openstreetmap.org/node/5128787123
+node/5147190722,Ganatra Plant and Equipment,auto_repair,Multi-Brand / General,Kiambu,-1.2450036,36.8832802,,,Mo-Sa 08:00-18:00,,babadogo road,,Kiambu,https://www.openstreetmap.org/node/5147190722
+node/5217408323,New wa Kariuki used parts shop,auto_spares,Multi-Brand / General,Nairobi,-1.2791108,36.8255003,,,,,,,Nairobi,https://www.openstreetmap.org/node/5217408323
+node/5246751226,Uronu lubricant,auto_repair,Multi-Brand / General,Other Counties,-4.2085634,35.7494747,,,,,,,Other Counties,https://www.openstreetmap.org/node/5246751226
+node/5246753323,Davis Motor Spares & Service,auto_spares,Multi-Brand / General,Other Counties,-4.2088956,35.7489884,+255782382261,,,,,,Other Counties,https://www.openstreetmap.org/node/5246753323
+node/5246824821,Car parts,auto_spares,Multi-Brand / General,Other Counties,-4.2122926,35.7492444,,,,,,,Other Counties,https://www.openstreetmap.org/node/5246824821
+node/5246834823,Ndosy Spare Parts& Garage,auto_repair,Multi-Brand / General,Other Counties,-4.2112618,35.7494157,+255784395882,,,,,,Other Counties,https://www.openstreetmap.org/node/5246834823
+node/5246859732,Monjes Car Garage,auto_repair,Multi-Brand / General,Other Counties,-4.21171,35.7471087,,,,,,,Other Counties,https://www.openstreetmap.org/node/5246859732
+node/5249819323,Galapo road,auto_spares,Multi-Brand / General,Other Counties,-4.2484411,35.7477273,,,,,,,Other Counties,https://www.openstreetmap.org/node/5249819323
+node/5287257531,Chloride Exide car batteries,auto_spares,Multi-Brand / General,Other Counties,-3.3764698,36.7040584,,,,,Arusha,Arusha,Other Counties,https://www.openstreetmap.org/node/5287257531
+node/5291182426,Samre road,auto_spares,Multi-Brand / General,Other Counties,-4.281279,35.7445104,,,,,,,Other Counties,https://www.openstreetmap.org/node/5291182426
+node/5291198921,Himiti _ haraa road,auto_spares,Multi-Brand / General,Other Counties,-4.31724,35.7383158,,,,,,,Other Counties,https://www.openstreetmap.org/node/5291198921
+node/5291199321,Car parts,auto_spares,Multi-Brand / General,Other Counties,-4.21795,35.7492233,,,,,,,Other Counties,https://www.openstreetmap.org/node/5291199321
+node/5308432175,Zedco,auto_repair,Multi-Brand / General,Mombasa,-4.0521265,39.6627357,,,,,,,Mombasa,https://www.openstreetmap.org/node/5308432175
+node/5327942761,Range Rover Centre,auto_repair,Land Rover / Range Rover,Nairobi,-1.2285039,36.8428298,,,,,"Ridgeways Springs, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5327942761
+node/5328482149,Kwik-Fit Tyres,auto_repair,Honda,Nairobi,-1.2624701,36.8034828,,,,,"Ring Road Parklands, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5328482149
+node/5328536504,AutoXpress Ltd Ngong Road,tyres,Multi-Brand / General,Nairobi,-1.29978,36.7753821,,,,,"Ngong Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5328536504
+node/5333117864,Toyota -Westlands,auto_repair,Toyota,Nairobi,-1.2604275,36.7889146,,,,Toyota,"Waiyaki Way, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5333117864
+node/5339224754,Popo's Workshop,auto_repair,Multi-Brand / General,Nairobi,-1.2797633,36.783189,,,,,,,Nairobi,https://www.openstreetmap.org/node/5339224754
+node/5339421969,Maxxis Kenya,tyres,Multi-Brand / General,Nairobi,-1.267004,36.8086369,,,,,"Muthithi Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5339421969
+node/5352811658,The Auto Clinic Runda,auto_repair,Multi-Brand / General,Nairobi,-1.2064723,36.793579,,,,,,,Nairobi,https://www.openstreetmap.org/node/5352811658
+node/5353042853,"Yana Tyre Centre, The Hub",tyres,Multi-Brand / General,Nairobi,-1.3208232,36.7033827,,,,,,,Nairobi,https://www.openstreetmap.org/node/5353042853
+node/5356773892,Umar Auto Garage (UAG),auto_repair,Multi-Brand / General,Nairobi,-1.3218841,36.7178029,,,,,,,Nairobi,https://www.openstreetmap.org/node/5356773892
+node/5356847340,Mud Rovers,auto_repair,Multi-Brand / General,Nairobi,-1.3374662,36.7069008,,,,,,,Nairobi,https://www.openstreetmap.org/node/5356847340
+node/5360180077,AutoXpress Ridgeways Mall Branch,tyres,Multi-Brand / General,Nairobi,-1.2261778,36.8403356,,,,,,,Nairobi,https://www.openstreetmap.org/node/5360180077
+node/5360938776,Schumacher's 4X4,auto_repair,Multi-Brand / General,Nairobi,-1.3382752,36.7258647,,,,,,,Nairobi,https://www.openstreetmap.org/node/5360938776
+node/5371741524,Yana Tyre Centre- Galleria,tyres,Multi-Brand / General,Nairobi,-1.3435607,36.7642575,,,,,"Langata Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5371741524
+node/5380534533,Automated LTD,auto_repair,Multi-Brand / General,Nairobi,-1.3044138,36.816254,,,,,"Oldeani Crescent, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5380534533
+node/5380534550,Valuation Yard - Safety Surveyors,auto_repair,Multi-Brand / General,Nairobi,-1.2992319,36.8114076,,,,,"Mara Road, Nairobi City",Nairobi City,Nairobi,https://www.openstreetmap.org/node/5380534550
+node/5392758324,Auto Express,auto_repair,Multi-Brand / General,Uasin Gishu (Eldoret),0.5140043,35.2900898,,,,,,,Uasin Gishu (Eldoret),https://www.openstreetmap.org/node/5392758324
+node/5411746955,KWS Meru Workshop,auto_repair,Multi-Brand / General,Meru,0.2690819,38.1249997,,,,,,,Meru,https://www.openstreetmap.org/node/5411746955
+node/5411903686,Greenlight Auto (Ngong Road Branch),auto_spares,Multi-Brand / General,Nairobi,-1.2992697,36.7652108,,,,,"Ngong Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5411903686
+node/5412286138,Seamus Auto Garage,auto_spares,Multi-Brand / General,Nairobi,-1.2994312,36.7774788,,,,,"Ndemi Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5412286138
+node/5414008555,Eagles Motor World & Garage,auto_repair,Multi-Brand / General,Nairobi,-1.2992096,36.7866493,,,,,"Ngong Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5414008555
+node/5414200445,Oriel Kenya,auto_repair,Multi-Brand / General,Nairobi,-1.3004235,36.7899537,,,,,"Ngong Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5414200445
+node/5437360221,Karia kitu garage,auto_repair,Multi-Brand / General,Other Counties,-1.3963678,34.5771005,,,,,,,Other Counties,https://www.openstreetmap.org/node/5437360221
+node/5491248368,St. Austin's,auto_repair,Multi-Brand / General,Nairobi,-1.2810698,36.7699304,,,,,"Margaret Wambui Kenyatta Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5491248368
+node/5503252433,Kasulu,auto_repair,Multi-Brand / General,Other Counties,-3.7862423,34.5919855,,,,,,,Other Counties,https://www.openstreetmap.org/node/5503252433
+node/5539484573,Oriel,auto_repair,Multi-Brand / General,Nairobi,-1.2668545,36.8114748,,,,,"Ojijo Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5539484573
+node/5539579827,Vas Auto Centre,auto_repair,Multi-Brand / General,Nairobi,-1.3032961,36.8568564,,,,,"Londiani Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5539579827
+node/5539579831,Roverland Autocare Services,auto_repair,Multi-Brand / General,Nairobi,-1.3080905,36.8556527,254 20 2496965,,,,"Likoni Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5539579831
+node/5552269194,"Impala Downtown, Westlands",auto_spares,Multi-Brand / General,Nairobi,-1.263975,36.8061139,,,,,"Muthithi Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5552269194
+node/5552396301,Impala Downtown Ltd,auto_spares,Multi-Brand / General,Nairobi,-1.2836421,36.8254343,,,,,"Tom Mboya Street, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5552396301
+node/5562593357,Collo Garage,auto_repair,Multi-Brand / General,Nairobi,-1.2965538,36.8284645,,,Mo-Sa 08:00-18:00,,"Workshop Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5562593357
+node/5580965013,Parts Direct Limited,auto_repair,Multi-Brand / General,Nairobi,-1.2971944,36.790424,,,,,"Kindaruma Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/5580965013
+node/5618096421,Shabab,auto_repair,Multi-Brand / General,Nakuru,-0.2912964,36.0564201,,,,,,,Nakuru,https://www.openstreetmap.org/node/5618096421
+node/5636731322,Hildis East Africa Co. Ltd.,auto_spares,Multi-Brand / General,Nairobi,-3.3693962,36.6754124,+255 755 434 222,,,,Nairobi Road,,Nairobi,https://www.openstreetmap.org/node/5636731322
+node/5692562521,Kagahiga Garage,auto_repair,Multi-Brand / General,Other Counties,1.0997987,36.6988195,,,,,,,Other Counties,https://www.openstreetmap.org/node/5692562521
+node/5769851906,Open garage,auto_repair,Multi-Brand / General,Other Counties,-0.9344378,38.054,,,,,,,Other Counties,https://www.openstreetmap.org/node/5769851906
+node/5800785529,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,0.0495612,35.7255978,,,,,,,Other Counties,https://www.openstreetmap.org/node/5800785529
+node/5817722209,Garage,auto_repair,Multi-Brand / General,Other Counties,0.4944314,35.7398452,,,,,,,Other Counties,https://www.openstreetmap.org/node/5817722209
+node/5817722216,Garage,auto_repair,Multi-Brand / General,Other Counties,0.4948992,35.7417138,,,,,,,Other Counties,https://www.openstreetmap.org/node/5817722216
+node/5826749285,Micron Exhaust East African Industry,auto_repair,Multi-Brand / General,Mombasa,-4.0599926,39.6688236,,,,,,,Mombasa,https://www.openstreetmap.org/node/5826749285
+node/5829801685,Amex,auto_spares,Multi-Brand / General,Kisumu,-0.0968728,34.7521061,,,,,,,Kisumu,https://www.openstreetmap.org/node/5829801685
+node/5846470685,CAR REPAIR SHOP,auto_repair,Multi-Brand / General,Other Counties,-2.8036659,33.9854157,,,,,,,Other Counties,https://www.openstreetmap.org/node/5846470685
+node/5858957186,CAR SERVICES,auto_repair,Multi-Brand / General,Other Counties,-2.7990798,33.9882965,,,24/7,,,,Other Counties,https://www.openstreetmap.org/node/5858957186
+node/5861577693,Obedi's garage,auto_repair,Multi-Brand / General,Other Counties,-2.798976,33.9882192,,,,,,,Other Counties,https://www.openstreetmap.org/node/5861577693
+node/5903431885,Mkombozi Aluminium & Welding Workshop,auto_repair,Multi-Brand / General,Other Counties,-1.7671398,33.9625874,,,,,,,Other Counties,https://www.openstreetmap.org/node/5903431885
+node/5983121086,Racma Enterprises,auto_spares,Toyota,Meru,0.3512927,37.5836847,+254723528650,,,,,,Meru,https://www.openstreetmap.org/node/5983121086
+node/5985324581,Spaki Auto Spares,auto_repair,Multi-Brand / General,Mombasa,-4.0434794,39.6591506,,,,,"Mombasa road, Mombasa",Mombasa,Mombasa,https://www.openstreetmap.org/node/5985324581
+node/5985326935,Ismaco For Truck Parts,auto_repair,Multi-Brand / General,Mombasa,-4.0428629,39.6586658,,,,,"Mombasa road, Mombasa",Mombasa,Mombasa,https://www.openstreetmap.org/node/5985326935
+node/5989443345,Garage Renault,auto_repair,Multi-Brand / General,Mombasa,-4.0421243,39.6657506,,,,Renault,"Tom Mboya road, Mombasa",Mombasa,Mombasa,https://www.openstreetmap.org/node/5989443345
+node/5993040339,Associated Motors Limited,auto_repair,Multi-Brand / General,Mombasa,-4.0451365,39.6610855,,,,,"Mombasa road, Mombasa",Mombasa,Mombasa,https://www.openstreetmap.org/node/5993040339
+node/5993065008,Tudor Tyres & Batteries Limited,auto_spares,Multi-Brand / General,Mombasa,-4.0467584,39.6623022,,,,,"Mombasa road, Mombasa",Mombasa,Mombasa,https://www.openstreetmap.org/node/5993065008
+node/5997734241,Bin Abdulmana Automobile,auto_spares,Multi-Brand / General,Mombasa,-4.0277903,39.6281354,,,,,"Magongo road, Mombasa",Mombasa,Mombasa,https://www.openstreetmap.org/node/5997734241
+node/6054493805,(Unnamed Garage/Workshop),auto_spares,Multi-Brand / General,Other Counties,-4.3605672,37.8228974,,,,,,,Other Counties,https://www.openstreetmap.org/node/6054493805
+node/6054493806,(Unnamed Garage/Workshop),auto_spares,Multi-Brand / General,Other Counties,-4.3604418,37.8228743,,,,,,,Other Counties,https://www.openstreetmap.org/node/6054493806
+node/6130562035,KingswayTyres-Kisumu,tyres,Multi-Brand / General,Kisumu,-0.0975982,34.7505583,,,,,"Obote Road, Kisumu",Kisumu,Kisumu,https://www.openstreetmap.org/node/6130562035
+node/6135414724,Extreme Auto Centre Ltd,auto_repair,Multi-Brand / General,Nairobi,-1.3063525,36.7388464,,,,,"Ngong Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/6135414724
+node/6149572973,"AutoXpress Ltd - Rupa Mall, Eldoret",tyres,Multi-Brand / General,Uasin Gishu (Eldoret),0.5137699,35.2902232,,,,,"Malaba Road, Eldoret",Eldoret,Uasin Gishu (Eldoret),https://www.openstreetmap.org/node/6149572973
+node/6151466836,AutoXpress - Nakuru,tyres,Multi-Brand / General,Kisumu,-0.2898634,36.0545518,,,,,"Nakuru Kisumu Road, Nakuru",Nakuru,Kisumu,https://www.openstreetmap.org/node/6151466836
+node/6151466837,KingswayTyres-Nakuru,tyres,Multi-Brand / General,Kisumu,-0.2897148,36.0551447,,,,,"Nakuru Kisumu Road, Nakuru",Nakuru,Kisumu,https://www.openstreetmap.org/node/6151466837
+node/6161845859,Express Garage,auto_repair,Multi-Brand / General,Kiambu,-1.1986031,36.8363544,,,,,"Kiambu Road, kiambu",kiambu,Kiambu,https://www.openstreetmap.org/node/6161845859
+node/6164306166,(Unnamed Garage/Workshop),tyres,Multi-Brand / General,Nairobi,-1.257744,36.8281388,,,,,,,Nairobi,https://www.openstreetmap.org/node/6164306166
+node/6172772270,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2966714,36.8279653,,,,,"Workshop Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/6172772270
+node/6172775452,Evercare Rover Centre Limited,auto_repair,Land Rover / Range Rover,Nairobi,-1.3095317,36.8563761,,,,,"Likoni Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/6172775452
+node/6172780952,Ken-Rovers Garage Limited,auto_repair,Multi-Brand / General,Nairobi,-1.3045638,36.8159802,+254 720 409 311,,Mo-Fr 09:00-17:00,,"Oldeani Crescent, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/6172780952
+node/6197948725,AutoXpress - Enterprise Road,tyres,Multi-Brand / General,Nairobi,-1.313402,36.8521812,,,,,"Enterprise Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/6197948725
+node/6199038537,ASTROL,tyres,Multi-Brand / General,Kiambu,-1.143088,36.9654763,,,,,"Thika Road, Ruiru",Ruiru,Kiambu,https://www.openstreetmap.org/node/6199038537
+node/6207341899,Overland 4x4 Ltd.,auto_spares,Multi-Brand / General,Kiambu,-1.1527562,36.9553671,,,,,"P.G. Dodhia Road, Ruiru",Ruiru,Kiambu,https://www.openstreetmap.org/node/6207341899
+node/6207546821,Maxxis Kenya Sairaj branch,tyres,Multi-Brand / General,Mombasa,-1.3229922,36.8414335,,,,,"Mombasa Road, Nairobi",Nairobi,Mombasa,https://www.openstreetmap.org/node/6207546821
+node/6207581200,AutoXpress Ltd - Mombasa Road,tyres,Multi-Brand / General,Mombasa,-1.328063,36.8512205,,,,,"Mombasa Road, Nairobi",Nairobi,Mombasa,https://www.openstreetmap.org/node/6207581200
+node/6207581209,MPPS ACCESSORIES,auto_repair,Multi-Brand / General,Mombasa,-1.3288237,36.8528575,,,,,"Mombasa Road, Nairobi",Nairobi,Mombasa,https://www.openstreetmap.org/node/6207581209
+node/6207581210,Kingsway Tyres-Mombasa Road,tyres,Multi-Brand / General,Mombasa,-1.3289779,36.8532349,,,,,"Mombasa Road, Nairobi",Nairobi,Mombasa,https://www.openstreetmap.org/node/6207581210
+node/6207599845,Oriel Limited Mombasa Rd,auto_repair,Multi-Brand / General,Mombasa,-1.3307425,36.8563907,,,,,"Mombasa Road, Nairobi",Nairobi,Mombasa,https://www.openstreetmap.org/node/6207599845
+node/6207691404,Express Spares Ltd.,auto_spares,Multi-Brand / General,Mombasa,-1.3319005,36.8604258,,,,,"Mombasa Road, Nairobi",Nairobi,Mombasa,https://www.openstreetmap.org/node/6207691404
+node/6207692303,Nissan Kenya Service Centre,auto_repair,Nissan,Mombasa,-1.3305057,36.8734107,,,,Nissan,"Mombasa Road, Nairobi",Nairobi,Mombasa,https://www.openstreetmap.org/node/6207692303
+node/6208217353,Crystal Motors (K) Ltd,auto_repair,Multi-Brand / General,Mombasa,-1.3377689,36.8740051,,,,,"Old Mombasa Road, Nairobi",Nairobi,Mombasa,https://www.openstreetmap.org/node/6208217353
+node/6208217644,AutoXpress X-tread Retreading Factory and TMS Division,tyres,Multi-Brand / General,Mombasa,-1.3461402,36.900747,,,,,"Mombasa Road, Nairobi",Nairobi,Mombasa,https://www.openstreetmap.org/node/6208217644
+node/6210053467,AutoXpress Ltd - Thika,tyres,Multi-Brand / General,Kiambu,-1.0516381,37.0993732,,,,,"Garissa Road, Thika",Thika,Kiambu,https://www.openstreetmap.org/node/6210053467
+node/6210101312,Highway Tire Centre & Accessories,auto_repair,Multi-Brand / General,Mombasa,-1.3770143,36.9268416,,,,,"Mombasa Road, Syokimau",Syokimau,Mombasa,https://www.openstreetmap.org/node/6210101312
+node/6210275901,Yana Tyre Centre - Athi River,tyres,Multi-Brand / General,Machakos,-1.4482879,36.9689452,,,,,"Namanga Road, Athi River",Athi River,Machakos,https://www.openstreetmap.org/node/6210275901
+node/6224883284,AutoXpress - Langata Road,auto_spares,Multi-Brand / General,Nairobi,-1.3412498,36.7535546,,,,,"Langata Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/6224883284
+node/6224915319,AMAZON TYRES AND SERVICE CENTRE,tyres,Multi-Brand / General,Kiambu,-1.2318562,36.8758573,,,,,"Thika Road, Nairobi",Nairobi,Kiambu,https://www.openstreetmap.org/node/6224915319
+node/6224915365,Top Quality Motors Ltd,auto_repair,Multi-Brand / General,Kiambu,-1.2269325,36.8819446,,,,,"Thika Road, Nairobi",Nairobi,Kiambu,https://www.openstreetmap.org/node/6224915365
+node/6229624518,Kenol Nunguni,auto_repair,Multi-Brand / General,Other Counties,-1.8529416,37.2598742,,,,,"Salama Nunguni Road, Salama",Salama,Other Counties,https://www.openstreetmap.org/node/6229624518
+node/6241480147,Precision Performance Centre Limited,auto_repair,Multi-Brand / General,Other Counties,0.5135395,34.5480905,,,,,"Mumias-Bungoma Road, Bungoma",Bungoma,Other Counties,https://www.openstreetmap.org/node/6241480147
+node/6244082526,AutoXpress Ltd - Kakamega,tyres,Multi-Brand / General,Kisumu,0.283062,34.7550801,,,,,"Kisumu-Kakamega Road, Kakamega",Kakamega,Kisumu,https://www.openstreetmap.org/node/6244082526
+node/6244083525,KingswayTyres-Kakamega,tyres,Multi-Brand / General,Other Counties,0.2899937,34.7571788,,,,,"Kakamega-Webuye Road, Kakamega",Kakamega,Other Counties,https://www.openstreetmap.org/node/6244083525
+node/6251480486,Temesa Babati,auto_spares,Multi-Brand / General,Other Counties,-4.2197719,35.722686,,,,,Miomboni,,Other Counties,https://www.openstreetmap.org/node/6251480486
+node/6259798969,AutoXpress Ltd - Greenspan Mall,auto_spares,Multi-Brand / General,Nairobi,-1.2904207,36.9014729,,,,,"Savannah Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/6259798969
+node/6260025836,Auto Xpress Britam Tower,tyres,Multi-Brand / General,Nairobi,-1.3003824,36.8130142,,,,,"Hospital Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/6260025836
+node/6395673688,Omary puncher,auto_repair,Multi-Brand / General,Other Counties,-2.1511223,34.684693,,,,,,,Other Counties,https://www.openstreetmap.org/node/6395673688
+node/6481084632,Car Repair Shop,auto_repair,Multi-Brand / General,Other Counties,-3.3723276,36.6949985,,,,,,,Other Counties,https://www.openstreetmap.org/node/6481084632
+node/6559614243,CMC Bodyshop,auto_repair,Multi-Brand / General,Nairobi,-1.3004735,36.8288534,,,,,Hola Road,,Nairobi,https://www.openstreetmap.org/node/6559614243
+node/6791141585,Kenzan,auto_spares,Multi-Brand / General,Other Counties,-2.1496324,34.680126,,,,,,,Other Counties,https://www.openstreetmap.org/node/6791141585
+node/6840641666,Chogi's Garage,auto_repair,Multi-Brand / General,Nairobi,-1.3023811,36.7450071,,,,,"Chogis Garage Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/6840641666
+node/6969796686,Kingsway Tyres,auto_spares,Multi-Brand / General,Nairobi,-1.2624417,36.804644,,,,,,,Nairobi,https://www.openstreetmap.org/node/6969796686
+node/7501513233,Automec Limited,auto_repair,Multi-Brand / General,Nairobi,-1.3377863,36.7531071,,,,,"Academy Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/7501513233
+node/7976569619,AutoXpress,tyres,Multi-Brand / General,Kisumu,-0.3610528,35.2959267,,,,,"Kericho-Kisumu Highway, Kericho",Kericho,Kisumu,https://www.openstreetmap.org/node/7976569619
+node/8420821370,Road,auto_repair,Multi-Brand / General,Other Counties,-0.4523889,37.9777741,,,,Roady,,,Other Counties,https://www.openstreetmap.org/node/8420821370
+node/8483709319,Isuzu,auto_spares,Isuzu,Other Counties,-0.7037128,36.4253392,,,,,,,Other Counties,https://www.openstreetmap.org/node/8483709319
+node/8537970718,Baraka car repairs (Gereji),auto_spares,Multi-Brand / General,Other Counties,-3.4367771,36.7059248,,,,,,,Other Counties,https://www.openstreetmap.org/node/8537970718
+node/8544938223,Safari shop,auto_repair,Multi-Brand / General,Other Counties,-3.402533,36.7052653,,,,,,,Other Counties,https://www.openstreetmap.org/node/8544938223
+node/8550559317,Spanish Tiles define your lifestyle,tyres,Multi-Brand / General,Other Counties,-3.4030521,36.7131625,,,,,,,Other Counties,https://www.openstreetmap.org/node/8550559317
+node/8561008217,Car repairs shop,auto_repair,Multi-Brand / General,Other Counties,-3.3615773,36.685283,,,,,,,Other Counties,https://www.openstreetmap.org/node/8561008217
+node/9306983217,Salunda Car Service,auto_repair,Multi-Brand / General,Other Counties,-2.8093522,33.9831191,,,Mo-Su 07:00-18:00,,,,Other Counties,https://www.openstreetmap.org/node/9306983217
+node/9447327393,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-0.5446405,37.4568166,,,,,,,Other Counties,https://www.openstreetmap.org/node/9447327393
+node/9891105718,AYUBU GEREJI TARIME,auto_repair,Multi-Brand / General,Other Counties,-1.34044,34.3759181,,,,,,,Other Counties,https://www.openstreetmap.org/node/9891105718
+node/10006558817,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-2.9954041,36.0002736,,,,,,,Other Counties,https://www.openstreetmap.org/node/10006558817
+node/10008216017,Mama Oscar spare parts,auto_spares,Multi-Brand / General,Other Counties,1.7520204,40.0496013,,,,,Wajir-Moyale Road,,Other Counties,https://www.openstreetmap.org/node/10008216017
+node/10008216622,New Kampala auto spares,auto_spares,Multi-Brand / General,Other Counties,1.7386952,40.054904,0720621757,,24/7,,Wajir-Dif Road,,Other Counties,https://www.openstreetmap.org/node/10008216622
+node/10008236617,NEW KAMPALA AUTO SPARES AND GARAGE,auto_repair,Multi-Brand / General,Other Counties,1.7387725,40.0549214,,,,,Isiolo-Mandera Road,,Other Counties,https://www.openstreetmap.org/node/10008236617
+node/10008315619,Farhan Motor vehicle garage,auto_repair,Multi-Brand / General,Other Counties,1.7511487,40.0617907,,,,,,,Other Counties,https://www.openstreetmap.org/node/10008315619
+node/10008320317,Abdi Barawa carab garage and wiring,auto_repair,Multi-Brand / General,Other Counties,1.7394214,40.052625,,,,,Mayalo Road,,Other Counties,https://www.openstreetmap.org/node/10008320317
+node/10008332117,St Joseph parish,auto_repair,Multi-Brand / General,Other Counties,1.7428728,40.0520009,,,24/7,,Airport road,,Other Counties,https://www.openstreetmap.org/node/10008332117
+node/10047407157,Toyota Service,auto_repair,Toyota,Other Counties,-3.3719214,36.6934004,,,,Toyota,"Goliondoi Avenue, Arusha",Arusha,Other Counties,https://www.openstreetmap.org/node/10047407157
+node/10117886026,Sajj Automobiles Kenya Limited,auto_repair,Multi-Brand / General,Kiambu,-1.2408485,36.8775972,,,Mo-Sa 08:00-20:00,,"Baba Dogo Road, Nairobi",Nairobi,Kiambu,https://www.openstreetmap.org/node/10117886026
+node/10121775091,Auto Village,auto_repair,Multi-Brand / General,Nairobi,-1.3229624,36.8013933,+254722710310,,Mo-Sa 08:00-18:00,,"Langata Road Auto Village Complex Karen, Nairobi, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/10121775091
+node/10536604119,(Unnamed Garage/Workshop),auto_spares,Multi-Brand / General,Other Counties,-4.8347639,34.7532631,,,,,,,Other Counties,https://www.openstreetmap.org/node/10536604119
+node/10567586696,Car Repairing.,auto_repair,Multi-Brand / General,Other Counties,-4.0635323,37.7257274,,,,,,,Other Counties,https://www.openstreetmap.org/node/10567586696
+node/10758265053,Elyco Motors Limited,auto_repair,Multi-Brand / General,Kisumu,-0.119395,34.7889988,,,,,,,Kisumu,https://www.openstreetmap.org/node/10758265053
+node/10796828642,Toyota,auto_repair,Toyota,Kisumu,-0.0792897,34.7554929,,https://toyotakenya.com/,,,,,Kisumu,https://www.openstreetmap.org/node/10796828642
+node/10904818383,Kisumu City Auto Tyres,tyres,Multi-Brand / General,Kisumu,-0.0982816,34.7536518,,,,,,,Kisumu,https://www.openstreetmap.org/node/10904818383
+node/10921245483,Reliance Auto Centre,auto_repair,Multi-Brand / General,Kisumu,-0.0963775,34.7517957,,,,,,,Kisumu,https://www.openstreetmap.org/node/10921245483
+node/10921245491,MAXXIS,tyres,Multi-Brand / General,Kisumu,-0.0955963,34.7526323,,https://www.maxxis.com/int/tires/,,,,,Kisumu,https://www.openstreetmap.org/node/10921245491
+node/10921350910,Chloride Exide,auto_spares,Multi-Brand / General,Kisumu,-0.0939413,34.7545516,,https://chlorideexide.com/contact-us/,,,,,Kisumu,https://www.openstreetmap.org/node/10921350910
+node/10928935697,Tyretec,tyres,Multi-Brand / General,Kisumu,-0.0976639,34.7547065,,,,,,,Kisumu,https://www.openstreetmap.org/node/10928935697
+node/10936324382,Kinyila auto tyres,tyres,Multi-Brand / General,Kisumu,-0.084662,34.7731092,,,,,,,Kisumu,https://www.openstreetmap.org/node/10936324382
+node/10941845311,Tegno autoparts,auto_spares,Multi-Brand / General,Kisumu,-0.0968336,34.7535167,,,,,,,Kisumu,https://www.openstreetmap.org/node/10941845311
+node/10941845312,Western highway tyres,tyres,Multi-Brand / General,Kisumu,-0.0965835,34.7534653,,,,,,,Kisumu,https://www.openstreetmap.org/node/10941845312
+node/10941845323,Musyoki Tyre Centre,tyres,Multi-Brand / General,Kisumu,-0.0971231,34.753149,,,,,,,Kisumu,https://www.openstreetmap.org/node/10941845323
+node/10989664955,Piere Baravuga,auto_spares,Multi-Brand / General,Other Counties,3.7683499,34.729969,,,,,,,Other Counties,https://www.openstreetmap.org/node/10989664955
+node/10991771258,Kakuma Motors,auto_repair,Multi-Brand / General,Other Counties,3.7040939,34.8712337,,,,,,,Other Counties,https://www.openstreetmap.org/node/10991771258
+node/10994632353,Kings Line,auto_spares,Multi-Brand / General,Other Counties,3.7098799,34.8615544,,,,,,,Other Counties,https://www.openstreetmap.org/node/10994632353
+node/10994632355,Motors Services,auto_repair,Multi-Brand / General,Other Counties,3.7101396,34.8610223,,,,,,,Other Counties,https://www.openstreetmap.org/node/10994632355
+node/10996774107,Fundi Garage,auto_repair,Multi-Brand / General,Other Counties,3.7463634,34.8107018,,,,,,,Other Counties,https://www.openstreetmap.org/node/10996774107
+node/10996985393,Panadol Auto Spares Garage,auto_repair,Multi-Brand / General,Other Counties,3.7641055,34.8236672,,,,,,,Other Counties,https://www.openstreetmap.org/node/10996985393
+node/10996985399,Josemose Auto Spare,auto_repair,Multi-Brand / General,Other Counties,3.7424607,34.8060924,,,,,,,Other Counties,https://www.openstreetmap.org/node/10996985399
+node/10997028031,Shalom Garage,auto_repair,Multi-Brand / General,Other Counties,3.7494419,34.8246565,,,,,,,Other Counties,https://www.openstreetmap.org/node/10997028031
+node/11001378174,Garage,auto_repair,Multi-Brand / General,Other Counties,3.701344,34.8778291,,,,,,,Other Counties,https://www.openstreetmap.org/node/11001378174
+node/11001418539,New Generation Garage,auto_repair,Multi-Brand / General,Other Counties,3.769642,34.7293138,,,,,,,Other Counties,https://www.openstreetmap.org/node/11001418539
+node/11001502508,Afri Cote,auto_repair,Multi-Brand / General,Other Counties,3.7091544,34.8650904,,,,,,,Other Counties,https://www.openstreetmap.org/node/11001502508
+node/11001511147,Puncture Repair,auto_repair,Multi-Brand / General,Other Counties,3.7076995,34.8652208,,,,,,,Other Counties,https://www.openstreetmap.org/node/11001511147
+node/11001858045,Stop Wasting Time,auto_repair,Multi-Brand / General,Other Counties,3.7505876,34.810427,,,,,,,Other Counties,https://www.openstreetmap.org/node/11001858045
+node/11007242311,Solomon's,auto_repair,Multi-Brand / General,Other Counties,3.7512394,34.8119694,,,,,,,Other Counties,https://www.openstreetmap.org/node/11007242311
+node/11008119604,Fundi Garage,auto_repair,Multi-Brand / General,Other Counties,3.7389181,34.8116389,,,,,,,Other Counties,https://www.openstreetmap.org/node/11008119604
+node/11012167212,Motorol Mechanics,auto_repair,Multi-Brand / General,Other Counties,3.7606434,34.8177895,,,,,,,Other Counties,https://www.openstreetmap.org/node/11012167212
+node/11012167222,Hassan Wariri,auto_repair,Multi-Brand / General,Other Counties,3.7609067,34.8179743,,,,,,,Other Counties,https://www.openstreetmap.org/node/11012167222
+node/11013576570,Japan Garage,auto_repair,Multi-Brand / General,Other Counties,3.7360924,34.8174008,,,,,,,Other Counties,https://www.openstreetmap.org/node/11013576570
+node/11013777517,Auto Xpress,auto_repair,Multi-Brand / General,Kisumu,-0.0883213,34.7655379,,https://auto-xpress.co.ke/,,,,,Kisumu,https://www.openstreetmap.org/node/11013777517
+node/11013777518,Jamboleo Body shop,auto_repair,Multi-Brand / General,Kisumu,-0.0884581,34.7653881,,,,,,,Kisumu,https://www.openstreetmap.org/node/11013777518
+node/11015903342,Faktar,auto_repair,Multi-Brand / General,Other Counties,3.7612644,34.8182079,,,,,,,Other Counties,https://www.openstreetmap.org/node/11015903342
+node/11020090781,Continental Tyres,tyres,Multi-Brand / General,Kisumu,-0.1078899,34.7697528,,https://silverstone.co.ke/continental/,,,,,Kisumu,https://www.openstreetmap.org/node/11020090781
+node/11036196418,Toreno Motors,auto_repair,Multi-Brand / General,Kisumu,-0.0887765,34.7677042,,,,,,,Kisumu,https://www.openstreetmap.org/node/11036196418
+node/11044670410,sparco motors garage,auto_repair,Multi-Brand / General,Kisumu,-0.0871959,34.7685394,,,,,,,Kisumu,https://www.openstreetmap.org/node/11044670410
+node/11099232168,Gaza Garage,auto_repair,Multi-Brand / General,Other Counties,1.7479245,40.0676999,,,,,Moyale Road,,Other Counties,https://www.openstreetmap.org/node/11099232168
+node/11099232192,Barwaqo Garage,auto_repair,Multi-Brand / General,Other Counties,1.739984,40.0541902,,,,,Manyalo Ganyure Highway,,Other Counties,https://www.openstreetmap.org/node/11099232192
+node/11099233331,Gaza Garage,auto_repair,Multi-Brand / General,Other Counties,1.7479346,40.0676918,,,,,Moyale Road,,Other Counties,https://www.openstreetmap.org/node/11099233331
+node/11099233355,Barwaqo Garage,auto_repair,Multi-Brand / General,Other Counties,1.7399941,40.0541821,,,,,Manyalo Ganyure Highway,,Other Counties,https://www.openstreetmap.org/node/11099233355
+node/11276900658,Steve Auto Spare,auto_spares,Multi-Brand / General,Other Counties,3.7479713,34.8389992,,,,,,,Other Counties,https://www.openstreetmap.org/node/11276900658
+node/11960010235,Dice Sounds Ent,auto_spares,Multi-Brand / General,Nairobi,-1.2831473,36.9589798,,,,,,,Nairobi,https://www.openstreetmap.org/node/11960010235
+node/12508936026,malik motor spares,auto_spares,Multi-Brand / General,Mombasa,-4.0488807,39.65762,,,,,,,Mombasa,https://www.openstreetmap.org/node/12508936026
+node/12553010543,SMAAF Tyres ltd,tyres,Multi-Brand / General,Mombasa,-4.0244069,39.624634,,,,,,,Mombasa,https://www.openstreetmap.org/node/12553010543
+node/12598443258,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-0.9410451,37.6747527,,,,,"KAEWA-MASINGA ROAD, Kivaa ward",Kivaa ward,Other Counties,https://www.openstreetmap.org/node/12598443258
+node/12622211492,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Mombasa,-4.0315685,39.6195551,,,,,,,Mombasa,https://www.openstreetmap.org/node/12622211492
+node/12630821059,MAXXIS,tyres,Multi-Brand / General,Mombasa,-4.0443572,39.6998086,,,,,,,Mombasa,https://www.openstreetmap.org/node/12630821059
+node/12662256946,HOWO service center,auto_repair,Multi-Brand / General,Mombasa,-4.0387777,39.6109995,,,,,,,Mombasa,https://www.openstreetmap.org/node/12662256946
+node/12663397601,Capital Hill Auto Garage & Carwash,auto_repair,Multi-Brand / General,Nairobi,-1.2459518,36.6804211,,,,,,,Nairobi,https://www.openstreetmap.org/node/12663397601
+node/12687068518,jeffers auto spares,auto_spares,Multi-Brand / General,Mombasa,-4.0254441,39.6250943,,,,,,,Mombasa,https://www.openstreetmap.org/node/12687068518
+node/12828480253,safari auto tyres,tyres,Multi-Brand / General,Mombasa,-4.0243329,39.6163799,,,,,,,Mombasa,https://www.openstreetmap.org/node/12828480253
+node/12886299310,Boosted Auto Perfomance,auto_repair,Multi-Brand / General,Nairobi,-1.3209968,36.7974341,+254 792276332,,Mo-Sa 08:00-18:00,,"Langata, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/12886299310
+node/12886379617,Automach Diessel Ltd,auto_spares,Multi-Brand / General,Nairobi,-1.3054706,36.8378192,,,,,Nairobi,,Nairobi,https://www.openstreetmap.org/node/12886379617
+node/12886379626,Jalesh Auto Commercial,auto_repair,Multi-Brand / General,Nakuru,-1.2947447,36.8329269,,,,,Nakuru,,Nakuru,https://www.openstreetmap.org/node/12886379626
+node/12886546520,Junction Kahhorse Tyre,tyres,Multi-Brand / General,Nairobi,-1.2566883,36.9250017,,,,,Nairobi,,Nairobi,https://www.openstreetmap.org/node/12886546520
+node/12886664062,Muhindi Mweusi Motorbikes Spares,auto_spares,Multi-Brand / General,Nairobi,-1.2863054,36.8667718,,,,,Nairobi,,Nairobi,https://www.openstreetmap.org/node/12886664062
+node/12886664097,Mbaaria Autospares,auto_spares,Multi-Brand / General,Nairobi,-1.2779432,36.8889891,,,,,Nairobi,,Nairobi,https://www.openstreetmap.org/node/12886664097
+node/12886726966,homeboys auto gaurage,auto_repair,Multi-Brand / General,Taita Taveta,-3.3824067,38.564284,,,,,Taita Taveta,,Taita Taveta,https://www.openstreetmap.org/node/12886726966
+node/12886726967,Home boys Auto-garage,auto_repair,Multi-Brand / General,Taita Taveta,-3.3889817,38.5697193,,,,,Taita Taveta,,Taita Taveta,https://www.openstreetmap.org/node/12886726967
+node/13064968003,TyreCentre,auto_repair,Multi-Brand / General,Other Counties,-1.0894513,35.8821421,,,,,,,Other Counties,https://www.openstreetmap.org/node/13064968003
+node/13157743703,Yassin spare parts,auto_spares,Multi-Brand / General,Mombasa,-4.0247969,39.6240308,,,,,,,Mombasa,https://www.openstreetmap.org/node/13157743703
+node/13157750803,Truck parts direct,auto_spares,Multi-Brand / General,Mombasa,-4.0248702,39.6241831,,,,,,,Mombasa,https://www.openstreetmap.org/node/13157750803
+node/13159781801,Car doctor,auto_repair,Multi-Brand / General,Mombasa,-4.0545774,39.659977,,,,,,,Mombasa,https://www.openstreetmap.org/node/13159781801
+node/13246210307,Quality Tyre Sales and Repair Shop,tyres,Multi-Brand / General,Nairobi,-1.22445,36.7245487,+254707797188,,08:00-19:00,,Getathuru Road,,Nairobi,https://www.openstreetmap.org/node/13246210307
+node/13396668301,Tahmeed,auto_repair,Multi-Brand / General,Nairobi,-1.2954717,36.8230964,,,,,Nairobi Expressway,,Nairobi,https://www.openstreetmap.org/node/13396668301
+node/13543112003,AutoXpress Ltd Galleria Mall,auto_repair,Multi-Brand / General,Nairobi,-1.3427447,36.7640573,,,,,"Langata Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/13543112003
+node/13543166117,AutoXpress ltd Lavington Branch,auto_repair,Multi-Brand / General,Nairobi,-1.279806,36.7683747,,,,,"Isaac Gathanju Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/13543166117
+node/13543187666,AutoXpress ltd Kilimani Branch,auto_repair,Multi-Brand / General,Nairobi,-1.2919019,36.7850799,,,,,"Argwings Kodhek Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/13543187666
+node/13543202002,AutoXpress ltd General Mathenge,auto_repair,Multi-Brand / General,Nairobi,-1.2558607,36.8055555,,,,,"General Mathenge Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/node/13543202002
+node/13543220380,AutoXpress ltd Kenyatta University,auto_repair,Multi-Brand / General,Kiambu,-1.1778818,36.93941,,,,,"Thika Road, Nairobi",Nairobi,Kiambu,https://www.openstreetmap.org/node/13543220380
+node/13620378001,Stereo tyres,tyres,Multi-Brand / General,Mombasa,-4.0211003,39.6183678,,,,,,,Mombasa,https://www.openstreetmap.org/node/13620378001
+node/13714210035,Isuzu service center,auto_repair,Isuzu,Kisumu,-0.1331397,34.7949545,,,,,,,Kisumu,https://www.openstreetmap.org/node/13714210035
+node/14004125377,Metro Motor Spares Ltd,auto_spares,Mercedes-Benz,Nairobi,-1.318635,36.8639435,+254714786111,https://www.mms.co.ke/,Mo-Fr 08:30-05:00; Sa 08:00-13:00,,Enterprise Road,,Nairobi,https://www.openstreetmap.org/node/14004125377
+node/14053567760,Auto Express Mombasa,tyres,Multi-Brand / General,Mombasa,-4.0204486,39.7204068,,,,,,,Mombasa,https://www.openstreetmap.org/node/14053567760
+node/14060903219,Toyota Kenya garage,auto_repair,Toyota,Other Counties,-0.9071824,34.5353837,,,,,,,Other Counties,https://www.openstreetmap.org/node/14060903219
+node/14060908105,Kibo spares shop awendo,auto_repair,Multi-Brand / General,Other Counties,-0.9048977,34.5310293,,,,,,,Other Counties,https://www.openstreetmap.org/node/14060908105
+node/14066521148,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2267169,36.797664,,,,,,,Nairobi,https://www.openstreetmap.org/node/14066521148
+node/14100900217,Team Mazda Kenya,auto_repair,Mazda,Nairobi,-1.333187,36.8046692,,,,Mazda,,,Nairobi,https://www.openstreetmap.org/node/14100900217
+node/14103856524,Nissan Kenya Service Center,auto_repair,Nissan,Nairobi,-1.3291041,36.865534,,,,Nissan,,,Nairobi,https://www.openstreetmap.org/node/14103856524
+node/14135720404,Bike Tyres kenya,tyres,Multi-Brand / General,Nairobi,-1.2497705,36.7855331,,,,,,,Nairobi,https://www.openstreetmap.org/node/14135720404
+node/14159530680,Tyrex Westlands,auto_spares,Multi-Brand / General,Nairobi,-1.2634071,36.8062169,,,,,,,Nairobi,https://www.openstreetmap.org/node/14159530680
+node/14175211571,(Unnamed Garage/Workshop),tyres,Multi-Brand / General,Nairobi,-1.2804839,36.8180917,,https://www.kingswaytyres.com/,,,,,Nairobi,https://www.openstreetmap.org/node/14175211571
+node/14200767075,Auto Express,auto_repair,Multi-Brand / General,Nairobi,-1.2818254,36.8199854,,https://auto-xpress.co.ke/,,,,,Nairobi,https://www.openstreetmap.org/node/14200767075
+way/97804276,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2619135,36.8640571,,,,,,,Nairobi,https://www.openstreetmap.org/way/97804276
+way/125141100,Kingsway Tyres-Head Office,tyres,Multi-Brand / General,Nairobi,-1.2807197,36.8187506,,,,,"Muindi Mbingu Street, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/125141100
+way/130252007,Engine Planet,auto_repair,Multi-Brand / General,Nairobi,-1.2735371,36.8191228,,,,,"Ngara Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/130252007
+way/133146038,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2980163,36.8375999,,,,,"Lusaka Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/133146038
+way/133146040,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.29729,36.8372631,,,,,"Lusaka Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/133146040
+way/133146044,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2963472,36.8369122,,,,,"Enterprise Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/133146044
+way/133146045,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2975969,36.8374127,,,,,"Lusaka Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/133146045
+way/133146047,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.297796,36.8375126,,,,,"Lusaka Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/133146047
+way/133146049,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2967936,36.8362216,,,,,,,Nairobi,https://www.openstreetmap.org/way/133146049
+way/133146050,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2969316,36.8370824,,,,,,,Nairobi,https://www.openstreetmap.org/way/133146050
+way/133146052,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2963217,36.83637,,,,,"Enterprise Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/133146052
+way/133146054,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2971813,36.8372066,,,,,"Lusaka Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/133146054
+way/133146058,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2970639,36.8371506,,,,,,,Nairobi,https://www.openstreetmap.org/way/133146058
+way/133146059,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2965903,36.8370214,,,,,"Enterprise Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/133146059
+way/133146060,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2974096,36.8373231,,,,,"Lusaka Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/133146060
+way/133147262,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.2968206,36.8356869,,,,,,,Nairobi,https://www.openstreetmap.org/way/133147262
+way/180564374,Motocar Garages,auto_repair,Multi-Brand / General,Other Counties,1.0742928,34.175509,,,,,,,Other Counties,https://www.openstreetmap.org/way/180564374
+way/226714117,Stuttgart auto Karen Nairobi Kenya,auto_repair,Multi-Brand / General,Nairobi,-1.321168,36.709062,,,,,"Ngong Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/226714117
+way/232010701,Loresho Car Repair & Car Wash,auto_repair,Multi-Brand / General,Nairobi,-1.2515824,36.7570524,,,Mo-Sa 07:00-20:00,Kenol,,,Nairobi,https://www.openstreetmap.org/way/232010701
+way/309425190,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-3.3875934,36.7068445,,,,,,,Other Counties,https://www.openstreetmap.org/way/309425190
+way/311754231,(Unnamed Garage/Workshop),tyres,Multi-Brand / General,Other Counties,-3.3724609,36.6949999,,,,,,,Other Counties,https://www.openstreetmap.org/way/311754231
+way/311803578,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-3.3740173,36.689634,,,,,,,Other Counties,https://www.openstreetmap.org/way/311803578
+way/318960194,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-3.3747762,36.6830408,,,,,,,Other Counties,https://www.openstreetmap.org/way/318960194
+way/321123881,China Car Repair,auto_repair,Multi-Brand / General,Other Counties,-3.3893521,36.6600715,,,,,Arusha,Arusha,Other Counties,https://www.openstreetmap.org/way/321123881
+way/332160558,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.3627087,36.7397117,,,,,,,Nairobi,https://www.openstreetmap.org/way/332160558
+way/332241169,Toyota,auto_repair,Toyota,Nairobi,-1.3053059,36.851668,,,,Toyota,,,Nairobi,https://www.openstreetmap.org/way/332241169
+way/361587522,Kingsway Tyres,tyres,Multi-Brand / General,Nairobi,-1.2623646,36.804715,,,,,"Parklands Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/361587522
+way/364979632,AutoXpress Ltd - Lusaka Road,tyres,Multi-Brand / General,Nairobi,-1.3032684,36.8282042,,,,,"Lusaka Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/364979632
+way/364994448,CMC Land Rover Workshop,auto_repair,Land Rover / Range Rover,Nairobi,-1.3019786,36.8294445,,,,,"Chepkorio Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/364994448
+way/364996847,CMC Ford Workshop,auto_repair,Multi-Brand / General,Nairobi,-1.3021634,36.82921,,,,,"Lusaka Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/364996847
+way/365200895,Shamas Motor Parts Ltd,auto_spares,Multi-Brand / General,Nairobi,-1.3022373,36.827021,,,,,"Hombe Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/365200895
+way/366568546,AutoXpress Ltd - Lusaka Road,tyres,Multi-Brand / General,Nairobi,-1.3031805,36.8284093,,,,,"Lusaka Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/366568546
+way/366569919,AutoXpress Ltd - Lusaka Road,tyres,Multi-Brand / General,Nairobi,-1.3034076,36.8280519,,,,,"Lusaka Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/366569919
+way/366570729,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.303026,36.8263431,,,,,,,Nairobi,https://www.openstreetmap.org/way/366570729
+way/366570730,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.3029614,36.8265367,,,,,,,Nairobi,https://www.openstreetmap.org/way/366570730
+way/366570731,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Nairobi,-1.3025639,36.8262235,,,,,,,Nairobi,https://www.openstreetmap.org/way/366570731
+way/366575692,Shamas Auto Spares,auto_spares,Multi-Brand / General,Nairobi,-1.302404,36.8261439,,,,,"Baricho Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/366575692
+way/373267793,Total Car Care,auto_repair,Multi-Brand / General,Other Counties,-3.3742807,36.6873727,,,,,"Sokoine Road, Arusha",Arusha,Other Counties,https://www.openstreetmap.org/way/373267793
+way/382256363,Supa's Garage,auto_repair,Multi-Brand / General,Nairobi,-1.3064829,36.8341843,,,,,"Mukenia Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/382256363
+way/454736988,Jamii Auto Care,auto_repair,Multi-Brand / General,Nairobi,-1.2989062,36.8002439,,,,,"Ngong Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/454736988
+way/488898587,Logistech Limited Kenya,auto_repair,Multi-Brand / General,Mombasa,-1.3295859,36.8589381,,,,,"Mombasa Road, Nairobi",Nairobi,Mombasa,https://www.openstreetmap.org/way/488898587
+way/552369235,Megnet Limited,auto_repair,Multi-Brand / General,Nairobi,-1.2523138,36.7890228,,,Mo-Fr 08:00-17:00,,"Shanzu Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/552369235
+way/552375791,Auto Bavaria,auto_repair,BMW,Nairobi,-1.2622691,36.7913672,,,,,,,Nairobi,https://www.openstreetmap.org/way/552375791
+way/553282256,Range Rover Owners Club Kenya,auto_repair,Land Rover / Range Rover,Nairobi,-1.263624,36.8223955,0700 700474,,,,"Ita Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/553282256
+way/554633160,Motorhub Service Centre,auto_repair,Multi-Brand / General,Kiambu,-1.2109063,36.8336158,,,,,"Kiambu Road, Kiambu",Kiambu,Kiambu,https://www.openstreetmap.org/way/554633160
+way/555169177,Insignia Motors Limited,auto_repair,Land Rover / Range Rover,Nairobi,-1.317336,36.7196264,,,,Land Rover,"Karen Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/555169177
+way/555170330,Motor Scope Auto Garage,auto_repair,Multi-Brand / General,Nairobi,-1.3162053,36.7192704,,,,,,,Nairobi,https://www.openstreetmap.org/way/555170330
+way/562375926,Generation Tyres Ltd,tyres,Multi-Brand / General,Nairobi,-1.2974373,36.7610823,,,,,"Riara Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/562375926
+way/566656369,AutoFit Kenya,auto_repair,Multi-Brand / General,Nairobi,-1.2910241,36.7867175,,,,,"Ring Road Kilimani, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/566656369
+way/576016849,Dunhill Automobiles,auto_repair,Multi-Brand / General,Nairobi,-1.2632316,36.8097923,,,,,"Parklands Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/576016849
+way/576018087,Mash Auto,auto_repair,Multi-Brand / General,Nairobi,-1.2706503,36.8080037,,,,,"Chiromo Lane, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/576018087
+way/577991148,Gadano Garage,auto_repair,Multi-Brand / General,Nairobi,-1.2976829,36.8541027,,,,,"Likoni Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/577991148
+way/648677224,BMW Centre LIMITED,auto_repair,BMW,Nairobi,-1.2977531,36.7959608,,,,BMW,"Rose Avenue, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/648677224
+way/657943810,Runda Car Care Centre,auto_repair,Multi-Brand / General,Kiambu,-1.2112497,36.8338462,,,,,"Kiambu Road, Kiambu",Kiambu,Kiambu,https://www.openstreetmap.org/way/657943810
+way/658651305,Roverlane Motors Limited,auto_repair,Multi-Brand / General,Nairobi,-1.3027209,36.7495274,+254 721 810014,,,,"Ngong Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/658651305
+way/661357409,Yana Tires,tyres,Multi-Brand / General,Kiambu,-1.2251477,36.838279,,,,,"Kiambu Road, Nairobi",Nairobi,Kiambu,https://www.openstreetmap.org/way/661357409
+way/663223939,"Yana Tyre Centre, Embakasi",tyres,Multi-Brand / General,Nairobi,-1.328586,36.8913797,,,,,"Airport North Road, Nairobi",Nairobi,Nairobi,https://www.openstreetmap.org/way/663223939
+way/698360364,Leo Dealers,auto_repair,Multi-Brand / General,Other Counties,3.7491514,34.8206417,,,,,,,Other Counties,https://www.openstreetmap.org/way/698360364
+way/701402690,Diamond Auto Spares,auto_repair,Multi-Brand / General,Other Counties,3.7055631,34.8689938,,,,,,,Other Counties,https://www.openstreetmap.org/way/701402690
+way/701404762,Prime Five Auto Spares,auto_spares,Multi-Brand / General,Other Counties,3.7100899,34.8613579,,,,,,,Other Counties,https://www.openstreetmap.org/way/701404762
+way/895824922,YANA Tyre Center (SAMEER Business Park),tyres,Multi-Brand / General,Nairobi,-1.3295802,36.8695025,,,,,,,Nairobi,https://www.openstreetmap.org/way/895824922
+way/1121899956,Rabs Auto,auto_repair,Multi-Brand / General,Kisumu,-0.0868569,34.7687562,,,,,,,Kisumu,https://www.openstreetmap.org/way/1121899956
+way/1175021022,AutoXpress-Kisumu,auto_repair,Multi-Brand / General,Kisumu,-0.0953744,34.7530364,,https://auto-xpress.co.ke,,,,,Kisumu,https://www.openstreetmap.org/way/1175021022
+way/1357098912,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-0.4816979,37.1069538,,,,,,,Other Counties,https://www.openstreetmap.org/way/1357098912
+way/1448569938,(Unnamed Garage/Workshop),auto_spares,Multi-Brand / General,Nairobi,-1.3081119,36.822485,,,,,,,Nairobi,https://www.openstreetmap.org/way/1448569938
+way/1458224368,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-2.4368644,34.8193488,,,,,,,Other Counties,https://www.openstreetmap.org/way/1458224368
+way/1459471745,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-2.2331216,34.9204199,,,,,,,Other Counties,https://www.openstreetmap.org/way/1459471745
+way/1459471761,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-2.2334227,34.9204646,,,,,,,Other Counties,https://www.openstreetmap.org/way/1459471761
+way/1459471762,(Unnamed Garage/Workshop),auto_repair,Multi-Brand / General,Other Counties,-2.233148,34.9202992,,,,,,,Other Counties,https://www.openstreetmap.org/way/1459471762
+way/1531352847,Workshop,auto_repair,Multi-Brand / General,Other Counties,0.9902187,34.8589867,,,,,,,Other Counties,https://www.openstreetmap.org/way/1531352847
