@@ -1,8 +1,8 @@
 """
 app.py
 Kenya Mechanical Garages, Auto Workshops & Car Brand Intelligence Explorer
-A data-driven interactive application to map garages, evaluate car brand performance,
-and guide new car buyers on spare parts availability across Kenya.
+A comprehensive, top-tier automotive intelligence platform for Kenyan car buyers,
+fleet managers, and mechanics.
 """
 
 import json
@@ -21,10 +21,14 @@ from streamlit_folium import st_folium
 
 from brand_data import BRANDS_DATA
 from car_models_data import CAR_MODELS, match_exact_car_models
+from tco_calculator import calculate_tco, EPRA_PRICES
+from inspection_data import INSPECTION_SECTIONS, score_inspection
+from spares_locator import PARTS_CATALOG, CORRIDORS_GUIDE
+from duty_calculator import check_8_year_rule, calculate_kra_import_duty
 
 # Page setup
 st.set_page_config(
-    page_title="Kenya Garages & Car Model Finder",
+    page_title="Kenya Garages & Auto Intelligence Platform",
     page_icon="🚗",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -33,36 +37,11 @@ st.set_page_config(
 DATA_PATH = os.path.join("data", "kenya_garages.csv")
 
 CATEGORY_CONFIG = {
-    "auto_repair": {
-        "label": "Auto Repair / Garage",
-        "color": "red",
-        "icon": "wrench",
-        "badge": "🚗 Auto Repair",
-    },
-    "motorcycle_repair": {
-        "label": "Motorcycle / Boda Boda",
-        "color": "green",
-        "icon": "motorcycle",
-        "badge": "🏍️ Motorcycle Repair",
-    },
-    "tyres": {
-        "label": "Tyre Center",
-        "color": "orange",
-        "icon": "circle",
-        "badge": "🛞 Tyres",
-    },
-    "auto_spares": {
-        "label": "Auto Spares / Parts",
-        "color": "purple",
-        "icon": "cog",
-        "badge": "🔧 Spares & Parts",
-    },
-    "jua_kali_craft": {
-        "label": "Jua Kali Welder / Artisan",
-        "color": "darkblue",
-        "icon": "fire",
-        "badge": "🔨 Jua Kali / Metal",
-    },
+    "auto_repair": {"label": "Auto Repair / Garage", "color": "red", "icon": "wrench", "badge": "🚗 Auto Repair"},
+    "motorcycle_repair": {"label": "Motorcycle / Boda Boda", "color": "green", "icon": "motorcycle", "badge": "🏍️ Motorcycle Repair"},
+    "tyres": {"label": "Tyre Center", "color": "orange", "icon": "circle", "badge": "🛞 Tyres"},
+    "auto_spares": {"label": "Auto Spares / Parts", "color": "purple", "icon": "cog", "badge": "🔧 Spares & Parts"},
+    "jua_kali_craft": {"label": "Jua Kali Welder / Artisan", "color": "darkblue", "icon": "fire", "badge": "🔨 Jua Kali / Metal"},
 }
 
 DEFAULT_COUNTY_BBOXES = {
@@ -87,7 +66,6 @@ OVERPASS_MIRRORS = [
 
 @st.cache_data(ttl=300)
 def load_data(file_path):
-    """Load and sanitize garage dataset."""
     if not os.path.exists(file_path):
         return pd.DataFrame()
     df = pd.read_csv(file_path, encoding="utf-8-sig")
@@ -103,10 +81,8 @@ def load_data(file_path):
 
 
 def fetch_from_osm(bbox, search_area, include_juakali=True, include_spares=True):
-    """Fetch live points from OpenStreetMap via Overpass API."""
     s, w, n, e = bbox
     box_str = f"({s:.4f},{w:.4f},{n:.4f},{e:.4f})"
-
     tags = ['["shop"="car_repair"]', '["amenity"="motorcycle_repair"]', '["shop"="tyres"]']
     if include_spares:
         tags.extend(['["shop"="car_parts"]', '["shop"="auto_parts"]'])
@@ -124,11 +100,7 @@ def fetch_from_osm(bbox, search_area, include_juakali=True, include_spares=True)
     elements = []
     for mirror in OVERPASS_MIRRORS:
         try:
-            req = urllib.request.Request(
-                mirror,
-                data=data,
-                headers={"User-Agent": "KenyaGaragesExplorer/2.0"}
-            )
+            req = urllib.request.Request(mirror, data=data, headers={"User-Agent": "KenyaGaragesExplorer/2.0"})
             with urllib.request.urlopen(req, timeout=45) as resp:
                 res = json.loads(resp.read().decode("utf-8"))
                 elements = res.get("elements", [])
@@ -142,17 +114,12 @@ def fetch_from_osm(bbox, search_area, include_juakali=True, include_spares=True)
         tags_dict = elem.get("tags", {})
         elem_type = elem.get("type", "node")
         elem_id = elem.get("id", "")
-        if elem_type == "node":
-            lat, lon = elem.get("lat"), elem.get("lon")
-        else:
-            center = elem.get("center", {})
-            lat, lon = center.get("lat"), center.get("lon")
-
+        lat = elem.get("lat") or elem.get("center", {}).get("lat")
+        lon = elem.get("lon") or elem.get("center", {}).get("lon")
         if lat is None or lon is None:
             continue
 
         name = tags_dict.get("name") or tags_dict.get("operator") or tags_dict.get("brand") or "(Unnamed Garage/Workshop)"
-
         cat = "auto_repair"
         if tags_dict.get("amenity") == "motorcycle_repair":
             cat = "motorcycle_repair"
@@ -187,44 +154,31 @@ def fetch_from_osm(bbox, search_area, include_juakali=True, include_spares=True)
             "county": county,
             "osm_url": f"https://www.openstreetmap.org/{elem_type}/{elem_id}",
         })
-
     return new_rows
 
 
-# Load existing dataset
 df = load_data(DATA_PATH)
 
-# -------------------------------------------------------------
-# APPLICATION HEADER
-# -------------------------------------------------------------
-st.title("🇰🇪 Kenya Mechanical Garages & Car Finder Intelligence")
+# Header
+st.title("🇰🇪 Kenya Mechanical Garages & Auto Intelligence Platform")
 st.markdown(
-    "**The Definitive Vehicle Buying & Maintenance Guide for Kenya:** Match the exact car model for your budget, "
-    "benchmark spare parts availability across 50+ models (2015 - 2026), and locate verified repair garages nationwide."
+    "**The Definitive Vehicle Buying & Maintenance Platform for Kenya:** Match exact car models, "
+    "compare rivals head-to-head, calculate 3-year TCO & fuel economics, detect auction lemons, "
+    "locate Kirinyaga Road spares, and explore 300+ verified garages nationwide."
 )
 
-# -------------------------------------------------------------
-# SIDEBAR FILTERS & CONTROLS
-# -------------------------------------------------------------
+# Sidebar
 with st.sidebar:
     st.image(
         "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=400&q=80",
         caption="Kenya Auto Market & Garage Intelligence",
     )
-    st.header("🔍 Global Garage Search")
-
+    st.header("🔍 Global Garage Filter")
     search_query = st.text_input("Search Garage, Street, or Brand", placeholder="e.g. Toyota, Kirinyaga, Ngong...")
 
-    # Filter by County / Search Area
     all_areas = sorted([a for a in df["search_area"].unique() if a]) if not df.empty else []
-    selected_areas = st.multiselect(
-        "County / Search Area",
-        options=all_areas,
-        default=all_areas,
-        help="Filter places by county or region"
-    )
+    selected_areas = st.multiselect("County / Search Area", options=all_areas, default=all_areas)
 
-    # Filter by Service Category
     all_categories = list(CATEGORY_CONFIG.keys())
     selected_categories = st.multiselect(
         "Service Category",
@@ -234,13 +188,10 @@ with st.sidebar:
     )
 
     only_with_phone = st.checkbox("📞 Only places with phone numbers", value=False)
-
     st.markdown("---")
 
-    # LIVE OVERPASS HARVESTER
     st.subheader("🌐 In-App Data Harvester")
-    st.caption("Pull live garage and spares locations from OpenStreetMap without API keys.")
-
+    st.caption("Harvest live garages and spares stores from OpenStreetMap without API keys.")
     fetch_area = st.selectbox("Select County to Harvest", options=list(DEFAULT_COUNTY_BBOXES.keys()))
     harvest_juakali = st.checkbox("Include Jua Kali artisans", value=True)
     harvest_spares = st.checkbox("Include Auto Spares stores", value=True)
@@ -249,12 +200,7 @@ with st.sidebar:
         with st.spinner(f"Harvesting live data for {fetch_area}..."):
             bbox = DEFAULT_COUNTY_BBOXES[fetch_area]
             clean_name = fetch_area.split(" ")[0]
-            new_places = fetch_from_osm(
-                bbox,
-                search_area=clean_name,
-                include_juakali=harvest_juakali,
-                include_spares=harvest_spares,
-            )
+            new_places = fetch_from_osm(bbox, search_area=clean_name, include_juakali=harvest_juakali, include_spares=harvest_spares)
             if new_places:
                 new_df = pd.DataFrame(new_places)
                 combined_df = pd.concat([df, new_df], ignore_index=True)
@@ -268,11 +214,8 @@ with st.sidebar:
                 st.warning(f"No additional places returned from OSM for {clean_name}.")
 
 
-# -------------------------------------------------------------
-# FILTERING PIPELINE FOR GARAGES
-# -------------------------------------------------------------
+# Filtering pipeline for garages
 filtered_df = df.copy()
-
 if not filtered_df.empty:
     if selected_areas:
         filtered_df = filtered_df[filtered_df["search_area"].isin(selected_areas)]
@@ -291,17 +234,33 @@ if not filtered_df.empty:
         filtered_df = filtered_df[mask]
 
 
-# -------------------------------------------------------------
-# MAIN APPLICATION TABS
-# -------------------------------------------------------------
-tab_matchmaker, tab_models_catalog, tab_story, tab_map, tab_analytics, tab_directory = st.tabs([
-    "🎯 Exact Car Model Matchmaker",
-    "🚘 50+ Top Car Models in Kenya (2015-2026)",
-    "📖 The Kenyan Car Buyer's Data Story",
+# TABS SETUP
+tabs = st.tabs([
+    "🎯 Car Model Matchmaker",
+    "⚔️ Head-to-Head Rival Comparison",
+    "💰 3-Year TCO & Fuel Economics",
+    "🔍 Pre-Purchase Inspection (Lemon Detector)",
+    "🔩 Kirinyaga Road Spares Locator",
+    "🚢 KRA 8-Year Rule & Import Duty",
+    "🚘 50+ Car Models Catalog",
+    "📖 The Car Buyer's Data Story",
     "🗺️ Interactive Garages & Spares Map",
     "📊 Market & County Analytics",
     "📋 Directory & Data Export",
 ])
+
+tab_matchmaker = tabs[0]
+tab_h2h = tabs[1]
+tab_tco = tabs[2]
+tab_ppi = tabs[3]
+tab_spares = tabs[4]
+tab_duty = tabs[5]
+tab_models_catalog = tabs[6]
+tab_story = tabs[7]
+tab_map = tabs[8]
+tab_analytics = tabs[9]
+tab_directory = tabs[10]
+
 
 # =============================================================
 # TAB 1: EXACT CAR MODEL MATCHMAKER
@@ -309,9 +268,8 @@ tab_matchmaker, tab_models_catalog, tab_story, tab_map, tab_analytics, tab_direc
 with tab_matchmaker:
     st.subheader("🎯 Discover the Exact Car Model You Need in Kenya")
     st.markdown(
-        "Finding a car in Kenya isn't just about brand preference — it's about matching **ground clearance** for high speed humps, "
-        "**fuel efficiency**, **spare parts availability**, and **purchase price (KES)**. "
-        "Tell us your profile below to get exact model recommendations from our database of 50+ top vehicles (2015 - 2026)."
+        "Match your exact vehicle from our database of **54 top models (2015 – 2026)** "
+        "based on **ground clearance**, **fuel economy**, **spare parts ease**, and **purchase budget (KES)**."
     )
 
     col_q1, col_q2, col_q3 = st.columns(3)
@@ -323,9 +281,7 @@ with tab_matchmaker:
             value=2500000,
             step=100000,
             format="KES %d",
-            help="Typical market price for a clean registered or 8-year import unit in Kenya."
         )
-
         user_usage = st.selectbox(
             "2. Primary Driving Purpose:",
             options=[
@@ -336,7 +292,6 @@ with tab_matchmaker:
                 "Business Logistics / Heavy Load Carry",
             ],
             index=1,
-            help="Determines suspension type, luggage capacity, and 4WD requirements."
         )
 
     with col_q2:
@@ -347,39 +302,19 @@ with tab_matchmaker:
                 "Must be High (190 mm+ for bumps & rough roads)",
             ],
             index=1,
-            help="Crucial for Kenyan estate roads, non-standard speed bumps, and murram terrain."
         )
-
         user_body = st.selectbox(
             "4. Preferred Body Style:",
-            options=[
-                "Any Body Style",
-                "Crossover / SUV",
-                "Sedan",
-                "Hatchback",
-                "Station Wagon",
-                "Pickup",
-                "Van / MPV",
-                "Full-size 4x4",
-            ],
+            options=["Any Body Style", "Crossover / SUV", "Sedan", "Hatchback", "Station Wagon", "Pickup", "Van / MPV", "Full-size 4x4"],
             index=1,
         )
 
     with col_q3:
-        user_fuel = st.selectbox(
-            "5. Preferred Fuel Type:",
-            options=["Any Fuel Type", "Petrol", "Diesel", "Hybrid"],
-            index=0,
-        )
-
+        user_fuel = st.selectbox("5. Preferred Fuel Type:", options=["Any Fuel Type", "Petrol", "Diesel", "Hybrid"], index=0)
         user_spares = st.selectbox(
             "6. Spare Parts Availability Priority:",
-            options=[
-                "Balanced (Nairobi/Mombasa stock is fine, 1-2 days wait ok)",
-                "Maximum (Must find parts in every Kenyan town same day)",
-            ],
+            options=["Balanced (Nairobi/Mombasa stock is fine, 1-2 days wait ok)", "Maximum (Must find parts in every Kenyan town same day)"],
             index=0,
-            help="Higher priority favors Toyota, Isuzu, and Suzuki."
         )
 
     st.markdown("---")
@@ -397,8 +332,8 @@ with tab_matchmaker:
 
     top_3_cars = matched_results[:3]
     top_c1, top_c2, top_c3 = st.columns(3)
-
     medals = ["🥇 1st Choice", "🥈 2nd Choice", "🥉 3rd Choice"]
+
     for i, (car, score) in enumerate(top_3_cars):
         col_target = [top_c1, top_c2, top_c3][i]
         with col_target:
@@ -417,7 +352,6 @@ with tab_matchmaker:
                 st.warning(f"**Mechanic Watch-out:** {car['cons_and_watchouts']}")
                 st.info(f"**Target Persona:** {car['ideal_persona']}")
 
-    # Alternative runners up
     st.markdown("---")
     st.subheader("🥈 Honorable Mentions / Alternative Contenders")
     runner_ups = matched_results[3:7]
@@ -428,21 +362,305 @@ with tab_matchmaker:
             st.caption(f"{r_car['generation']} | {r_car['body_type']}")
             st.write(f"KES {r_car['price_min_kes']/1e6:.1f}M – {r_car['price_max_kes']/1e6:.1f}M")
             st.write(f"Ground: {r_car['ground_clearance_mm']} mm | {r_car['fuel_economy_kml']} km/L")
-            st.caption(f"Spares Score: {r_car['parts_score']}/100")
 
 
 # =============================================================
-# TAB 2: 50+ CAR MODELS CATALOG
+# TAB 2: HEAD-TO-HEAD RIVAL COMPARISON
+# =============================================================
+with tab_h2h:
+    st.subheader("⚔️ Head-to-Head Rival Comparison Engine")
+    st.markdown(
+        "Compare any 2 or 3 rival car models side-by-side to settle the classic Kenyan debates "
+        "*(e.g. Mazda CX-5 vs Toyota RAV4 vs Subaru Forester)*."
+    )
+
+    model_names = [c["model"] for c in CAR_MODELS]
+    h_col1, h_col2, h_col3 = st.columns(3)
+    with h_col1:
+        sel_car_1 = st.selectbox("Select Contender #1:", options=model_names, index=12)  # CX-5
+    with h_col2:
+        sel_car_2 = st.selectbox("Select Contender #2:", options=model_names, index=5)   # RAV4
+    with h_col3:
+        sel_car_3 = st.selectbox("Select Contender #3 (Optional):", options=["None"] + model_names, index=25)  # Forester
+
+    car1_obj = next(c for c in CAR_MODELS if c["model"] == sel_car_1)
+    car2_obj = next(c for c in CAR_MODELS if c["model"] == sel_car_2)
+    car3_obj = next(c for c in CAR_MODELS if c["model"] == sel_car_3) if sel_car_3 != "None" else None
+
+    # Side-by-side spec comparison table
+    compare_cars = [car1_obj, car2_obj]
+    if car3_obj:
+        compare_cars.append(car3_obj)
+
+    spec_rows = [
+        ("Brand & Model", [c["model"] for c in compare_cars]),
+        ("Generation", [c["generation"] for c in compare_cars]),
+        ("Price Range (KES)", [f"KES {c['price_min_kes']/1e6:.1f}M - {c['price_max_kes']/1e6:.1f}M" for c in compare_cars]),
+        ("Ground Clearance (mm)", [f"{c['ground_clearance_mm']} mm" for c in compare_cars]),
+        ("Fuel Economy (km/L)", [f"{c['fuel_economy_kml']} km/L" for c in compare_cars]),
+        ("Fuel Type", [c["fuel_type"] for c in compare_cars]),
+        ("Engine Capacity", [f"{c['engine_cc']} cc" for c in compare_cars]),
+        ("Transmission", [c["transmission"] for c in compare_cars]),
+        ("Drivetrain", [c["drivetrain"] for c in compare_cars]),
+        ("Parts Availability Score", [f"{c['parts_score']} / 100" for c in compare_cars]),
+        ("Mechanic Familiarity", [f"{c['mechanic_score']} / 100" for c in compare_cars]),
+        ("Maintenance Cost Tier", [c["maintenance_tier"] for c in compare_cars]),
+        ("Recommended Engine", [c["best_engine"] for c in compare_cars]),
+        ("Key Strength in Kenya", [c["pros"] for c in compare_cars]),
+        ("Mechanic Watch-out", [c["cons_and_watchouts"] for c in compare_cars]),
+    ]
+
+    comp_df = pd.DataFrame({row[0]: row[1] for row in spec_rows}).T
+    comp_df.columns = [c["model"] for c in compare_cars]
+    st.table(comp_df)
+
+    # RADAR CHART
+    st.markdown("#### Multi-Dimensional Radar Comparison")
+    radar_categories = ["Ground Clearance", "Fuel Economy", "Parts Availability", "Mechanic Familiarity", "Price Affordability"]
+
+    fig_radar = go.Figure()
+
+    for c in compare_cars:
+        # Normalize scores to 0-100 for clean radar visualization
+        clearance_norm = min(100, (c["ground_clearance_mm"] / 230) * 100)
+        fuel_norm = min(100, (c["fuel_economy_kml"] / 24) * 100)
+        price_afford_norm = max(20, 100 - (c["price_min_kes"] / 7000000 * 80))
+        r_values = [clearance_norm, fuel_norm, c["parts_score"], c["mechanic_score"], price_afford_norm]
+        r_values.append(r_values[0])  # Close loop
+
+        fig_radar.add_trace(go.Scatterpolar(
+            r=r_values,
+            theta=radar_categories + [radar_categories[0]],
+            fill="toself",
+            name=c["model"],
+        ))
+
+    fig_radar.update_layout(
+        polar=dict(radialaxis=dict(visible=True, range=[0, 100])),
+        showlegend=True,
+        height=480,
+    )
+    st.plotly_chart(fig_radar, width="stretch")
+
+
+# =============================================================
+# TAB 3: 3-YEAR TCO & FUEL ECONOMICS
+# =============================================================
+with tab_tco:
+    st.subheader("💰 Kenyan 3-Year Total Cost of Ownership (TCO) & Fuel Calculator")
+    st.markdown(
+        "Buying the car is only 50% of the cost. Calculate the **real monthly running cost** in Kenya "
+        "including EPRA fuel pricing, comprehensive insurance, servicing, tyres, and depreciation."
+    )
+
+    tco_c1, tco_c2, tco_c3 = st.columns(3)
+    with tco_c1:
+        tco_selected_car_name = st.selectbox("Select Car Model for TCO Analysis:", options=model_names, index=12)
+        tco_car = next(c for c in CAR_MODELS if c["model"] == tco_selected_car_name)
+    with tco_c2:
+        commute_daily_km = st.slider("Daily Commute Roundtrip (km):", min_value=5, max_value=150, value=45, step=5,
+                                     help="e.g. Rongai to Upper Hill = 45 km, Thika to Westlands = 90 km.")
+    with tco_c3:
+        weekend_monthly_km = st.slider("Monthly Weekend / Upcountry Trips (km):", min_value=50, max_value=2000, value=300, step=50,
+                                       help="e.g. Monthly trip to Naivasha/Machakos/Nakuru.")
+
+    tco_data = calculate_tco(tco_car, commute_daily_km, weekend_monthly_km, years=3)
+
+    # Metric Cards
+    m1, m2, m3, m4 = st.columns(4)
+    with m1:
+        st.metric("Total Monthly Running Cost", f"KES {tco_data['monthly_running_cost_kes']:,}")
+    with m2:
+        st.metric("Monthly Fuel Bill", f"KES {tco_data['monthly_fuel_kes']:,}")
+    with m3:
+        st.metric("Monthly Insurance", f"KES {tco_data['monthly_insurance_kes']:,}")
+    with m4:
+        st.metric("Cost per Kilometer", f"KES {tco_data['cost_per_km_kes']} / km")
+
+    # 3-Year Cost Breakdown Pie/Bar
+    col_t1, col_t2 = st.columns(2)
+    with col_t1:
+        tco_breakdown_df = pd.DataFrame({
+            "Cost Category": ["Fuel (3 Years)", "Comprehensive Insurance (3 Years)", "Routine Servicing & Tyres (3 Years)", "Depreciation Loss (3 Years)"],
+            "Amount (KES)": [tco_data["total_fuel_3yr"], tco_data["total_insurance_3yr"], tco_data["total_maintenance_3yr"], tco_data["total_depreciation_3yr"]],
+        })
+        fig_tco_donut = px.pie(
+            tco_breakdown_df,
+            names="Cost Category",
+            values="Amount (KES)",
+            hole=0.45,
+            title=f"3-Year Ownership Cost Breakdown: {tco_car['model']}",
+            color_discrete_sequence=px.colors.qualitative.Bold,
+        )
+        fig_tco_donut.update_traces(textinfo="percent+label")
+        st.plotly_chart(fig_tco_donut, width="stretch")
+
+    with col_t2:
+        st.markdown(f"#### 📊 3-Year Financial Summary for {tco_car['model']}")
+        st.write(f"- **Estimated Car Purchase Price:** KES {tco_data['car_price_avg']:,.0f}")
+        st.write(f"- **Total Mileage Driven over 3 Years:** {tco_data['annual_total_km'] * 3:,.0f} km")
+        st.write(f"- **Total Fuel Spend (3 Years):** KES {tco_data['total_fuel_3yr']:,}")
+        st.write(f"- **Total Insurance Spend (3 Years):** KES {tco_data['total_insurance_3yr']:,}")
+        st.write(f"- **Total Servicing & Tyres (3 Years):** KES {tco_data['total_maintenance_3yr']:,}")
+        st.write(f"- **Expected Residual Resale Value after 3 Years:** KES {tco_data['residual_value_3yr']:,}")
+        st.success(f"**Total 3-Year Cost of Ownership:** KES {tco_data['total_ownership_3yr']:,}")
+
+
+# =============================================================
+# TAB 4: PRE-PURCHASE INSPECTION (LEMON DETECTOR)
+# =============================================================
+with tab_ppi:
+    st.subheader("🔍 Pre-Purchase Inspection (PPI) 'Lemon Detector' Checklist")
+    st.markdown(
+        "Take this interactive digital checklist with you to car yards on Kiambu Rd, Ngong Rd, or Mombasa Rd. "
+        "Identify rolled-back odometers, accident salvage cover-ups, and blown transmissions before parting with your money."
+    )
+
+    passes = []
+    fails = []
+
+    for section in INSPECTION_SECTIONS:
+        st.markdown(f"### {section['category']}")
+        for item in section["items"]:
+            ic1, ic2 = st.columns([3, 1])
+            with ic1:
+                st.write(f"**{item['label']}**")
+                st.caption(f"ℹ️ {item['guide']}")
+                st.markdown(f"🚨 *Red Flag: {item['red_flag']}*")
+            with ic2:
+                status = st.radio(
+                    f"Result ({item['id']}):",
+                    options=["Pass ✅", "Fail ❌", "Not Tested"],
+                    key=f"ppi_{item['id']}",
+                    horizontal=True,
+                )
+                if status == "Pass ✅":
+                    passes.append(item["id"])
+                elif status == "Fail ❌":
+                    fails.append(item["id"])
+        st.markdown("---")
+
+    report = score_inspection(passes, fails)
+
+    st.subheader("📋 Inspection Scorecard & Risk Verdict")
+    sc1, sc2, sc3 = st.columns(3)
+    with sc1:
+        st.metric("Vehicle Health Score", f"{report['score_pct']}%")
+    with sc2:
+        st.metric("Tests Passed", f"{report['passes_count']}")
+    with sc3:
+        st.metric("Critical Fails", f"{len(report['critical_fails'])}")
+
+    if report["verdict_color"] == "red":
+        st.error(f"### {report['verdict']}\n{report['advice']}")
+    elif report["verdict_color"] == "orange":
+        st.warning(f"### {report['verdict']}\n{report['advice']}")
+    else:
+        st.success(f"### {report['verdict']}\n{report['advice']}")
+
+
+# =============================================================
+# TAB 5: KIRINYAGA ROAD SPARES LOCATOR
+# =============================================================
+with tab_spares:
+    st.subheader("🔩 Kirinyaga Road, Grogan & Industrial Area Spares Locator")
+    st.markdown(
+        "Search high-demand spare parts in Kenya, compare price tiers (**Genuine OEM** vs **Quality Japanese Aftermarket** vs **Ex-Japan Used**), "
+        "and find the exact Nairobi streets and corridors where parts are stocked."
+    )
+
+    sp_col1, sp_col2 = st.columns([2, 1])
+    with sp_col1:
+        sel_part_name = st.selectbox("Select Spare Part to Source:", options=list(PARTS_CATALOG.keys()))
+        part_info = PARTS_CATALOG[sel_part_name]
+    with sp_col2:
+        st.caption("Category: " + part_info["category"])
+        st.warning("Theft Factor: " + part_info["theft_factor"])
+
+    st.info(f"💡 **Mechanic Pro Tip:** {part_info['pro_tip']}")
+
+    # Price Table by Brand
+    st.markdown("#### Estimated Retail Price Tiers in Nairobi (KES):")
+    price_table_rows = []
+    for brand_key, prices in part_info["prices"].items():
+        price_table_rows.append({
+            "Brand Group": brand_key,
+            "Brand New OEM (KES)": f"KES {prices['OEM_New']:,}",
+            "Quality Aftermarket (555/KYB)": f"KES {prices['Aftermarket']:,}",
+            "Ex-Japan Tested Used (KES)": f"KES {prices['ExJapan_Used']:,}" if prices["ExJapan_Used"] > 0 else "N/A (Buy New)",
+        })
+    st.table(pd.DataFrame(price_table_rows))
+
+    st.markdown("#### Recommended Nairobi Sourcing Hubs:")
+    for hub in part_info["recommended_hubs"]:
+        st.write(f"- 📍 {hub}")
+
+    st.markdown("---")
+    st.subheader("🗺️ Guide to Kenya's Automotive Spares Corridors")
+    for corridor in CORRIDORS_GUIDE:
+        with st.expander(f"📍 {corridor['name']}"):
+            st.write(f"**Speciality:** {corridor['speciality']}")
+            st.write(f"**Best for:** {corridor['best_for']}")
+            st.info(f"**Bargaining & Quality Tip:** {corridor['bargaining_tip']}")
+
+
+# =============================================================
+# TAB 6: KRA 8-YEAR RULE & IMPORT DUTY
+# =============================================================
+with tab_duty:
+    st.subheader("🚢 KRA 8-Year Age Rule & Import Duty Calculator")
+    st.markdown(
+        "Kenya strictly enforces an **8-year age limit** on imported vehicles. "
+        "Calculate whether your target car is eligible for import and estimate KRA customs duties, port clearing, and landed costs in KES."
+    )
+
+    d_col1, d_col2, d_col3 = st.columns(3)
+    with d_col1:
+        imp_year = st.number_input("Year of Manufacture / First Registration:", min_value=2014, max_value=2026, value=2018)
+    with d_col2:
+        imp_crsp = st.number_input("KRA CRSP Value (Original Showroom Price in KES):", min_value=1000000, max_value=30000000, value=3500000, step=250000)
+    with d_col3:
+        imp_engine = st.number_input("Engine Capacity (cc):", min_value=600, max_value=6000, value=1998, step=100)
+
+    duty_result = calculate_kra_import_duty(imp_crsp, int(imp_year), int(imp_engine))
+
+    if not duty_result.get("is_allowed", False):
+        st.error(duty_result["error"])
+    else:
+        st.success(f"✅ **ELIGIBLE FOR IMPORT:** Vehicle manufactured in {imp_year} meets Kenya's 8-year age requirement.")
+
+        k1, k2, k3, k4 = st.columns(4)
+        with k1:
+            st.metric("Total Landed Cost in Kenya", f"KES {duty_result['total_landed_cost_kes']:,}")
+        with k2:
+            st.metric("Total KRA Taxes Payable", f"KES {duty_result['total_taxes_kes']:,}")
+        with k3:
+            st.metric("Depreciation Allowed", f"{duty_result['depreciation_pct']}%")
+        with k4:
+            st.metric("Customs Value", f"KES {duty_result['customs_value_kes']:,}")
+
+        # Tax Breakdown Table
+        tax_breakdown = [
+            ("Import Duty (35%)", f"KES {duty_result['import_duty_kes']:,}"),
+            ("Excise Duty", f"KES {duty_result['excise_duty_kes']:,}"),
+            ("Value Added Tax (16% VAT)", f"KES {duty_result['vat_kes']:,}"),
+            ("Import Declaration Fee (2.5% IDF)", f"KES {duty_result['idf_kes']:,}"),
+            ("Railway Development Levy (1.5% RDL)", f"KES {duty_result['rdl_kes']:,}"),
+            ("Port, CFS, Radiation & NTSA Registration", f"KES {duty_result['port_and_clearing_kes']:,}"),
+            ("Estimated CIF Japan Purchase & Shipping", f"KES {duty_result['cif_japan_kes']:,}"),
+            ("TOTAL ESTIMATED LANDED COST (KES)", f"KES {duty_result['total_landed_cost_kes']:,}"),
+        ]
+        st.table(pd.DataFrame(tax_breakdown, columns=["Cost Component", "Amount in KES"]))
+
+
+# =============================================================
+# TAB 7: 50+ CAR MODELS CATALOG
 # =============================================================
 with tab_models_catalog:
     st.subheader("🚘 Kenya's Top 50+ Car Models Database (2015 – 2026)")
-    st.markdown(
-        "Explore and compare all 54 mainstream car models sold and driven across Kenya. "
-        "Filter by brand, body style, price bracket, or ground clearance."
-    )
+    st.markdown("Explore and compare all 54 mainstream car models sold and driven across Kenya.")
 
     models_df = pd.DataFrame(CAR_MODELS)
-
     fcol1, fcol2, fcol3 = st.columns(3)
     with fcol1:
         cat_brands = sorted(list(models_df["brand"].unique()))
@@ -451,14 +669,7 @@ with tab_models_catalog:
         cat_body = sorted(list(models_df["body_type"].unique()))
         sel_cat_body = st.multiselect("Filter by Body Type:", options=cat_body, default=cat_body)
     with fcol3:
-        max_catalog_budget = st.slider(
-            "Filter Price Ceiling (KES):",
-            min_value=1000000,
-            max_value=25000000,
-            value=25000000,
-            step=500000,
-            format="KES %d",
-        )
+        max_catalog_budget = st.slider("Filter Price Ceiling (KES):", min_value=1000000, max_value=25000000, value=25000000, step=500000, format="KES %d")
 
     filtered_models = models_df[
         (models_df["brand"].isin(sel_cat_brand))
@@ -466,7 +677,6 @@ with tab_models_catalog:
         & (models_df["price_min_kes"] <= max_catalog_budget)
     ]
 
-    # Visual Scatter: Ground Clearance vs Price vs Fuel Economy
     st.markdown("#### Market Positioning: Ground Clearance vs. Fuel Economy vs. Price")
     fig_models = px.scatter(
         filtered_models,
@@ -476,25 +686,18 @@ with tab_models_catalog:
         color="brand",
         text="model",
         hover_data=["generation", "price_min_kes", "price_max_kes", "parts_score", "best_engine"],
-        labels={
-            "ground_clearance_mm": "Ground Clearance (mm) — Higher is better for Kenya",
-            "fuel_economy_kml": "Fuel Economy (km/L) — Higher is more frugal",
-        },
-        title="Models Comparison (Bubble Size = Minimum Price KES)",
+        labels={"ground_clearance_mm": "Ground Clearance (mm)", "fuel_economy_kml": "Fuel Economy (km/L)"},
     )
     fig_models.update_traces(textposition="top center")
     fig_models.add_vline(x=190, line_dash="dash", line_color="orange", annotation_text="190mm SUV Threshold")
     fig_models.update_layout(height=520)
     st.plotly_chart(fig_models, width="stretch")
 
-    st.markdown(f"**Showing {len(filtered_models)} Models Matching Filters:**")
-
     catalog_display_cols = [
         "model", "brand", "generation", "body_type", "price_min_kes", "price_max_kes",
         "ground_clearance_mm", "fuel_economy_kml", "fuel_type", "engine_cc",
         "parts_score", "mechanic_score", "maintenance_tier", "best_engine",
     ]
-
     st.dataframe(
         filtered_models[catalog_display_cols],
         width="stretch",
@@ -511,27 +714,20 @@ with tab_models_catalog:
 
 
 # =============================================================
-# TAB 3: THE DATA STORY
+# TAB 8: THE DATA STORY
 # =============================================================
 with tab_story:
     st.subheader("Buying a Car in Kenya: The Reality of Garages and Spare Parts")
-    st.markdown("""
-    > *"In Kenya, you don't just buy a car because of its brochure; you buy the car that can survive Kenyan roads and be fixed by your local mechanic without stranding you for weeks."*
-    """)
-
     col_s1, col_s2, col_s3 = st.columns(3)
     with col_s1:
-        st.info("### 🥇 Tier 1: The Ubiquitous\n**Toyota, Isuzu, Suzuki**\n\n- **Parts:** In every duka from Mombasa to Lodwar.\n- **Mechanics:** 98% familiarity.\n- **Turnaround:** Same-day repairs.\n- **Downside:** High purchase premium & street theft.")
+        st.info("### 🥇 Tier 1: The Ubiquitous\n**Toyota, Isuzu, Suzuki**\n\n- **Parts:** In every duka.\n- **Mechanics:** 98% familiarity.\n- **Turnaround:** Same-day repairs.")
     with col_s2:
-        st.success("### 🥈 Tier 2: The Modern Contenders\n**Mazda, Nissan, Subaru, Honda**\n\n- **Parts:** Abundant in Nairobi/Mombasa, moderate upcountry.\n- **Mechanics:** Requires knowledgeable indie shops.\n- **Turnaround:** 1-2 days for niche parts.\n- **Downside:** Sensitive gearboxes/cooling.")
+        st.success("### 🥈 Tier 2: The Modern Contenders\n**Mazda, Nissan, Subaru, Honda**\n\n- **Parts:** Abundant in Nairobi/Mombasa.\n- **Mechanics:** Requires knowledgeable indie shops.")
     with col_s3:
-        st.warning("### 🥉 Tier 3: European Prestige\n**Mercedes, BMW, VW, Range Rover**\n\n- **Parts:** Specialized Nairobi importers.\n- **Mechanics:** Dedicated European diagnostic shops.\n- **Turnaround:** Often 3-7 days for sensors/bags.\n- **Downside:** Heavy maintenance bills.")
+        st.warning("### 🥉 Tier 3: European Prestige\n**Mercedes, BMW, VW, Range Rover**\n\n- **Parts:** Specialized importers.\n- **Mechanics:** Dedicated European diagnostic shops.")
 
     st.markdown("---")
-
-    # QUADRANT CHART: Parts Availability vs Mechanic Familiarity
     st.subheader("1. The Kenyan Garage Matrix: Availability vs. Technician Familiarity")
-    st.caption("How easily can you find spare parts vs. finding a mechanic who knows the engine without guessing?")
 
     brand_rows = []
     for b_name, b_info in BRANDS_DATA.items():
@@ -555,93 +751,31 @@ with tab_story:
         color="Origin",
         size=[b["Cost Multiplier"] * 15 for _, b in brands_df.iterrows()],
         hover_data=["Verdict", "Cost Tier", "Upcountry Reliability"],
-        title="Kenyan Market Positioning (Bubble size = Relative Maintenance Cost)",
     )
-    fig_quad.update_traces(textposition="top center", marker=dict(line=dict(width=1, color="DarkSlateGrey")))
-    fig_quad.add_hline(y=75, line_dash="dot", line_color="gray", annotation_text="High Familiarity Threshold")
-    fig_quad.add_vline(x=75, line_dash="dot", line_color="gray", annotation_text="High Spares Availability Threshold")
-    fig_quad.update_layout(height=520)
+    fig_quad.update_traces(textposition="top center")
+    fig_quad.add_hline(y=75, line_dash="dot", line_color="gray", annotation_text="High Familiarity")
+    fig_quad.add_vline(x=75, line_dash="dot", line_color="gray", annotation_text="High Spares Availability")
+    fig_quad.update_layout(height=500)
     st.plotly_chart(fig_quad, width="stretch")
 
     st.markdown("---")
-
-    # BASKET OF SPARE PARTS COMPARISON
     st.subheader("2. Kirinyaga Road Price Basket Comparison (KES)")
-    st.caption(
-        "Estimated average retail prices in Nairobi auto spares corridors (Kirinyaga Rd, Grogan, Baricho Rd) "
-        "for routine service and wear-and-tear items."
-    )
-
     basket_records = []
     for b_name, b_info in BRANDS_DATA.items():
         for item, price in b_info["basket_prices_kes"].items():
-            basket_records.append({
-                "Brand": b_name,
-                "Spare Part": item,
-                "Price (KES)": price,
-                "Origin": b_info["origin"],
-            })
+            basket_records.append({"Brand": b_name, "Spare Part": item, "Price (KES)": price, "Origin": b_info["origin"]})
     basket_df = pd.DataFrame(basket_records)
 
-    selected_part = st.selectbox(
-        "Select Spare Part to Compare Across Brands:",
-        options=sorted(list(basket_df["Spare Part"].unique())),
-        index=0,
-    )
-
+    selected_part = st.selectbox("Select Spare Part to Compare Across Brands:", options=sorted(list(basket_df["Spare Part"].unique())), index=0)
     part_slice = basket_df[basket_df["Spare Part"] == selected_part].sort_values("Price (KES)")
-
-    fig_part = px.bar(
-        part_slice,
-        x="Brand",
-        y="Price (KES)",
-        color="Price (KES)",
-        color_continuous_scale="Reds",
-        text="Price (KES)",
-        title=f"Comparative Price: {selected_part} Across Brands in Kenya",
-    )
+    fig_part = px.bar(part_slice, x="Brand", y="Price (KES)", color="Price (KES)", color_continuous_scale="Reds", text="Price (KES)")
     fig_part.update_traces(texttemplate="KES %{text:,.0f}", textposition="outside")
-    fig_part.update_layout(uniformtext_minsize=8, uniformtext_mode="hide", height=430)
+    fig_part.update_layout(height=420)
     st.plotly_chart(fig_part, width="stretch")
-
-    st.markdown("---")
-
-    # BRAND DEEP-DIVE DOSSIERS
-    st.subheader("3. Comprehensive Brand Dossiers & Mechanic Field Reports")
-    selected_brand_dossier = st.selectbox(
-        "Explore Detailed Brand Intelligence:",
-        options=list(BRANDS_DATA.keys()),
-        index=0,
-    )
-    b_data = BRANDS_DATA[selected_brand_dossier]
-
-    c_d1, c_d2 = st.columns([2, 3])
-    with c_d1:
-        st.markdown(f"### {b_data['brand']}")
-        st.caption(f"*{b_data['tagline']}*")
-        st.metric("Buyer Verdict", b_data["recommended_verdict"])
-        st.metric("Parts Availability Index", f"{b_data['parts_availability_index']} / 100")
-        st.metric("Mechanic Familiarity", f"{b_data['mechanic_familiarity']} / 100")
-        st.metric("Maintenance Cost Tier", b_data["cost_tier"])
-        st.metric("Upcountry Reliability", f"{b_data['upcountry_reliability']} / 100")
-
-    with c_d2:
-        st.markdown("#### 🛠️ What Kenyan Mechanics Say:")
-        st.info(b_data["mechanic_secrets"])
-
-        st.markdown("#### 🚨 Street Theft Vulnerability in Kenya:")
-        st.warning(f"**Level:** {b_data['theft_risk']} — {b_data['theft_risk_note']}")
-
-        st.markdown("#### 🏢 Kirinyaga Road & Grogan Spares Support:")
-        st.write(b_data["kirinyaga_rd_support"])
-
-        st.markdown("#### 🚗 Top Popular Models & Recommended Engines:")
-        st.write(f"**Models:** {', '.join(b_data['popular_models'])}")
-        st.write(f"**Recommended Engines / Codes:** `{b_data['recommended_engines']}`")
 
 
 # =============================================================
-# TAB 4: INTERACTIVE MAP
+# TAB 9: INTERACTIVE MAP
 # =============================================================
 with tab_map:
     col1, col2, col3, col4 = st.columns(4)
@@ -662,32 +796,15 @@ with tab_map:
     else:
         center_lat = filtered_df["lat"].mean()
         center_lng = filtered_df["lng"].mean()
-
-        m = folium.Map(
-            location=[center_lat, center_lng],
-            zoom_start=10,
-            tiles="OpenStreetMap",
-            control_scale=True,
-        )
-
+        m = folium.Map(location=[center_lat, center_lng], zoom_start=10, tiles="OpenStreetMap", control_scale=True)
         cluster = MarkerCluster(name="Garages & Spares Cluster").add_to(m)
 
         for _, row in filtered_df.iterrows():
             cat = row.get("category", "auto_repair")
             cfg = CATEGORY_CONFIG.get(cat, CATEGORY_CONFIG["auto_repair"])
-
-            phone_html = ""
-            if row.get("phone"):
-                phone_html = f"<p style='margin:4px 0;'>📞 <b>Phone:</b> <a href='tel:{row['phone']}'>{row['phone']}</a></p>"
-
-            address_html = ""
-            if row.get("address"):
-                address_html = f"<p style='margin:4px 0;'>📍 <b>Address:</b> {row['address']}</p>"
-
-            brand_html = ""
-            if row.get("brand_specialization"):
-                brand_html = f"<p style='margin:4px 0;'>🏷️ <b>Brand Focus:</b> {row['brand_specialization']}</p>"
-
+            phone_html = f"<p style='margin:4px 0;'>📞 <b>Phone:</b> <a href='tel:{row['phone']}'>{row['phone']}</a></p>" if row.get("phone") else ""
+            address_html = f"<p style='margin:4px 0;'>📍 <b>Address:</b> {row['address']}</p>" if row.get("address") else ""
+            brand_html = f"<p style='margin:4px 0;'>🏷️ <b>Brand Focus:</b> {row['brand_specialization']}</p>" if row.get("brand_specialization") else ""
             gmaps_url = f"https://www.google.com/maps/search/?api=1&query={row['lat']},{row['lng']}"
 
             popup_content = f"""
@@ -706,7 +823,6 @@ with tab_map:
                 </div>
             </div>
             """
-
             folium.Marker(
                 location=[row["lat"], row["lng"]],
                 popup=folium.Popup(popup_content, max_width=320),
@@ -718,75 +834,35 @@ with tab_map:
 
 
 # =============================================================
-# TAB 5: MARKET & COUNTY ANALYTICS
+# TAB 10: MARKET & COUNTY ANALYTICS
 # =============================================================
 with tab_analytics:
     st.subheader("Geographical Distribution & Automotive Infrastructure")
-
     if filtered_df.empty:
         st.info("No data available.")
     else:
         col_c1, col_c2 = st.columns(2)
-
         with col_c1:
             cat_counts = filtered_df["category"].value_counts().reset_index()
             cat_counts.columns = ["Category", "Count"]
-            cat_counts["Category Label"] = cat_counts["Category"].map(
-                lambda c: CATEGORY_CONFIG.get(c, {}).get("badge", c)
-            )
-
-            fig_donut = px.pie(
-                cat_counts,
-                names="Category Label",
-                values="Count",
-                hole=0.45,
-                title="Service Type Breakdown",
-                color_discrete_sequence=px.colors.qualitative.Safe,
-            )
-            fig_donut.update_traces(textposition="inside", textinfo="percent+label")
+            cat_counts["Category Label"] = cat_counts["Category"].map(lambda c: CATEGORY_CONFIG.get(c, {}).get("badge", c))
+            fig_donut = px.pie(cat_counts, names="Category Label", values="Count", hole=0.45, title="Service Type Breakdown")
             st.plotly_chart(fig_donut, width="stretch")
-
         with col_c2:
             area_counts = filtered_df["search_area"].value_counts().reset_index()
             area_counts.columns = ["Area", "Count"]
-
-            fig_bar = px.bar(
-                area_counts,
-                x="Count",
-                y="Area",
-                orientation="h",
-                title="Garages & Spares by County / Region",
-                color="Count",
-                color_continuous_scale="Blues",
-            )
+            fig_bar = px.bar(area_counts, x="Count", y="Area", orientation="h", title="Garages & Spares by County / Region", color="Count", color_continuous_scale="Blues")
             fig_bar.update_layout(yaxis=dict(autorange="reversed"))
             st.plotly_chart(fig_bar, width="stretch")
 
-        # Brand specializations mapped
-        st.subheader("Brand Specialization Mentions in Kenyan Garages")
-        brand_spec_counts = filtered_df["brand_specialization"].value_counts().reset_index()
-        brand_spec_counts.columns = ["Specialization", "Count"]
-
-        fig_spec = px.bar(
-            brand_spec_counts.head(10),
-            x="Specialization",
-            y="Count",
-            color="Count",
-            color_continuous_scale="Teal",
-            title="Top Detected Brand Specializations in Repair Facilities",
-        )
-        st.plotly_chart(fig_spec, width="stretch")
-
 
 # =============================================================
-# TAB 6: DIRECTORY & EXPORT
+# TAB 11: DIRECTORY & EXPORT
 # =============================================================
 with tab_directory:
     st.subheader("Browse Garage Directory")
-
     display_cols = ["name", "category", "brand_specialization", "search_area", "phone", "address", "lat", "lng", "osm_url"]
     valid_cols = [c for c in display_cols if c in filtered_df.columns]
-
     st.dataframe(
         filtered_df[valid_cols],
         width="stretch",
@@ -797,37 +873,27 @@ with tab_directory:
         },
         height=450,
     )
-
     st.markdown("---")
-    st.subheader("📥 Export Filtered Data")
     dcol1, dcol2 = st.columns(2)
-
     with dcol1:
-        csv_data = filtered_df.to_csv(index=False, encoding="utf-8-sig")
         st.download_button(
             label="💾 Download Filtered CSV (Excel compatible)",
-            data=csv_data,
+            data=filtered_df.to_csv(index=False, encoding="utf-8-sig"),
             file_name="kenya_garages_filtered.csv",
             mime="text/csv",
             width="stretch",
         )
-
     with dcol2:
         geojson_features = []
         for _, r in filtered_df.iterrows():
             geojson_features.append({
                 "type": "Feature",
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [float(r["lng"]), float(r["lat"])],
-                },
+                "geometry": {"type": "Point", "coordinates": [float(r["lng"]), float(r["lat"])]},
                 "properties": {k: v for k, v in r.items() if k not in ("lat", "lng")},
             })
-        geojson_str = json.dumps({"type": "FeatureCollection", "features": geojson_features}, indent=2)
-
         st.download_button(
             label="🌐 Download Filtered GeoJSON (GIS / Mapbox)",
-            data=geojson_str,
+            data=json.dumps({"type": "FeatureCollection", "features": geojson_features}, indent=2),
             file_name="kenya_garages_filtered.geojson",
             mime="application/geo+json",
             width="stretch",
